@@ -6,4 +6,4 @@ This is a project I created to teach programming to my twelve years old kid. My 
 
 This tutorial is composed by 9 lessons where, step by step, we will create three web pages containing the Dragon Ball Saga story. The pages can be rendered and navigated using whatever browser. For a full description of the tutorial read the related article here.
 
-* **[Lesson 1](https://github.com/sasadangelo/html-hero/tree/master/lesson-1)**: start creating your first web page that print the classical "Hello World!" message. This will be the starting point of our journey.
+* **[Lesson 1](https://github.com/sasadangelo/html-hero/tree/master/lesson-1/index.html)**: start creating your first web page that print the classical "Hello World!" message. This will be the starting point of our journey.
