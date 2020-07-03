@@ -4,4 +4,4 @@ This is a project I created to teach programming to my twelve years old kid. My 
 
 ## Simple HTML tutorial for your kids
 
-* *Lesson 1*: start creating your first web page that print the classical "Hello World!" message. This will be the starting point of our journey.
+* **[Lesson 1](https://github.com/sasadangelo/html-hero/tree/master/lesson-1)**: start creating your first web page that print the classical "Hello World!" message. This will be the starting point of our journey.
