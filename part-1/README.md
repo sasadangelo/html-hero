@@ -16,7 +16,7 @@ In this tutorial you will learn the very basic of HTML and CSS to create a
 website.
 Enjoy
 
-## The lessons
+## The Lessons
 
 The first part of this tutorial contains 12 lessons:
 
