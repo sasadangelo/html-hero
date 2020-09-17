@@ -51,8 +51,8 @@ Will contains info about sports.
 
 ## The Lessons
 
-* [Lesson 13]()
-* [Lesson 14]()
-* [Lesson 15]()
-* [Lesson 16]()
-* [Lesson 17]()
+* [Lesson 13](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-13)
+* [Lesson 14](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-14)
+* [Lesson 15](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-15)
+* [Lesson 16](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-16)
+* [Lesson 17](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-17)
