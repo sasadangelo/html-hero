@@ -13,5 +13,5 @@ The website will have a document page for each story linked each other via a
 menu.
 
 In this tutorial you will learn the very basic of HTML and CSS to create a 
-websitea.
+website.
 Enjoy
