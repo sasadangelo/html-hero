@@ -1,0 +1,60 @@
+# HTML Tutorial (part 2)
+
+The goal of this second part is to give a structure to our website.
+Create a website with the following pages:
+
+* Home
+* About
+* Contact
+* Resources
+
+All these pages will have an header with a logo and a menu.
+Then there is a content area and a sidebar menu (not present in the home page).
+Finally a footer for less important information.
+
+## Home Page
+
+The home page in the content area will have a slider and three buttons for
+the three main topics of the website:
+
+* Stories
+* Drawings
+* Sports
+
+Then an area for the welcome message and the Bio.
+
+## About page
+
+The content area will have a photo and some personal Bio information. The
+siderbar will be available.
+
+## Contact page
+
+The content area will have a contact form. The siderbar will be available.
+
+## Resource page
+
+The content area will have a list of resources. The siderbar will be available.
+
+## The Stories page
+
+Will contain the first story. Through the left menu the user can choose other
+stories, drawings, or sports.
+
+## Drawings page
+
+Will contains a drawings gallery.
+
+# Sports page
+
+Will contains info about sports.
+Create an header with the logo and a menu. 
+A slider in the home page.
+Three bullets in the main page to create the three main sections of our
+website:
+
+* Stories
+* Drawings
+* Sports
+
+Then add a Bio k
