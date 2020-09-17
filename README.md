@@ -4,6 +4,6 @@ This is a project I created to teach programming to my twelve years old kid. My 
 
 The tutorial is divided in three parts:
 
-* [Part 1]()
-* [Part 2]()
-* [Part 3]()
+* [Part 1](https://github.com/sasadangelo/html-hero/tree/master/part-1)
+* [Part 2](https://github.com/sasadangelo/html-hero/tree/master/part-2)
+* [Part 3](https://github.com/sasadangelo/html-hero/tree/master/part-3)
