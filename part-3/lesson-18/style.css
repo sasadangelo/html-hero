@@ -1,0 +1,250 @@
+@import url(http://fonts.googleapis.com/css);
+
+body {
+    margin: 0px 0px 0px 0px;
+    #max-width: 50em;
+    font-family: "Georgia", "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    #padding: 4em 1em;
+    color: #555;
+}
+
+div {
+    margin: 0px 0px 0px 0px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+#header {
+    background-color: #35b2b2;
+    background-image: url(img/background-pattern.png);
+    width: 100%;
+    height: 82px;
+    padding: 10px 20px 0px;
+}
+
+#logo {
+    float: left;
+    width: 33%;
+    height: 100%;
+}
+
+#menubar {
+    float: right;
+    width: 66%;
+    height: 100%;
+    font-family: "Roboto Slab";
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    color: #A19D9D;
+    #margin: 0px 10px 0px 10px;
+    #border: 1px;
+    #border-style: solid;
+    #border-color: black;
+}
+
+#menu {
+    margin: 10px 90px 10px 90px;
+}
+
+#menu a {
+    color: #F7F6F4;
+    padding: 0px 15px 0px 15px;
+}
+
+#menu a:hover {
+    color: #F7F6F4;
+}
+
+#menu ul {
+    list-style-type: none;
+} 
+
+#menu li {
+    display: inline;
+}
+
+.menu-item {
+    padding: 5px 5px 5px 5px;
+    background-color: #35b2b2;
+}
+
+.menu-item:hover {
+    padding: 5px 5px 5px 5px;
+    background-color: #;F0EBE0
+}
+
+.menu-item-current {
+    padding: 5px 5px 5px 5px;
+    background-color: #F0EBE0;
+}
+
+.menu-item-current a {
+    color: #35b2b2;
+}
+
+#content {
+    width: 100%;
+    height: 100%;
+}
+
+#content_area {
+    float: left;
+    width: 74.5%;
+    height: 100%;
+}
+
+#article {
+    #width: 100%;
+    #max-width: 60em;
+    font-family: "Georgia", "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    margin: 0em 2em 0em 2em ;
+    color: #555;
+}
+
+#sidebar {
+    float: right;
+    width: 25%;
+    height: 100%;
+}
+
+p {
+    text-align: justify;
+}
+
+h1,
+strong {
+  color: #333;
+}
+
+h2 {
+  color: #333;
+}
+
+blockquote {
+  background: #f5f7f9;
+  border-bottom: 1px solid #d8dee9;
+  padding: 10px 10px 10px 10px;
+}
+
+img.img-left {
+    padding: 10px 10px 10px 0px; 
+    float:left
+}
+
+img.img-right {
+    padding: 10px 0px 10px 10px; 
+    float:right
+}
+
+#slider {
+    height: 550px;
+    width: 100%;
+}
+
+#main_subjects {
+    height: 156px;
+    width: 100%;
+}
+
+#welcome {
+    float: left;
+    width: 66%;
+    height: 100%;
+}
+
+#info {
+    width: 100%;
+    height: 260px;
+}
+
+#bio {
+    float: right;
+    width: 33%;
+    height: 100%;
+}
+
+#footer {
+    width: 100%;
+    height: 427px;
+}
+
+#separator {
+    width: 100%;
+    height: 68px;
+}
+
+#subject1 {
+    float: left;
+    width: 33%;
+    height: 100%;
+}
+
+#subject2 {
+    float: left;
+    width: 33%;
+    height: 100%;
+}
+
+#subject3 {
+    float: right;
+    width: 33%;
+    height: 100%;
+}
+
+.clearfix:after {
+    content:"\0020";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+    overflow:hidden;
+}
+
+.gallery-column {
+  float: left;
+  width: 17.6%;
+  padding: 10px;
+  height: 145px;
+}
+
+.gallery-column img {
+  opacity: 0.8;
+  cursor: pointer;
+  width: 100%;
+}
+
+.gallery-column img:hover {
+  opacity: 1;
+}
+
+.gallery-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.gallery-content {
+  position: relative;
+  display: none;
+}
+
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}

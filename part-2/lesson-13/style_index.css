@@ -1,0 +1,88 @@
+body {
+    margin: 0px 0px 0px 0px;
+}
+
+div {
+    border: 1px;
+    margin: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: black;
+}
+
+#header {
+    #background-color: #35b2b2; 
+    height: 82px;
+}
+
+#logo {
+    float: left;
+    width: 33%;
+    height: 100%;
+}
+
+#menu {
+    float: right;
+    width: 66%;
+    height: 100%;
+    #margin: 10px 20px 15px 20px;
+}
+
+#content {
+    width: 100%;
+}
+
+#slider {
+    height: 550px;
+    width: 100%;
+}
+
+#main_subjects {
+    height: 156px;
+    width: 100%;
+}
+
+#welcome {
+    float: left;
+    width: 66%;
+    height: 100%;
+}
+
+#info {
+    width: 100%;
+    height: 260px;
+}
+
+#bio {
+    float: right;
+    width: 33%;
+    height: 100%;
+}
+
+#footer {
+    width: 100%;
+    height: 427px;
+}
+
+#separator {
+    width: 100%;
+    height: 68px;
+}
+
+#subject1 {
+    float: left;
+    width: 33%;
+    height: 100%;
+}
+
+#subject2 {
+    float: left;
+    width: 33%;
+    height: 100%;
+}
+
+#subject3 {
+    float: right;
+    width: 33%;
+    height: 100%;
+}
+

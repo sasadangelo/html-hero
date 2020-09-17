@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title>Contatti</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="header">
+            <div id="logo">
+                logo
+            </div>
+            <div id="menu">
+                <a href="index.html">Home</a>
+                <a href="chisono.html">Chi Sono</a>
+                <a href="contatti.html">Contatti</a>
+                <a href="risorse.html">Risorse</a>
+            </div>
+        </div>
+        <div id="content" class="clearfix">
+            <div id="content_area">
+                <div id="article">
+                <h1>Contatti</h1>
+                <p>
+                    Sono un bambino di 11 anni e i miei genitori non mi consentono di ricevere
+                    messaggi da parte di sconosciuti. Ad ogni modo, se vuoi condividere con
+                    me un messaggio puoi compilare il form qui in basso. I miei genitori
+                    valuteranno il contenuto e, eventualmente, potrò leggerlo e risponderti.
+                </p>
+                <form onsubmit="return false">
+                    <input type="text" placeholder="Il tuo Nome" id="Name" />
+                    <br><br>
+                    <input type="text" placeholder="La tua Email" id="Email" />
+                    <br><br>
+                    <span>Messaggio:</span> 
+                    <br>
+                    <textarea id="question" rows="8"></textarea>
+                    <br><br>
+                    <button onclick="sendContact();">Invia Messaggio</button>
+                </form>                
+                </div>
+            </div>
+            <div id="sidebar">
+                <div>
+                    <h4>Le mie Storie</h4>
+                    <ul>
+                        <li><a href="dragon_ball.html">Dragon Ball</a></li>
+                        <li><a href="">Spiderman</a></li>
+                        <li><a href="">Peter Pan</a></li>
+                        <li><a href="">Avengers</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>I miei Disegni</h4>
+                    <ul>
+                        <li><a href="disegni.html">Disegni</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>I miei Sport</h4>
+                    <ul>
+                        <li><a href="sport.html">Sport</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            footer
+        </div>
+    </body>
+</html>
