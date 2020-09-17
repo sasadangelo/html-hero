@@ -45,16 +45,14 @@ stories, drawings, or sports.
 
 Will contains a drawings gallery.
 
-# Sports page
+## Sports page
 
 Will contains info about sports.
-Create an header with the logo and a menu. 
-A slider in the home page.
-Three bullets in the main page to create the three main sections of our
-website:
 
-* Stories
-* Drawings
-* Sports
+## The Lessons
 
-Then add a Bio k
+* [Lesson 13]()
+* [Lesson 14]()
+* [Lesson 15]()
+* [Lesson 16]()
+* [Lesson 17]()
