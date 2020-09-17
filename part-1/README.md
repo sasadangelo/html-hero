@@ -15,3 +15,20 @@ menu.
 In this tutorial you will learn the very basic of HTML and CSS to create a 
 website.
 Enjoy
+
+## The lessons
+
+The first part of this tutorial contains 12 lessons:
+
+* [Lesson 01]()
+* [Lesson 02]()
+* [Lesson 03]()
+* [Lesson 04]()
+* [Lesson 05]()
+* [Lesson 06]()
+* [Lesson 07]()
+* [Lesson 08]()
+* [Lesson 09]()
+* [Lesson 10]()
+* [Lesson 11]()
+* [Lesson 12]()
