@@ -1,4 +1,4 @@
-# Lesson 1
+# Lesson 1 - Your first HTML document
 
 Your first HTML document
 
