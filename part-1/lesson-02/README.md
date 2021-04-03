@@ -1,4 +1,4 @@
-# Lesson 2
+# Lesson 2 - The headlines
 
 Add header tags to your document to create sections and subsections.
 
