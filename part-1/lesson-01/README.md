@@ -6,10 +6,10 @@ Your first HTML document
 <!DOCTYPE html>
 <html lang="it">
     <head>
-        <title>La Storia di Dragon Ball</title>
+        <title>The Dragon's Ball Story</title>
     </head>
     <body>
-        Ciao Raffaele
+        Hello Raffaele
     </body>
 </html>
 ```
