@@ -1,4 +1,3 @@
 # Lesson 11
 
-Improve the format of our document.
-Add quote, paragraph justified, and images ligned with text.
+Improve the format of our document adding quotes, justified paragraphs, and text aligned images.
