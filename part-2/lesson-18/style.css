@@ -151,3 +151,48 @@ img.img-right {
     visibility:hidden;
     overflow:hidden;
 }
+
+.gallery-column {
+  float: left;
+  width: 17.6%;
+  padding: 10px;
+  height: 145px;
+}
+
+.gallery-column img {
+  opacity: 0.8;
+  cursor: pointer;
+  width: 100%;
+}
+
+.gallery-column img:hover {
+  opacity: 1;
+}
+
+.gallery-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.gallery-content {
+  position: relative;
+  display: none;
+}
+
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}

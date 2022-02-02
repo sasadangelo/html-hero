@@ -3,7 +3,6 @@
     <head>
         <title>I miei Disegni</title>
         <link rel="stylesheet" type="text/css" href="style.css">
-        <script type="text/javascript" src="javascript.js"></script>
     </head>
     <body>
         <div id="header">
@@ -85,16 +84,20 @@
                         <li><a href="disegni.html">Disegni</a></li>
                     </ul>
                 </div>
-                <div>
-                    <h4>I miei Sport</h4>
-                    <ul>
-                        <li><a href="sport.html">Sport</a></li>
-                    </ul>
-                </div>
             </div>
         </div>
         <div id="footer">
             footer
         </div>
+
+        <script>
+            function myFunction(imgs) {
+                var expandImg = document.getElementById("expandedImg");
+                var imgText = document.getElementById("imgtext");
+                expandImg.src = imgs.src;
+                imgText.innerHTML = imgs.alt;
+                expandImg.parentElement.style.display = "block";
+            }
+        </script>
     </body>
 </html>
