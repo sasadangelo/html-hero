@@ -1,0 +1,37 @@
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: "Comic Sans MS", "Georgia", "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #555;
+}
+
+p {
+    text-align: justify
+}
+
+h1,
+strong {
+  color: #333;
+}
+
+h2 {
+  color: #333;
+}
+
+img.img-left {
+    padding: 10px 10px 10px 0px; 
+    float:left
+}
+
+img.img-right {
+    padding: 10px 0px 10px 10px; 
+    float:right
+}
+
+blockquote {
+  background: #f5f7f9;
+  border-bottom: 1px solid #d8dee9;
+  padding: 10px 10px 10px 10px;
+}
