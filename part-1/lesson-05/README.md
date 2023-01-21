@@ -4,23 +4,23 @@ In an HTML paragraph if you leave a blank line it is not rendered in the web pag
 
 ```
 <body>
-    <h1>Dragon Ball's story</h1>
+    <h1>My 1st level headline</h1>
     <p>
-        The Dragon Ball story takes place mostly on Earth, but some
-        humans look "normal", others are "intelligent animals"
+        Lorem ipsum dolor sit amet. Id corrupti accusamus ut vitae sunt est accusantium 
+        quam ad voluptatem enim! Et corporis provident vel rerum voluptatibus ea nisi galisum
         ...
     </p>
-    <h2>Dragon Ball</h2>
+    <h2>My 2nd level headline</h2>
     <p>
-        Goku is a child who lives alone in a secluded cottage in the mountains, ha
-        incredible physical strength, has a tail and has a magic stick that stretches
-        on command.
+        Aut velit impedit eos fugiat praesentium qui reiciendis iste qui dolores dolores 
+        At quia atque ex expedita ullam. Vel eligendi possimus in odit aspernatur est
         ...
     </p>
     <p/>
     <p>
-        Goku goes to train at the Turtle Hermit with another student, Krillin.
-        ..
+        Est galisum tempore eos ullam earum qui odit veritatis. Cum minima obcaecati et veritatis 
+        minima et aliquam minima eos consectetur nisi non soluta consequatur qui veritatis Quis. 
+        ...
     </p>
 </body>
 ```
