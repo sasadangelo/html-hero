@@ -1,17 +1,16 @@
-# Lesson 3 - The paragraph
+# Lesson 3 - The paragraphs
 
-In this lesson we will write our story starting from the abstract. The abstract is a small paragraph with an overview of the story published on the page. In HTML paragraph are enclosed in the tags ```<p> ... </p>```.
+In this lesson we will write our first paragraph. In HTML paragraph are enclosed in the tags ```<p> ... </p>```. The text is a Lorem ipsum placeholder text.
 
 ```
 <body>
-    <h1>Dragon Ball's story</h1>
+    <h1>My Document Title</h1>
     <p>
-        The Dragon Ball story takes place mostly on Earth, but some
-        humans look "normal", others are "intelligent animals"
-        (for example the king of the world is a dog), some people live in conditions
-        quite primitive, others with quite advanced technology,
-        dinosaurs are not extinct, but they are found in places where no people live
-        (usually).
+        Lorem ipsum dolor sit amet. Id corrupti accusamus ut vitae sunt est accusantium 
+        quam ad voluptatem enim! Et corporis provident vel rerum voluptatibus ea nisi galisum 
+        et sint fuga aut quam deserunt eos voluptate iure? In numquam atque hic beatae sint 
+        At debitis numquam et cumque molestias. Aut sunt deserunt et dolorem magnam non esse 
+        iure aut sunt cupiditate sit adipisci rerum 33 eveniet distinctio.
     </p>
 </body>
 ```
