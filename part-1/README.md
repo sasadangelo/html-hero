@@ -19,3 +19,4 @@ The first part of this tutorial contains 12 lessons:
 * [Lesson 10](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-10)
 * [Lesson 11](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-11)
 * [Lesson 12](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-12)
+* [Lesson 13](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-3)
