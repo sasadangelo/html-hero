@@ -4,7 +4,7 @@ In this lesson we will write our first paragraph. In HTML paragraph are enclosed
 
 ```
 <body>
-    <h1>My Document Title</h1>
+    <h1>My 1st level headline</h1>
     <p>
         Lorem ipsum dolor sit amet. Id corrupti accusamus ut vitae sunt est accusantium 
         quam ad voluptatem enim! Et corporis provident vel rerum voluptatibus ea nisi galisum 
