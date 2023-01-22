@@ -1,3 +1,3 @@
-# Lesson 9
+# Lesson 8
 
-In this lesson we learn how to use ordered and unordered lists. We create an unordered list for our menu, to reference all the other documents. The ordered list will be used to list the character. Dragon Ball is a TV series with several seasons. We created an HTML page for each season and each page contains a menu to reference all the other pages of the website. Link between pages are created using the tag ```<a href="page.html"> ... </a>```.
+Learn howto add new documents to your website linked to the main document. In our example we added four new pages and the navigation through the five pages is accomplished by five links placed at the beginning of each file.
