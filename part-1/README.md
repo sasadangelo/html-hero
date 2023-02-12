@@ -5,7 +5,7 @@ Enjoy
 
 ## The Lessons
 
-The first part of this tutorial contains 12 lessons:
+The first part of this tutorial contains 11 lessons:
 
 * [Lesson 01](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-01)
 * [Lesson 02](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-02)
@@ -18,5 +18,3 @@ The first part of this tutorial contains 12 lessons:
 * [Lesson 09](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-09)
 * [Lesson 10](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-10)
 * [Lesson 11](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-11)
-* [Lesson 12](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-12)
-* [Lesson 13](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-3)
