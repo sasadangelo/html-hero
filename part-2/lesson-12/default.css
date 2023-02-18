@@ -55,10 +55,15 @@ div {
     height: 100%;
 }
 
+#social {
+  float: right;
+  width: 79%;
+  height: 100%;
+}
+
 #menu {
-    float: right;
-    width: 79%;
     height: 100%;
+    padding: 10px;
 }
 
 #content {
