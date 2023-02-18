@@ -1,3 +1,3 @@
-# Lesson 10
+# Lesson 11
 
-In this lesson we start adding images to our website. In order to do that we created an ```img``` folder, with all the images included in it. To include these images in the documents we use the HTML ```<img src="img/image.jpg" alt="Image description" width=XXX height=YYY>```.
+In this lesson we start styling our website using CSS.

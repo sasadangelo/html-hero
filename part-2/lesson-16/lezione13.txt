@@ -1,2 +1,0 @@
-Creare la struttura della home page con un solo link alle "Mie Storie" che punta
-a Dragon Ball.
