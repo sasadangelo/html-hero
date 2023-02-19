@@ -6,40 +6,43 @@
         <link rel="stylesheet" type="text/css" href="page.css">
     </head>
     <body>
-        <div id="header">
+        <header>
             <div id="logo">
                 Logo
             </div>
-            <div id="menu">
-                <a href="index.html">Home</a>
-                <a href="about-me.html">About me</a>
-                <a href="contacts.html">Contacts</a>
-                <a href="resources.html">Resources</a>
+            <div id="social">
+                Social
             </div>
-        </div>
+        </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about-me.html">About me</a>
+            <a href="contacts.html">Contacts</a>
+            <a href="resources.html">Resources</a>
+        </nav>
         <div id="content" class="clearfix">
-            <div id="content_area">
-                <div id="article">
-                <h1>Contacts</h1>
-                <p>
-                    Est autem adipisci est enim consequuntur qui molestias aliquam non numquam sunt qui 
-                    necessitatibus rerum. Sit dolores eligendi sit laborum magnam et officia quisquam qui 
-                    velit odio.
-                </p>
-                <form onsubmit="return false">
-                    <input type="text" placeholder="Il tuo Nome" id="Name" />
-                    <br><br>
-                    <input type="text" placeholder="La tua Email" id="Email" />
-                    <br><br>
-                    <span>Messaggio:</span> 
-                    <br>
-                    <textarea id="question" rows="8"></textarea>
-                    <br><br>
-                    <button onclick="sendContact();">Invia Messaggio</button>
-                </form>                
-                </div>
-            </div>
-            <div id="sidebar">
+            <main>
+                <article>
+                    <h1>Contacts</h1>
+                    <p>
+                        Est autem adipisci est enim consequuntur qui molestias aliquam non numquam sunt qui 
+                        necessitatibus rerum. Sit dolores eligendi sit laborum magnam et officia quisquam qui 
+                        velit odio.
+                    </p>
+                    <form onsubmit="return false">
+                        <input type="text" placeholder="Il tuo Nome" id="Name" />
+                        <br><br>
+                        <input type="text" placeholder="La tua Email" id="Email" />
+                        <br><br>
+                        <span>Messaggio:</span> 
+                        <br>
+                        <textarea id="question" rows="8"></textarea>
+                        <br><br>
+                        <button onclick="sendContact();">Invia Messaggio</button>
+                    </form>                
+                </article>
+            </main>
+            <aside>
                 <div>
                     <h4>My Story</h4>
                     <ul>
@@ -63,9 +66,9 @@
                     </ul>
                 </div>
             </div>
-        </div>
-        <div id="footer">
+        </aside>
+        <footer>
             Footer
-        </div>
+        </footer>
     </body>
 </html>
