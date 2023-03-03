@@ -47,8 +47,11 @@ div {
 header {
   background-color: #FCFCFC;
   /*width: 100%;*/
-  margin: 0px 0px 0px 0px;
-  padding: 0px 35px;
+  /*margin: 0px 0px 0px 0px;*/
+  padding: 10px 35px;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -78,12 +81,14 @@ footer {
 }
 
 #logo {
+  border-style: none;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
  #social-media-group {
+  border-style: none;
   box-sizing: border-box;
   padding-top: 43.75px;
   padding-bottom: 43.75px;
@@ -93,12 +98,14 @@ footer {
 }
 
 .social-media-icons {
+  border-style: none;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
 .social-media-title {
+  border-style: none;
   color: #1d67b1;
   font-weight: 700; /* bold*/
   margin-bottom: 5px;
