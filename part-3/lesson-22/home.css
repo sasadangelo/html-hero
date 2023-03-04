@@ -1,0 +1,122 @@
+/*
+ * ################################################################################
+ * # Hero Area
+ * ################################################################################
+ */
+ .hero-background {
+    border-style: none;
+    background-image: url("img/hero-image.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+  
+.hero-area {
+    border-style: none;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 45px 60px;
+}
+  
+.hero-content {
+    border-style: none;
+    padding: 10px;
+}
+  
+.hero-box {
+    border-style: none;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+      
+.hero-messagebox {
+    border-style: none;
+    padding: 50px 40px;
+    max-width: 400px;
+    background-color: RGBA(139,139,139,0.5);
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px 0px RGBA(0,0,0,0.5);
+    box-sizing: border-box;
+}
+  
+.hero-messagebox h1 {
+    margin: 0px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+    -webkit-font-smoothing: antialiased;
+}
+  
+.hero-messagebox p {
+    color: #ffffff;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+}
+  
+#feature-content {
+    width: 100%;
+}
+
+.feature-content-row {
+    width: 100%;
+    height: 250px;
+}
+
+#newsletter {
+    width: 100%;
+    height: 250px;
+}
+
+.circle-icon-area {
+    border-style: none;
+    padding: 40px 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+    
+.circle-icon-box {
+    border-style: none;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+}    
+    
+.circle-icon-box a {
+    text-decoration: none;
+    color: #3b3b3b;
+    text-align: center;
+}
+    
+.circle-icon-box a h2 {
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+    
+.circle-icon-box a {
+    text-decoration: none;
+    color: #3b3b3b;
+    text-align: center;
+    font-weight: 700;
+}
+    
+.circle-icon {
+    border-style: none;
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
