@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Contacts</title>
+        <link rel="stylesheet" type="text/css" href="default.css">
+        <link rel="stylesheet" type="text/css" href="page.css">
+        <link rel="stylesheet" type="text/css" href="fontawesome.css">
+        <link rel="stylesheet" type="text/css" href="brands.css">
+    </head>
+    <body>
+        <header>
+            <div id="logo">
+                <img  src="img/logo.png" alt="My Website" width="150" height="150">
+            </div>
+            <div id="social-media-group">
+                <div class="social-media-title">Follow me on:</div>
+                <div class="social-media-icons">
+                    <a aria-label="Facebook page" title="Facebook page" class="social-media-icon social-media-icon-facebook" href="https://www.facebook.com/code4projects/">
+                       <span class="fa-brands fa-facebook-f"></span>
+                    </a>
+                    <a aria-label="Twitter page" title="Twitter page" class="social-media-icon social-media-icon-twitter" href="https://twitter.com/code4projects">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a aria-label="Linkedin page" title="Linkedin page" class="social-media-icon social-media-icon-linkedin" href="https://www.linkedin.com/in/salvatore-d-angelo-0321851/">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a aria-label="Youtube channel" title="Youtube channel" class="social-media-icon social-media-icon-youtube" href="https://www.youtube.com/channel/UCBntvkFS3phHOFAWNS8_4pg/">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a aria-label="Github page" title="Github page" class="social-media-icon social-media-icon-github" href="https://github.com/sasadangelo">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <div id="navigation">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-me.html">About me</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="content" class="clearfix">
+            <main>
+                <article>
+                    <h1>Contacts</h1>
+                    <p>
+                        Est autem adipisci est enim consequuntur qui molestias aliquam non numquam sunt qui 
+                        necessitatibus rerum. Sit dolores eligendi sit laborum magnam et officia quisquam qui 
+                        velit odio.
+                    </p>
+                    <form onsubmit="return false">
+                        <input type="text" placeholder="Il tuo Nome" id="Name" />
+                        <br><br>
+                        <input type="text" placeholder="La tua Email" id="Email" />
+                        <br><br>
+                        <span>Messaggio:</span> 
+                        <br>
+                        <textarea id="question" rows="8"></textarea>
+                        <br><br>
+                        <button onclick="sendContact();">Invia Messaggio</button>
+                    </form>                
+                </article>
+            </main>
+            <aside>
+                <div>
+                    <h4>My Story</h4>
+                    <ul>
+                        <li><a href="first_page.html">First page</a></li>
+                        <li><a href="second_page.html">Second page</a></li>
+                        <li><a href="third_page.html">Third page</a></li>
+                        <li><a href="fourth_page.html">Fourth page</a></li>
+                        <li><a href="fifth_page.html">Fifth page</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Gallery</h4>
+                    <ul>
+                        <li><a href="gallery.html">My Gallery</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>My Sports</h4>
+                    <ul>
+                        <li><a href="sport.html">My Sports</a></li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <footer>
+            HTML by Examples, Copyright Salvatore D'Angelo © 2023.
+        </footer>
+    </body>
+</html>
