@@ -1,3 +1,3 @@
 # Lesson 9
 
-In this lesson we will use ordered and unordered list. An unordered list is used atthe beginning of each page to create a menu with a link to each page. Then in the text we will use randomly the orderedlists.
+In questa lezione useremo liste ordinate e non ordinate. Una lista non ordinata viene utilizzata all'inizio di ogni pagina per creare un menu con un collegamento a ciascuna pagina. Successivamente, nel testo, utilizzeremo casualmente le liste ordinate.
