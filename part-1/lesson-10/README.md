@@ -1,3 +1,3 @@
-# Lesson 10
+# Lezione 10: aggiungi le immagini al tuo sito web
 
-In this lesson we start adding images to our website. In order to do that we created an ```img``` folder, with all the images included in it. To include these images in the documents we use the HTML ```<img src="img/image.jpg" alt="Image description" width=XXX height=YYY>```.
+In questa lezione inizieremo ad aggiungere immagini al nostro sito web. Per farlo, abbiamo creato una cartella chiamata **img**, contenente tutte le immagini al suo interno. Per includere queste immagini nei documenti, utilizziamo l'HTML nel formato ```<img src="img/image.jpg" alt="Descrizione dell'immagine" width=XXX height=YYY>```.
