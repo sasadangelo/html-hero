@@ -1,6 +1,6 @@
-# Lesson 7 - Improve paragraph readibility
+# Lezione 7 - Migliora la leggibilità dei paragrafi con la formattazione
 
-As a best practice use paragraphs with max 4/5 lines. This will improve the text readibility. Moreover, you can start adding bold, italic, underline text. Here the HTML tags to do that:
+Come pratica consigliata, utilizza paragrafi con al massimo 4/5 righe. Ciò migliorerà la leggibilità del testo. Inoltre, puoi iniziare ad aggiungere testo in grassetto, corsivo, sottolineato. Ecco gli elementi HTML per farlo:
 
 * **BOLD**, ```<b> ... </b>``` or ```<strong> ... </strong>```
 * _ITALIC_, ```<i> ... </i>``` or ```<em> ... </em>```
