@@ -1,12 +1,12 @@
-# Lesson 1 - Your first HTML document
+# Lezione 1 - La tua prima pagina HTML
 
-This is your first HTML document. HTML is a SGML grammar and the tag ```DOCTYPE``` specify the document type. The ```html``` tags define the start and the end of the HTML document. A tag can have one or more attributes, in this case the `the ```lang``` attribute defines the document language. HTML has two parts: header and body. In the header you can put everything required to describe the document included the title. This title will appear in the tab of your browser. The body contains the document body in our case the string "Hello World!".
+Questo è la tua prima pagina HTML. HTML è una grammatica SGML e il tag DOCTYPE specifica il tipo di documento. I tag `html` definiscono l'inizio e la fine del documento HTML. Un tag può avere uno o più attributi, in questo caso l'attributo `lang` definisce la lingua del documento. HTML ha due parti: l'intestazione (header) e il corpo (body). Nell'intestazione puoi inserire tutto ciò che è necessario per descrivere il documento, incluso il titolo. Questo titolo apparirà nella scheda del tuo browser. Il corpo contiene il contenuto del documento, nel nostro caso la stringa "Hello World!".
 
 ```
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
     <head>
-        <title>My Document Title</title>
+        <title>Titolo della Pagina</title>
     </head>
     <body>
         Hello World!
