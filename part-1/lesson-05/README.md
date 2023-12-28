@@ -1,16 +1,16 @@
-# Lesson 5 - Add a second paragraph
+# Lezione 5 - Aggiungi un secondo paragrafo
 
-In an HTML paragraph if you leave a blank line it is not rendered in the web page. To separate paragraphs you simply need to add more content in the tags ```<p> ... </p>```. If you want more spaces between paragraphs you can add an empty paragraph tag ```<p/>```. Here an example:
+In un paragrafo HTML, se lasci una riga vuota, questa non viene visualizzata nella pagina web. Per creare due paragrafi separati da una riga vuota, crea due elementi ```<p> ... </p>``` e separali con un paragrafo vuoto che puoi creare usando l'elemento ```<p/>```. Ecco un esempio:
 
 ```
 <body>
-    <h1>My 1st level headline</h1>
+    <h1>Intestazione di 1° livello</h1>
     <p>
         Lorem ipsum dolor sit amet. Id corrupti accusamus ut vitae sunt est accusantium 
         quam ad voluptatem enim! Et corporis provident vel rerum voluptatibus ea nisi galisum
         ...
     </p>
-    <h2>My 2nd level headline</h2>
+    <h2>Intestazione di 2° livello</h2>
     <p>
         Aut velit impedit eos fugiat praesentium qui reiciendis iste qui dolores dolores 
         At quia atque ex expedita ullam. Vel eligendi possimus in odit aspernatur est
