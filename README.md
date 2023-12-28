@@ -1,8 +1,8 @@
-# HTML from beginner to hero
+# HTML da principiante a guru
 
-This is a project I created to teach programming to my twelve years old kid. My son started few years ago to play with Scratch and Kodu to create small video game, but I wanted to teach him more about programming. Classical programming languages like C, C++, Java, Python are to complex for him. He loves writing stories with Open Office so I thought start from HTML and CSS to publish his stories on Internet could be a good start point. From that point, the programming journey can continue with Javascript, PHP and so on.
+Questo è un progetto che ho creato per insegnare la programmazione a mio figlio di dodici anni. Mio figlio ha iniziato qualche anno fa a giocare con Scratch e Kodu per creare piccoli videogiochi, ma volevo insegnargli qualcosa di più sulla programmazione. Linguaggi di programmazione classici come C, C++, Java, Python sono troppo complessi per lui. Gli piace scrivere storie con Open Office, quindi ho pensato che iniziare da HTML e CSS per pubblicare le sue storie su Internet potesse essere un buon punto di partenza. Da lì, il viaggio nella programmazione può continuare con Javascript, PHP e così via.
 
-The tutorial is divided in three parts. The first part is a website with few pages linking each other, its goal is to show the basic of HTML and CSS. The second part show how to structure a website with header, logo, menu, siderbars, footer, and the use of classical website page like About, Contact, Resources pages. The third part is more on graphical aspect, in it we will focus on give some style to the website and improve its look and feel.
+Il tutorial è diviso in tre parti. La prima parte è un sito web con poche pagine collegate tra loro, il suo obiettivo è mostrare le basi di HTML e CSS. La seconda parte mostra come strutturare un sito web con intestazione, logo, menu, barre laterali, piè di pagina e l'uso di pagine classiche del sito web come "Chi siamo", "Contatti", "Risorse". La terza parte si concentra di più sull'aspetto grafico; in essa ci concentreremo nel dare uno stile al sito web e migliorare il suo aspetto complessivo.
 
 * [Part 1](https://github.com/sasadangelo/html-hero/tree/master/part-1)
 * [Part 2](https://github.com/sasadangelo/html-hero/tree/master/part-2)
