@@ -1,4 +1,4 @@
-# Lezione 4 - Sezioni
+# Lezione 4 - le Sezioni
 
 In questa lezione inizieremo ad aggiungere sezioni. Utilizzeremo le intestazioni (h1, h2, .. h6) per i titoli delle sezioni e i paragrafi per il contenuto. In particolare, in questa lezione aggiungeremo una singola sezione con un titolo che ha il tag h2.
 
