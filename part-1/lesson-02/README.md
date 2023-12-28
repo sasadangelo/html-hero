@@ -1,16 +1,16 @@
-# Lesson 2 - The headlines
+# Lezione 2 - Le Intestazioni
 
-To give a structure to your documents using chapters, section, sub sections, and so on you can use the headlines elements. HTML document allows you to create a hierarchy up to 6 levels. As a best practice (it is not mandatory) there should be only one H1 tag for a web page. You can have multiple tags for all the other levels.
+Per dare una struttura ai tuoi documenti utilizzando capitoli, sezioni, sottosezioni, e così via, puoi utilizzare gli elementi di Intestazione. Il documento HTML ti consente di creare una gerarchia fino a 6 livelli di Intestazione. Come pratica consigliata (non obbligatoria), dovrebbe esserci solo un tag H1 per una pagina web. Puoi avere più tag per tutti gli altri livelli.
 
 ```
 ...
 <body>
-    <h1>My 1st level headline</h1>
-    <h2>My 2nd level headline</h2>
-    <h3>My 3rd level headline</h3>
-    <h4>My 4th level headline</h4>
-    <h5>My 5th level headline</h5>
-    <h6>My 6th level headline</h6>
+    <h1>Instestazione di 1° livello</h1>
+    <h2>Instestazione di 2° livello</h2>
+    <h3>Instestazione di 3° livello</h3>
+    <h4>Instestazione di 4° livello</h4>
+    <h5>Instestazione di 5° livello</h5>
+    <h6>Instestazione di 6° livello</h6>
 </body>
 ...
 ```
