@@ -1,3 +1,3 @@
-# Lesson 11
+# Lezione 11: diamo alle nostre pagine un tocco di stile
 
-In this lesson we start styling our website using CSS.
+In questa lezione, impareremo a dare alle nostre pagine un tocco di stile usando il Caascade Style Sheet (CSS).
