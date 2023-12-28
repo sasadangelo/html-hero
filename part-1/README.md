@@ -13,7 +13,7 @@ La prima parte di questo tutorial contiene 11 lezioni:
 * [Lezione 04: le Sezioni](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-04)
 * [Lezione 05: aggiungi un secondo Paragrafo](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-05)
 * [Lezione 06: aggiungi tutti i paragrafi in 4 Sezioni diverse](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-06)
-* [Lezione 07](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-07)
+* [Lezione 07: migliora la leggibilità dei paragrafi con la formattazione](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-07)
 * [Lezione 08](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-08)
 * [Lezione 09](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-09)
 * [Lezione 10](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-10)
