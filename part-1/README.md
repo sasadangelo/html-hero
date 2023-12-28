@@ -11,7 +11,7 @@ La prima parte di questo tutorial contiene 11 lezioni:
 * [Lesson 02: le Intestazioni](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-02)
 * [Lesson 03: i Paragrafi](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-03)
 * [Lesson 04: le Sezioni](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-04)
-* [Lesson 05: aggiungi più Paragrafi](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-05)
+* [Lesson 05: aggiungi un secondo Paragrafo](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-05)
 * [Lesson 06](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-06)
 * [Lesson 07](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-07)
 * [Lesson 08](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-08)
