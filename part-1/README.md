@@ -7,8 +7,8 @@ Buon Divertimento.
 
 La prima parte di questo tutorial contiene 11 lezioni:
 
-* [Lesson 01](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-01)
-* [Lesson 02](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-02)
+* [Lesson 01: la tua prima pagina HTML](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-01)
+* [Lesson 02: le Intestazioni](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-02)
 * [Lesson 03](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-03)
 * [Lesson 04](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-04)
 * [Lesson 05](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-05)
