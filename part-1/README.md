@@ -1,11 +1,11 @@
-# HTML Hero (part I)
+# HTML e CSS: da principiante a guru (part I)
 
-This is the first part of the HTML Hero tutorial. Whether you are a beginner or a seasoned developer, this guide will help you understand the basics of HTML and how to use it to create a simple website. By the end of this part, we will create, step by step, a website with three pages containing paragraphs, links, images, text, and so on.
-Enjoy
+Questa è la prima parte del tutorial di HTML Hero. Che tu sia un principiante o un programmatore esperto, questa guida ti aiuterà a comprendere le basi di HTML e come utilizzarlo per creare un sito web semplice. Alla fine di questa sezione, creeremo passo dopo passo un sito web con tre pagine contenenti paragrafi, collegamenti, immagini, testo, e così via.
+Buon Divertimento.
 
-## The Lessons
+## Le Lezioni
 
-The first part of this tutorial contains 11 lessons:
+La prima parte di questo tutorial contiene 11 lezioni:
 
 * [Lesson 01](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-01)
 * [Lesson 02](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-02)
