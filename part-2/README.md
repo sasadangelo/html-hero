@@ -1,53 +1,51 @@
-# HTML Tutorial (part 2)
+# HTML e CSS: da Principiante a Guru (parte I)
 
-The goal of this second part is to give a structure to our website.
-Create a website with the following pages:
+L'obiettivo di questa seconda parte del corso è di dare una struttura al nostro sito web.
+
+Creeremo un sito web con le seguenti pagine:
 
 * Home
-* About
-* Contact
-* Resources
+* Chi Sono
+* Contatti
+* Risorse
 
-All these pages will have an header with a logo and a menu.
-Then there is a content area and a sidebar menu (not present in the home page).
-Finally a footer for less important information.
+Tutte queste pagine avranno un Header con un Logo e un Menu.
+Poi ci sarà un'area dei contenuti e una sidebar (non presente nella Home Page).
+Infine, un Footer per le informazioni meno importanti.
 
 ## Home Page
 
-The home page in the content area will have a slider and three buttons for
-the three main topics of the website:
+La Home Page avrà una Hero Image e tre bottoni per i tre argoment principali del sito web:
 
-* Stories
-* Drawings
+* Storie
+* Disegni
 * Sports
 
-Then an area for the welcome message and the Bio.
+Poi un'area per la Newsletter e poi i contenuti principali del sito web.
 
-## About page
+## Pagina Chi Sono
 
-The content area will have a photo and some personal Bio information. The
-siderbar will be available.
+Questa pagina conterrà la foto e le informazioni dell'autore del sito web. Ci sarà anche la Barra Laterale.
 
-## Contact page
+## Pagina dei Contatti
 
-The content area will have a contact form. The siderbar will be available.
+Sarà la pagina attraverso cui sarà possibile contattare l'autore.
 
-## Resource page
+## Pagina delle Risorse
 
-The content area will have a list of resources. The siderbar will be available.
+Questa è la pagina in cui lautore condivide le risorse che lui utilizza principalmente.
 
-## The Stories page
+## Pagine delle Storie
 
-Will contain the first story. Through the left menu the user can choose other
-stories, drawings, or sports.
+Conterrà la prima Storia. Attraverso la Barra Laterale sarà possibile accedere ad altri contenuti.
 
-## Drawings page
+## Pagina dei Disegni
 
-Will contains a drawings gallery.
+Conterrà una Galleria di immagini.
 
-## Sports page
+## Pagina degli Sports
 
-Will contains info about sports.
+Conterrà informazioni sulle attività sportive dell'autore.
 
 ## The Lessons
 
@@ -56,3 +54,4 @@ Will contains info about sports.
 * [Lesson 15](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-15)
 * [Lesson 16](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-16)
 * [Lesson 17](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-17)
+* [Lesson 18](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-18)

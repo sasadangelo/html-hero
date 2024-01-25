@@ -69,11 +69,11 @@
     height: 250px;
 }
 
-/*
- * ################################################################################
- * # Circle Icon Area
- * ################################################################################
- */
+#newsletter {
+    width: 100%;
+    height: 250px;
+}
+
 .circle-icon-area {
     border-style: none;
     padding: 40px 200px;
@@ -119,70 +119,4 @@
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-/*
- * ################################################################################
- * # Newsletter in the Home Page
- * ################################################################################
- */
-.newsletter-home {
-    border-style: none;
-    background-color: #efefef;
-    padding: 60px 230px;
-}
-    
-.newsletter-home-box {
-    border-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 20px
-}
-        
-.newsletter-home-image {
-    border-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-    
-.newsletter-home-form {
-    border-style: none;
-    max-width: 350px;
-    width: 100%;
-    float: clear;
-}
-
-.newsletter-home-text-title {
-    border-style: none;
-    color: #1D67B2;
-    font-size: 20px;
-    font-weight: 700;
-    margin: 10px 0px;
-    text-align: center;
-} 
-    
-.newsletter-home-text {
-    border-style: none;
-    color: #666666;
-    font-size: 11px;
-    text-align: justify;
-    line-height: 1.6em;
-}
-
-.newsletter-home-form input {
-    border-color: #ccc;
-    border-radius: 4px !important;
-    margin: 10px 0px;
-    padding: 10px 10px !important;
-    width: 100% !important;
-    border-color: #ccc;
-    border-style: solid !important;
-    border-width: 1px !important;
-    font-size: 12px !important;
-    color: #777 !important;
-    height: auto;
-    line-height: 21px !important;
-    max-width: 100% !important;
 }

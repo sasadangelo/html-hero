@@ -2,28 +2,14 @@ ol {
   list-style-position: inside;
 }
 
-figure.figure-left {
-  float: left;
-  margin: 10px 10px 10px 0px;
+img.img-left {
+  padding: 10px 10px 10px 0px; 
+  float:left;
 }
 
-figure.figure-right {
-  float: right;
-  margin: 10px 0px 10px 10px;
-}
-
-figure {
-/*  float: right;
-  width: 30%;
-  text-align: center;
-  font-style: italic;
-  font-size: smaller;*/
-  text-indent: 0;
-  border: thin silver solid;
-  padding: 10px; 
-  /*
-  margin: 0.5em;
-  padding: 0.5em;*/
+img.img-right {
+  padding: 10px 0px 10px 10px; 
+  float:right;
 }
 
 blockquote {
@@ -32,28 +18,20 @@ blockquote {
   padding: 10px 10px 10px 10px;
 }
 
-main {
-  border: 1px;
-  margin: 0px 0px 0px 0px;
-  border-style: solid;
-  border-color: black;
-  float: left;
-  width: 74.5%;
-  height: 100%;
+#content_area {
+    float: left;
+    width: 74.5%;
+    height: 100%;
 }
 
-article {
-  border: 1px;
-  margin: 0px 0px 0px 0px;
-  border-style: solid;
-  border-color: black;
-  font-family: "Georgia", "Helvetica", "Arial", sans-serif;
-  line-height: 1.5;
-  margin: 0em 2em 0em 2em;
-  color: #555;
+#article {
+    font-family: "Georgia", "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    margin: 0em 2em 0em 2em;
+    color: #555;
 }
 
-aside {
+#sidebar {
     float: right;
     width: 25%;
     height: 100%;
