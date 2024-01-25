@@ -1,4 +1,4 @@
-# HTML e CSS: da principiante a guru
+# HTML e CSS: da Principiante a Guru
 
 Questo è un progetto che ho creato per insegnare la programmazione a mio figlio di dodici anni. Mio figlio ha iniziato qualche anno fa a giocare con Scratch e Kodu per creare piccoli videogiochi, ma volevo insegnargli qualcosa di più sulla programmazione. Linguaggi di programmazione classici come C, C++, Java, Python sono troppo complessi per lui. Gli piace scrivere storie con Open Office, quindi ho pensato che iniziare da HTML e CSS per pubblicare le sue storie su Internet potesse essere un buon punto di partenza. Da lì, il viaggio nella programmazione può continuare con Javascript, PHP e così via.
 
