@@ -1,4 +1,4 @@
-# HTML e CSS: da principiante a guru (parte I)
+# HTML e CSS: da Principiante a Guru (parte I)
 
 Questa è la prima parte del tutorial di HTML Hero. Che tu sia un principiante o un programmatore esperto, questa guida ti aiuterà a comprendere le basi di HTML e come utilizzarlo per creare un sito web semplice. Alla fine di questa sezione, creeremo passo dopo passo un sito web con cinque pagine contenenti paragrafi, collegamenti, immagini, testo, e così via.
 Buon Divertimento.
