@@ -44,12 +44,12 @@ ol {
 
 img.img-left {
   padding: 10px 10px 10px 0px; 
-  float:left
+  float:left;
 }
 
 img.img-right {
   padding: 10px 0px 10px 10px; 
-  float:right
+  float:right;
 }
 
 blockquote {
