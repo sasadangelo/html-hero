@@ -1,3 +1,3 @@
-# Lesson 10
+# Lezione 11: diamo alle nostre pagine un tocco di stile
 
-In this lesson we start adding images to our website. In order to do that we created an ```img``` folder, with all the images included in it. To include these images in the documents we use the HTML ```<img src="img/image.jpg" alt="Image description" width=XXX height=YYY>```.
+In questa lezione, impareremo a dare alle nostre pagine un tocco di stile usando il Caascade Style Sheet (CSS).
