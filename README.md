@@ -16,6 +16,6 @@ Scarica il codice sorgente e [segui le istruzioni](https://www.youtube.com/watch
 
 Puoi seguire le nostre attività su:
 
-* ![twitter](https://github.com/sasadangelo/html-hero/assets/12810456/f0765099-5d32-4bf4-b645-08042802d334) [Twitter](https://twitter.com/code4projects)
+* ![twitter](https://github.com/sasadangelo/html-hero/assets/12810456/abc09559-ac91-49fc-a5b6-149032c6a58a) [Twitter](https://twitter.com/code4projects)
 * ![facebook](https://github.com/sasadangelo/html-hero/assets/12810456/4d60ffc6-945f-4467-be8e-19ae639bd9f2) [Facebook](https://facebook.com/code4projects)
 * ![blog](https://github.com/sasadangelo/html-hero/assets/12810456/180694c0-ab9e-4dd9-a8cd-b65bb87f7ff8) [Blog](https://code4projects.net)
