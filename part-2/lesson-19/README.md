@@ -1,3 +1,3 @@
-# Lezione 11: diamo alle nostre pagine un tocco di stile
+# Lezione 19: rendiamo il nostro sito web Responsive
 
-In questa lezione, impareremo a dare alle nostre pagine un tocco di stile usando il Caascade Style Sheet (CSS).
+In questa lezione modificheremo il nostro sito web per renderlo Responsive.
