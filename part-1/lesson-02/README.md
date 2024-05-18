@@ -1,6 +1,6 @@
 # Lezione 2 - Le Intestazioni
 
-Per dare una struttura ai tuoi documenti utilizzando capitoli, sezioni, sottosezioni, e così via, puoi utilizzare gli elementi di Intestazione. Il documento HTML ti consente di creare una gerarchia fino a 6 livelli di Intestazione. Come pratica consigliata (non obbligatoria), dovrebbe esserci solo un tag H1 per una pagina web. Puoi avere più tag per tutti gli altri livelli.
+Per dare una struttura ai tuoi documenti utilizzando capitoli, sezioni, sottosezioni, e così via, puoi utilizzare gli elementi di Intestazione. Il documento HTML ti consente di creare una gerarchia fino a 6 livelli di Intestazione. Come pratica consigliata (non obbligatoria), dovrebbe esserci solo un tag H1 per una pagina web. Puoi avere più tag per tutti gli altri livelli. Ogni sezione che ha un intestazione di livello N può avere una o più sezioni con intestazioni N+1.
 
 ```
 ...
