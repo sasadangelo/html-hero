@@ -1,53 +1,10 @@
-# HTML e CSS: da Principiante a Guru (parte I)
+# Crea un Sito Web con HTML e CSS Partendo da Zero (parte II)
 
-L'obiettivo di questa seconda parte del corso è di dare una struttura al nostro sito web.
+Questa è la seconda parte del tutorial **Crea un Sito Web con HTML e CSS Partendo da Zero**. L'obiettivo di questa seconda parte del corso è quella di dare un po' di stile al nostro sito web rendendolo più professionale. In questa seconda parte daremo una struttura al nostro sito web includendo un header, un footer, un menu, un logo, una home page accattivante e i link ai social media. Il tutto sarà condito da un tocco di colore e stile.
 
-Creeremo un sito web con le seguenti pagine:
+## Le Lezioni
 
-* Home
-* Chi Sono
-* Contatti
-* Risorse
-
-Tutte queste pagine avranno un Header con un Logo e un Menu.
-Poi ci sarà un'area dei contenuti e una sidebar (non presente nella Home Page).
-Infine, un Footer per le informazioni meno importanti.
-
-## Home Page
-
-La Home Page avrà una Hero Image e tre bottoni per i tre argoment principali del sito web:
-
-* Storie
-* Disegni
-* Sports
-
-Poi un'area per la Newsletter e poi i contenuti principali del sito web.
-
-## Pagina Chi Sono
-
-Questa pagina conterrà la foto e le informazioni dell'autore del sito web. Ci sarà anche la Barra Laterale.
-
-## Pagina dei Contatti
-
-Sarà la pagina attraverso cui sarà possibile contattare l'autore.
-
-## Pagina delle Risorse
-
-Questa è la pagina in cui lautore condivide le risorse che lui utilizza principalmente.
-
-## Pagine delle Storie
-
-Conterrà la prima Storia. Attraverso la Barra Laterale sarà possibile accedere ad altri contenuti.
-
-## Pagina dei Disegni
-
-Conterrà una Galleria di immagini.
-
-## Pagina degli Sports
-
-Conterrà informazioni sulle attività sportive dell'autore.
-
-## The Lessons
+La seconda parte di questo tutorial contiene 7 lezioni:
 
 * [Lesson 13](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-13)
 * [Lesson 14](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-14)
@@ -55,3 +12,4 @@ Conterrà informazioni sulle attività sportive dell'autore.
 * [Lesson 16](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-16)
 * [Lesson 17](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-17)
 * [Lesson 18](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-18)
+* [Lesson 19](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-19)
