@@ -6,10 +6,10 @@ Questa è la seconda parte del tutorial **Crea un Sito Web con HTML e CSS Parten
 
 La seconda parte di questo tutorial contiene 7 lezioni:
 
-* [Lesson 13](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-13)
-* [Lesson 14](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-14)
-* [Lesson 15](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-15)
-* [Lesson 16](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-16)
-* [Lesson 17](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-17)
-* [Lesson 18](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-18)
-* [Lesson 19](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-19)
+* [Lesson 13: creiamo un Header e un Footer](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-13)
+* [Lesson 14: diamo alle nostre pagine un tocco di stile](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-14)
+* [Lesson 15: finalizziamo il Footer](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-15)
+* [Lesson 16: creiamo un Menù con stile e colore](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-16)
+* [Lesson 17: creiamo un Home Page](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-17)
+* [Lesson 18: aggiungiamo un form di Iscrizione alla Newsletter alla nostra Home Page](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-18)
+* [Lesson 19: rendiamo il nostro sito web Responsive](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-19)
