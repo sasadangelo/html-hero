@@ -17,4 +17,4 @@ La prima parte di questo tutorial contiene 12 lezioni:
 * [Lezione 09: liste ordinate e non ordinate](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-09)
 * [Lezione 10: aggiungi le immagini al tuo sito web](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-10)
 * [Lezione 11: diamo alle nostre pagine un tocco di stile](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-11)
-* [Lezione 12: pubblica il suto sito web su Internet](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-12)
+* [Lezione 12: pubblica il tuo sito web su Internet](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-12)
