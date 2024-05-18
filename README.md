@@ -1,4 +1,18 @@
-# HTML e CSS: da Principiante a Guru
+# Crea un Sito Web con HTML e CSS Partendo da Zero
+
+Benvenuto alla nostra guida completa su HTML e CSS per principianti! In questo tutorial passo dopo passo, imparerai a creare un sito web coinvolgente utilizzando HTML e CSS. Scarica il codice sorgente e [segui le istruzioni](https://www.youtube.com/watch?v=cNk0bVEMb3U) per costruire il tuo progetto web.
+
+![youtube](https://github.com/sasadangelo/html-hero/assets/12810456/03e25ee6-5fac-4ced-ac06-71d8309f8891)
+🌐 Visita il sito web che realizzerai qui: https://t.ly/cxqjJ
+🧐 Leggi l'articolo sul blog di Code4Projects: https://t.ly/1TRYs
+👩🏻‍💻 Visita il Blog di Code4Projects qui: https://t.ly/0k53z
+#️⃣ CSS Reference: https://t.ly/bFtuV
+📝 Visual Studio Code: https://t.ly/g00aS
+
+Twitter:  https://twitter.com/code4projects
+Facebook:  https://facebook.com/code4projects
+Blog: https://code4projects.net
+
 
 Questo è un progetto che ho creato per insegnare la programmazione a mio figlio di dodici anni. Mio figlio ha iniziato qualche anno fa a giocare con Scratch e Kodu per creare piccoli videogiochi, ma volevo insegnargli qualcosa di più sulla programmazione. Linguaggi di programmazione classici come C, C++, Java, Python sono troppo complessi per lui. Gli piace scrivere storie con Open Office, quindi ho pensato che iniziare da HTML e CSS per pubblicare le sue storie su Internet potesse essere un buon punto di partenza. Da lì, il viaggio nella programmazione può continuare con Javascript, PHP e così via.
 
