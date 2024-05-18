@@ -1,3 +1,3 @@
-# Lezione 11: diamo alle nostre pagine un tocco di stile
+# Lezione 15: finalizziamo il Footer
 
-In questa lezione, impareremo a dare alle nostre pagine un tocco di stile usando il Caascade Style Sheet (CSS).
+In questa lezione finalizzeremo il Footer del sito web dandogli un tocco di stile e colore.
