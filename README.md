@@ -2,12 +2,11 @@
 
 Benvenuto alla nostra guida completa su HTML e CSS per principianti! In questo tutorial passo dopo passo, imparerai a creare un sito web coinvolgente utilizzando HTML e CSS. Scarica il codice sorgente e [segui le istruzioni](https://www.youtube.com/watch?v=cNk0bVEMb3U) per costruire il tuo progetto web.
 
-![youtube](https://github.com/sasadangelo/html-hero/assets/12810456/03e25ee6-5fac-4ced-ac06-71d8309f8891)
-🌐 Visita il sito web che realizzerai qui: https://t.ly/cxqjJ
-🧐 Leggi l'articolo sul blog di Code4Projects: https://t.ly/1TRYs
-👩🏻‍💻 Visita il Blog di Code4Projects qui: https://t.ly/0k53z
-#️⃣ CSS Reference: https://t.ly/bFtuV
-📝 Visual Studio Code: https://t.ly/g00aS
+* ![youtube](https://github.com/sasadangelo/html-hero/assets/12810456/980f90da-2399-4e10-8b55-9d4f07e57d9c)
+* 🧐 Leggi l'articolo sul blog di Code4Projects: https://t.ly/1TRYs
+* 👩🏻‍💻 Visita il Blog di Code4Projects qui: https://t.ly/0k53z
+* #️⃣ CSS Reference: https://t.ly/bFtuV
+* 📝 Visual Studio Code: https://t.ly/g00aS
 
 Twitter:  https://twitter.com/code4projects
 Facebook:  https://facebook.com/code4projects
