@@ -1,6 +1,8 @@
 # Crea un Sito Web con HTML e CSS Partendo da Zero
 
-Benvenuto alla nostra guida completa su HTML e CSS per principianti! In questo tutorial passo dopo passo, imparerai a creare un sito web coinvolgente utilizzando HTML e CSS. Il tutorial è diviso in tre parti. La prima parte è un sito web con poche pagine collegate tra loro, il suo obiettivo è mostrare le basi di HTML e CSS. La seconda parte da un tocco di stile in più al sito web creando un header, un footer, una home page accattivante e tanto altro ancora. Infine, la terza parte aggiunge i contenuti fondamentali per completare il sito web come ad esempio le pagine "Chi siamo", "Contatti", "Risorse" e altro ancora.
+Benvenuto alla nostra guida completa su HTML e CSS per principianti! In questo tutorial passo dopo passo, imparerai a creare un sito web coinvolgente utilizzando HTML e CSS. Il tutorial è suddiviso in tre parti.
+
+Nella prima parte, realizzerai un sito web con poche pagine collegate tra loro, imparando le basi di HTML e CSS. La seconda parte aggiungerà un tocco di stile in più al sito web, includendo elementi come un header, un footer, una home page accattivante e molto altro. Infine, nella terza parte, completerai il sito web con contenuti fondamentali, come le pagine "Chi siamo", "Contatti", "Risorse" e altro ancora.
 
 * [Part 1: crea il tuo primo sito web](https://github.com/sasadangelo/html-hero/tree/master/part-1)
 * [Part 2: dai un tocco di stile al tuo sito web](https://github.com/sasadangelo/html-hero/tree/master/part-2)
