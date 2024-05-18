@@ -1,3 +1,3 @@
-# Lezione 11: diamo alle nostre pagine un tocco di stile
+# Lezione 13: creiamo un Header e un Footer
 
-In questa lezione, impareremo a dare alle nostre pagine un tocco di stile usando il Caascade Style Sheet (CSS).
+In questa lezione aggiungeremo al nostro sito web un Header e un Footer.
