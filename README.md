@@ -5,7 +5,7 @@ Benvenuto alla nostra guida completa su HTML e CSS per principianti! In questo t
 * ![youtube](https://github.com/sasadangelo/html-hero/assets/12810456/980f90da-2399-4e10-8b55-9d4f07e57d9c) [Guarda il video tutorial su Youtube](https://www.youtube.com/watch?v=cNk0bVEMb3U).
 * ![reading](https://github.com/sasadangelo/html-hero/assets/12810456/c1dfa040-6d86-4342-a1f1-5ca3a3f62a2d) [Leggi l'articolo sul blog di Code4Projects](https://t.ly/1TRYs)
 * ![internet](https://github.com/sasadangelo/html-hero/assets/12810456/7004796d-d333-4a3a-ac55-6126d8f240c9) [Visita il Blog di Code4Projects](https://t.ly/0k53z)
-* #️⃣ CSS Reference: https://t.ly/bFtuV
+* ![css](https://github.com/sasadangelo/html-hero/assets/12810456/50ca7809-af4a-4738-baac-a72db7719191) [CSS Reference](https://t.ly/bFtuV)
 * 📝 Visual Studio Code: https://t.ly/g00aS
 
 Twitter:  https://twitter.com/code4projects
