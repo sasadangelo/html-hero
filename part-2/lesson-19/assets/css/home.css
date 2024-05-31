@@ -1,21 +1,32 @@
-/* ################################################################################ # Home Main area ################################################################################ */
+/*
+ * ################################################################################
+ * # Home Main area
+ * ################################################################################
+*/
 #home-main { 
   background: #fcfcfc; 
 }
 
-/* ################################################################################ # Home Container definitions ################################################################################ */
-#home-container { 
+/*
+ * ################################################################################
+ * # Home Container definitions
+ * ################################################################################
+ */
+ #home-container { 
   display: flex; 
   flex-direction: column; 
   justify-content: flex-start; 
 }
 
-/* ################################################################################ # Home Content definitions ################################################################################ */
-#home-content {
+/*
+ * ################################################################################
+ * # Home Content definitions
+ * ################################################################################
+ */
+ #home-content {
   float: left; 
   color: #666666; 
 }
-
 
 .hero-background { 
   background-image: url("../../assets/img/code4projects-image-hero.webp");
@@ -36,12 +47,45 @@
   padding: 10px; 
 }
 
-.hero-box { 
-  padding: 50px 40px; 
-  display: flex; 
-  flex-direction: row; 
-  justify-content: flex-end; 
+/* For Desktop */
+@media screen and (min-width: 1024px) {
+  .hero-box {
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
 }
+      
+/* For Tablets or iPad */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .hero-box {
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+      
+/* For Laptop or small-size screen */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .hero-box {
+    /*padding: 50px 40px;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+      
+/* For Mobile Phones */
+@media screen and (max-width: 479px) {
+  .hero-box {
+    /*padding: 50px 40px;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+} 
 
 .hero-messagebox {
   padding: 50px 40px;
@@ -69,13 +113,50 @@
   -webkit-font-smoothing: antialiased; 
 }
 
-/* ################################################################################ # Circle Icon Area ################################################################################ */
-.circle-icon-area {
-  padding: 40px 200px;
-  display: flex;
-  flex-direction: row; 
-  justify-content: space-between; 
+/*
+ * ################################################################################
+ * # Circle Icon Area
+ * ################################################################################
+ */
+/* For Desktop */
+@media screen and (min-width: 1024px) {
+  .circle-icon-area {
+    padding: 40px 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
+      
+/* For Tablets or iPad */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .circle-icon-area {
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+      
+/* For Laptop or small-size screen */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .circle-icon-area {
+    padding: 20px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+      
+/* For Mobile Phones */
+@media screen and (max-width: 479px) {
+  .circle-icon-area {
+    padding: 20px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+} 
 
 .circle-icon-box {
   padding: 0px; 
@@ -108,18 +189,67 @@
   background-repeat: no-repeat; 
 }
 
-/* ################################################################################ # Newsletter in the Home Page ################################################################################ */
-.newsletter-home {
-  background-color: #efefef;
-  padding: 60px 230px; 
-}
+/*
+ * ################################################################################
+ * # Newsletter in the Home Page
+ * ################################################################################
+ */
+/* For Desktop */
+@media screen and (min-width: 1024px) {
+  .newsletter-home {
+    background-color: #efefef;
+    padding: 60px 230px;
+  }
 
-.newsletter-home-box {
-  display: flex; 
-  flex-direction: row; 
-  justify-content: center; 
-  gap: 20px; 
+  .newsletter-home-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px
+  }
 }
+    
+/* For Tablets or iPad */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .newsletter-home {
+    background-color: #efefef;
+    padding: 60px 35px;
+  }
+
+  .newsletter-home-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+  
+/* For Laptop or small-size screen */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .newsletter-home {
+    background-color: #efefef;
+    padding: 60px 35px;
+  }
+
+  .newsletter-home-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+  
+/* For Mobile Phones */
+@media screen and (max-width: 479px) {
+  .newsletter-home {
+    background-color: #efefef;
+    padding: 60px 35px;
+  }
+
+  .newsletter-home-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+} 
 
 .newsletter-home-image {
   display: flex; 
@@ -182,22 +312,150 @@
   text-align: center; 
 }
 
-/* ################################################################################ # Feature Content Area ################################################################################ */
+/*
+ * ################################################################################
+ * # Feature Content Area
+ * ################################################################################
+ */
 /* For Desktop */
-.feature-content-row-grey { background-color: #efefef; padding: 60px 230px; } .feature-content-row-white { background-color: #fcfcfc; padding: 60px 230px; } .feature-content-box-grey { display: flex; flex-direction: row; justify-content: flex-start; gap: 20px; } .feature-content-box-white { display: flex; flex-direction: row-reverse; justify-content: flex-start; gap: 20px; } }
+@media screen and (min-width: 1024px) {
+  .feature-content-row-grey {
+    background-color: #efefef;
+    padding: 60px 230px;
+  }
 
-.feature-content-text-title { margin: 30px 0px 30px 0px; text-align: left; }
+  .feature-content-row-white {
+    background-color: #fcfcfc;
+    padding: 60px 230px;
+  }
 
-.feature-content-text-title a { color: #444444 !important; text-decoration: none !important; }
+  .feature-content-box-grey {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px
+  }
 
-.feature-content-text-title a:hover { color: #f47e3c !important; }
+  .feature-content-box-white {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    gap: 20px
+  }
+}
 
-.feature-content-text-title a h3 { font-size: 18px; color: #444444; font-weight: 500; }
+/* For Tablets or iPad */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .feature-content-row-grey {
+    background-color: #efefef;
+    padding: 60px 35px;
+  }
 
-.feature-content-text { color: #666666; font-size: 15px; text-align: justify; line-height: 1.6em; }
+  .feature-content-row-white {
+    background-color: #fcfcfc;
+    padding: 60px 35px;
+  }
 
-.feature-content-image { display: flex; flex-direction: row; justify-content: center; }
+  .feature-content-box-grey {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
-.feature-content-text a { color: #1d67b2; }
+  .feature-content-box-white {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 
-.feature-content-text a:hover { color: #f47e3c !important; }
+/* For Laptop or small-size screen */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .feature-content-row-grey {
+    background-color: #efefef;
+    padding: 60px 35px;
+  }
+
+  .feature-content-row-white {
+    background-color: #fcfcfc;
+    padding: 60px 35px;
+  }
+
+  .feature-content-box-grey {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .feature-content-box-white {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+/* For Mobile Phones */
+@media screen and (max-width: 479px) {
+  .feature-content-row-grey {
+    background-color: #efefef;
+    padding: 60px 35px;
+  }
+
+  .feature-content-row-white {
+    background-color: #fcfcfc;
+    padding: 60px 35px;
+  }
+
+  .feature-content-box-grey {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .feature-content-box-white {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+} 
+
+.feature-content-text-title { 
+  margin: 30px 0px 30px 0px; 
+  text-align: left; 
+}
+
+.feature-content-text-title a { 
+  color: #444444 !important; 
+  text-decoration: none !important; 
+}
+
+.feature-content-text-title a:hover { 
+  color: #f47e3c !important; 
+}
+
+.feature-content-text-title a h3 { 
+  font-size: 18px; 
+  color: #444444; 
+  font-weight: 500; 
+}
+
+.feature-content-text { 
+  color: #666666; 
+  font-size: 15px; 
+  text-align: justify; 
+  line-height: 1.6em; 
+}
+
+.feature-content-image { 
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center; 
+}
+
+.feature-content-text a { 
+  color: #1d67b2; 
+}
+
+.feature-content-text a:hover { 
+  color: #f47e3c !important; 
+}

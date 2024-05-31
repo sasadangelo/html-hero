@@ -1,6 +1,8 @@
 
 /* ################################################################################# Main ################################################################################ */
 
+#page-main { background: #fcfcfc; padding: 35px; }
+
 /* For Desktop */
 @media screen and (min-width: 1024px) { 
   #page-container { 
@@ -38,35 +40,6 @@
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: #3b3b3b;
-  text-align: left;
-}
-
-h1 {
-  font-size: 28px;
-}
-
-h2 {
-  font-size: 24px;
-}
-
-h3 {
-  font-size: 20px;
-}
-
-h4 {
-  font-size: 18px;
-}
-
-h5 {
-  font-size: 16px;
-}
-
-h6 {
-  font-size: 14px;
-}
-
 p {
   text-align: justify;
 }
@@ -75,14 +48,54 @@ ol {
   list-style-position: inside;
 }
 
-img.img-left {
-  padding: 10px 10px 10px 0px; 
-  float:left;
+/* For Desktop */
+@media screen and (min-width: 1024px) { 
+  img.img-left {
+    padding: 10px 10px 10px 0px; 
+    float:left;
+  }
+  
+  img.img-right {
+    padding: 10px 0px 10px 10px; 
+    float:right;
+  }
 }
 
-img.img-right {
-  padding: 10px 0px 10px 10px; 
-  float:right;
+/* For Tablets or iPad */
+@media screen and (min-width: 768px) and (max-width: 1023px) { 
+  img.img-left {
+    padding: 10px 10px 10px 0px; 
+    float:left;
+  }
+  
+  img.img-right {
+    padding: 10px 0px 10px 10px; 
+    float:right;
+  }
+}
+
+/* For Laptop or small-size screen */
+@media screen and (min-width: 480px) and (max-width: 767px) { 
+  img.img-left {
+    padding: 10px 10px 10px 0px; 
+    float:left;
+  }
+  
+  img.img-right {
+    padding: 10px 0px 10px 10px; 
+    float:right;
+  }
+}
+
+/* For Mobile Phones */
+@media screen and (max-width: 479px) { 
+  img.img-left {
+    padding: 10px 10px 10px 10px; 
+  }
+  
+  img.img-right {
+    padding: 10px 10px 10px 10px; 
+  }
 }
 
 blockquote {
