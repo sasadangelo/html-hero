@@ -24,7 +24,7 @@ Concludi il tuo sito aggiungendo contenuti chiave: la pagina "Chi siamo", i cont
 
 ## ▶️ Risorse utili
 
-Scarica il codice sorgente e [segui le istruzioni](https://www.youtube.com/watch?v=cNk0bVEMb3U) per costruire il tuo progetto web.
+Scarica il codice sorgente e [segui le istruzioni](https://www.youtube.com/watch?v=cNk0bVEMb3U&t=98s) per costruire il tuo progetto web.
 
 * ![youtube](https://github.com/sasadangelo/html-hero/assets/12810456/980f90da-2399-4e10-8b55-9d4f07e57d9c) [Guarda il video tutorial su Youtube](https://www.youtube.com/watch?v=cNk0bVEMb3U).
 * ![website](https://github.com/sasadangelo/html-hero/assets/12810456/1f67f600-7919-44b2-b105-68b343058774) [Visita il sito web che realizzerai qui](https://t.ly/cxqjJ)
