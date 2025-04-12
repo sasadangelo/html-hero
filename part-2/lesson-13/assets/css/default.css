@@ -1,32 +1,58 @@
+/*
+    © 2025 Salvatore D'Angelo
+    Questo progetto è distribuito sotto licenza MIT.
+    Vedi https://opensource.org/licenses/MIT per i dettagli.
+*/
+
+/* Impostazioni generali per il corpo della pagina */
 body {
   margin: 0 auto;
+  /* Centra il contenuto orizzontalmente */
   font-family: 'Helvetica Neue';
+  /* Imposta il font della pagina */
   font-size: 13px;
+  /* Imposta la dimensione del font di base */
 }
 
+/* Impostazioni generali per la pagina */
 #page {
   overflow: hidden;
+  /* Nasconde qualsiasi contenuto che eccede i confini del contenitore */
   border: 1px;
+  /* Definisce uno spessore di bordo di 1px */
   border-style: solid;
+  /* Imposta il bordo come solido */
   border-color: black;
+  /* Imposta il colore del bordo a nero */
 }
 
+/* Stile per l'intestazione (header) */
 header {
   background-color: #FCFCFC;
+  /* Imposta lo sfondo dell'intestazione a un colore grigio chiaro */
   width: 100%;
+  /* Imposta la larghezza dell'intestazione al 100% della larghezza disponibile */
   height: 100px;
-
+  /* Imposta l'altezza dell'intestazione a 100px */
   border: 1px;
+  /* Definisce uno spessore di bordo di 1px */
   border-style: solid;
+  /* Imposta il bordo come solido */
   border-color: black;
+  /* Imposta il colore del bordo a nero */
 }
 
+/* Stile per il contenuto principale (main) */
 main {
   max-width: 1080px;
+  /* Limita la larghezza massima del contenuto a 1080px */
   margin-left: auto;
+  /* Centra il contenuto orizzontalmente impostando i margini laterali automaticamente */
   margin-right: auto;
+  /* Centra il contenuto orizzontalmente impostando i margini laterali automaticamente */
 }
 
+/* Stili per i titoli (h1 a h6) */
 h1,
 h2,
 h3,
@@ -34,64 +60,95 @@ h4,
 h5,
 h6 {
   color: #3b3b3b;
+  /* Imposta il colore del testo dei titoli */
   text-align: left;
+  /* Allinea il testo a sinistra */
 }
 
+/* Dimensioni specifiche per ciascun livello di titolo */
 h1 {
   font-size: 28px;
+  /* Imposta la dimensione del font per h1 */
 }
 
 h2 {
   font-size: 24px;
+  /* Imposta la dimensione del font per h2 */
 }
 
 h3 {
   font-size: 20px;
+  /* Imposta la dimensione del font per h3 */
 }
 
 h4 {
   font-size: 18px;
+  /* Imposta la dimensione del font per h4 */
 }
 
 h5 {
   font-size: 16px;
+  /* Imposta la dimensione del font per h5 */
 }
 
 h6 {
   font-size: 14px;
+  /* Imposta la dimensione del font per h6 */
 }
 
+/* Impostazioni per i paragrafi */
 p {
   text-align: justify;
+  /* Giustifica il testo all'interno del paragrafo */
 }
 
+/* Stili per le liste ordinate */
 ol {
   list-style-position: inside;
+  /* Posiziona i numeri all'interno della lista (all'interno dei margini) */
 }
 
+/* Immagini a sinistra */
 img.img-left {
   padding: 10px 10px 10px 0px;
+  /* Aggiunge padding ai lati dell'immagine */
   float: left;
+  /* Fa fluttuare l'immagine a sinistra */
 }
 
+/* Immagini a destra */
 img.img-right {
   padding: 10px 0px 10px 10px;
+  /* Aggiunge padding ai lati dell'immagine */
   float: right;
+  /* Fa fluttuare l'immagine a destra */
 }
 
+/* Citazioni in blocco (blockquote) */
 blockquote {
   background: #f5f7f9;
+  /* Imposta uno sfondo grigio chiaro per la citazione */
   border-bottom: 1px solid #d8dee9;
+  /* Aggiunge una linea di separazione inferiore alla citazione */
   padding: 10px 10px 10px 10px;
+  /* Aggiunge padding su tutti i lati */
 }
 
+/* Stile per il piè di pagina (footer) */
 footer {
   background-color: #FCFCFC;
+  /* Imposta lo sfondo del piè di pagina a un colore grigio chiaro */
   padding: 30px 30px 30px 30px;
+  /* Imposta il padding su tutti i lati del footer a 30px */
   text-align: left;
+  /* Allinea il testo a sinistra all'interno del footer */
 
   border: 1px;
+  /* Definisce uno spessore di bordo di 1px */
   border-style: solid;
+  /* Imposta il bordo come solido */
   border-color: black;
+  /* Imposta il colore del bordo a nero */
   height: 120px;
+  /* Imposta l'altezza del footer a 120px */
 }
