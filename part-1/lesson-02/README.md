@@ -1,16 +1,27 @@
-# Lezione 2 - Le Intestazioni
+# 📘 Lezione 2 – Le Intestazioni
 
-Per dare una struttura ai tuoi documenti utilizzando capitoli, sezioni, sottosezioni, e così via, puoi utilizzare gli elementi di Intestazione. Il documento HTML ti consente di creare una gerarchia fino a 6 livelli di Intestazione. Come pratica consigliata (non obbligatoria), dovrebbe esserci solo un tag H1 per una pagina web. Puoi avere più tag per tutti gli altri livelli. Ogni sezione che ha un intestazione di livello N può avere una o più sezioni con intestazioni N+1.
+In questa lezione imparerai a utilizzare le **intestazioni HTML**, uno degli elementi fondamentali per strutturare i contenuti di una pagina web.
 
-```
-...
-<body>
-    <h1>Instestazione di 1° livello</h1>
-    <h2>Instestazione di 2° livello</h2>
-    <h3>Instestazione di 3° livello</h3>
-    <h4>Instestazione di 4° livello</h4>
-    <h5>Instestazione di 5° livello</h5>
-    <h6>Instestazione di 6° livello</h6>
-</body>
-...
-```
+## 🎓 Che cosa imparerai
+
+- Che cosa sono le intestazioni HTML (`<h1>` - `<h6>`)
+- Come si usano e in quale ordine
+- A cosa servono per l’organizzazione dei contenuti
+- Buone pratiche per la scrittura semantica e l’accessibilità
+
+## 🖼️ Panoramica
+
+HTML mette a disposizione sei livelli di intestazione: da `<h1>` a `<h6>`, dove `<h1>` è il titolo più importante e `<h6>` il meno rilevante. Le intestazioni aiutano i lettori (e i motori di ricerca!) a comprendere la struttura logica dei tuoi contenuti.
+
+📌 Alcuni consigli pratici:
+- Usa **solo un `<h1>`** per pagina, tipicamente per il titolo principale.
+- I sottotitoli possono usare `<h2>`, `<h3>`, ecc., a seconda della gerarchia.
+- Mantieni un ordine coerente per facilitare la lettura e l'accessibilità.
+
+## 🎯 Obiettivo
+
+🧠 Obiettivo della lezione: visualizzare le intestazioni nella tua pagina web e iniziare a strutturare il contenuto in modo chiaro e ordinato.
+
+## ✅ Conclusione
+
+🚀 Continua così, sei sulla buona strada per diventare un HTML Hero!

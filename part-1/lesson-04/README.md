@@ -1,22 +1,22 @@
-# Lezione 4 - le Sezioni
+# 📘 Lezione 4 - Le Sezioni
 
-In questa lezione inizieremo ad aggiungere sezioni. Utilizzeremo le intestazioni (h1, h2, .. h6) per i titoli delle sezioni e i paragrafi per il contenuto. In particolare, in questa lezione aggiungeremo una singola sezione con un titolo che ha il tag h2.
+In questa lezione aggiungiamo un secondo paragrafo e un sottotitolo alla tua pagina HTML.
 
-```
-    <body>
-        <h1>Intestazione di 1° livello</h1>
-        <p>
-           Lorem ipsum dolor sit amet. Id corrupti accusamus ut vitae sunt est accusantium 
-           quam ad voluptatem enim! Et corporis provident vel rerum voluptatibus ea nisi galisum
-           ...
-        </p>
-        <h2>Intestazione di 2° livello</h2>
-        <p>
-            Aut velit impedit eos fugiat praesentium qui reiciendis iste qui dolores dolores 
-            At quia atque ex expedita ullam. Vel eligendi possimus in odit aspernatur est 
-            consequatur molestias.
-            ...
-        </p>
-    </body>
-```
+## 🎓 Cosa Imparerai
+
+- Utilizzare il tag `<h2>` per creare sottotitoli
+- Inserire più paragrafi usando il tag `<p>`
+- Strutturare meglio il contenuto della pagina
+
+## 🖼️ Panoramica
+
+Finora abbiamo creato una pagina HTML con un’intestazione principale e un paragrafo di testo. Ora introdurremo un’intestazione di secondo livello (`<h2>`) e aggiungeremo un secondo paragrafo per iniziare a strutturare il contenuto come una vera pagina web.
+
+## 🎯 Obiettivo
+
+Imparare a suddividere il testo in sezioni e paragrafi ben organizzati per rendere la lettura più chiara e il layout più ordinato.
+
+## ✅ Conclusione
+
+Ora la tua pagina HTML ha una struttura più ricca e leggibile: stai già costruendo contenuti come un vero sviluppatore web!
 

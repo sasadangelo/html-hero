@@ -1,26 +1,21 @@
-# Lezione 5 - Aggiungi un secondo paragrafo
+# 📘 Lezione 5 - Aggiungi un secondo Paragrafo
 
-In un paragrafo HTML, se lasci una riga vuota, questa non viene visualizzata nella pagina web. Per creare due paragrafi separati da una riga vuota, crea due elementi ```<p> ... </p>``` e separali con un paragrafo vuoto che puoi creare usando l'elemento ```<p/>```. Ecco un esempio:
+In questa lezione impari a usare più paragrafi e cosa accade con un paragrafo vuoto.
 
-```
-<body>
-    <h1>Intestazione di 1° livello</h1>
-    <p>
-        Lorem ipsum dolor sit amet. Id corrupti accusamus ut vitae sunt est accusantium 
-        quam ad voluptatem enim! Et corporis provident vel rerum voluptatibus ea nisi galisum
-        ...
-    </p>
-    <h2>Intestazione di 2° livello</h2>
-    <p>
-        Aut velit impedit eos fugiat praesentium qui reiciendis iste qui dolores dolores 
-        At quia atque ex expedita ullam. Vel eligendi possimus in odit aspernatur est
-        ...
-    </p>
-    <p/>
-    <p>
-        Est galisum tempore eos ullam earum qui odit veritatis. Cum minima obcaecati et veritatis 
-        minima et aliquam minima eos consectetur nisi non soluta consequatur qui veritatis Quis. 
-        ...
-    </p>
-</body>
-```
+## 🎓 Cosa Imparerai
+
+- Inserire più paragrafi all’interno della stessa sezione
+- Capire il comportamento di un paragrafo vuoto (`<p />`)
+- Continuare a migliorare la struttura del contenuto
+
+## 🖼️ Panoramica
+
+Stiamo costruendo passo dopo passo la struttura di una pagina HTML. Dopo aver introdotto titoli e paragrafi, ora aggiungiamo un ulteriore paragrafo di contenuto e un paragrafo vuoto per osservare il suo effetto sulla visualizzazione.
+
+## 🎯 Obiettivo
+
+Comprendere come i paragrafi si comportano nel flusso del documento e come HTML interpreta un elemento `<p>` privo di contenuto.
+
+## ✅ Conclusione
+
+Ora sei in grado di usare paragrafi consecutivi e gestire correttamente anche quelli vuoti, migliorando la leggibilità della tua pagina.

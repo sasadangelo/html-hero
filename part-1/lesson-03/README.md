@@ -1,16 +1,26 @@
-# Lezione 3 - I paragrafi
+# 📘 Lezione 3 – I Paragrafi
 
-In questa lezione scriveremo il nostro primo paragrafo. In HTML, i paragrafi sono racchiusi nei tag ```<p> ... </p>```. Il testo è un testo privo di significato che nel gergo informatico viene detto "placeholder". Esso serve, inizialmente, solo a riempire la pagina con testo privo di significato al fine di realizzare le nostre pagine web senza perdere troppo tempo sul contenuto. Successivamente, questo testo "placeholder" potrà essere sostituito dal vero testo. Per generare questo testo suggerisco l'utilizzo di questo [generatore online](https://www.loremipzum.com/en/text-generator).
+In questa lezione imparerai a inserire **paragrafi di testo** nelle tue pagine HTML.
 
-```
-<body>
-    <h1>Intestazione di 1° livello</h1>
-    <p>
-        Lorem ipsum dolor sit amet. Id corrupti accusamus ut vitae sunt est accusantium 
-        quam ad voluptatem enim! Et corporis provident vel rerum voluptatibus ea nisi galisum 
-        et sint fuga aut quam deserunt eos voluptate iure? In numquam atque hic beatae sint 
-        At debitis numquam et cumque molestias. Aut sunt deserunt et dolorem magnam non esse 
-        iure aut sunt cupiditate sit adipisci rerum 33 eveniet distinctio.
-    </p>
-</body>
-```
+## 🎓 Che cosa imparerai
+
+- Come usare il tag `<p>` per creare paragrafi
+- Dove posizionare i paragrafi all'interno della struttura HTML
+- A cosa serve il testo "Lorem Ipsum"
+- Buone pratiche per la leggibilità
+
+## 🖼️ Panoramica
+
+Il tag `<p>` è uno degli elementi fondamentali di HTML. Serve per definire un **blocco di testo**, cioè un paragrafo, che sarà separato visivamente dagli altri elementi della pagina.
+
+In questa lezione userai un testo latino chiamato **Lorem Ipsum**, spesso utilizzato come contenuto segnaposto nel design e nello sviluppo web. Questo testo non ha un significato specifico, ma simula visivamente il contenuto reale così da concentrarti sulla struttura grafica senza distrazioni. Puoi usare un generatore di testo [Lorem Ipsum](https://loremipsum.io/generator/) per generare testo per il tuo sito web che sostituirai alla fine con il testo vero e proprio.
+
+✍️ Curiosità: Il "Lorem Ipsum" deriva da un'opera di Cicerone scritta nel 45 a.C. ed è diventato uno standard del settore grafico fin dagli anni ’60.
+
+## 🎯 Obiettivo
+
+Aggiungere il tuo primo paragrafo e capire come HTML gestisce il testo nei documenti.
+
+## ✅ Conclusione
+
+🚀 Ora che sai come aggiungere testo, il tuo sito inizia davvero a prendere vita!

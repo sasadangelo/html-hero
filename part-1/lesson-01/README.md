@@ -1,15 +1,36 @@
-# Lezione 1 - La tua prima pagina HTML
+# 📘 Lezione 1 – La tua prima pagina HTML
 
-Questo è la tua prima pagina HTML. HTML è un linguaggio di programmazione grazie al quale potrai realizzare il tuo primo sito web. In basso puoi vedere un esempio molto semplice di HTML. I tag `html` definiscono l'inizio e la fine del documento HTML. Un tag può avere uno o più attributi, in questo caso l'attributo `lang` definisce la lingua del documento. HTML ha due parti: l'intestazione (header) e il corpo (body). Nell'intestazione puoi inserire tutto ciò che è necessario per descrivere il documento, incluso il titolo. Questo titolo apparirà nella scheda del tuo browser. Il corpo contiene il contenuto del documento, nel nostro caso la stringa "Hello World!".
+Benvenuto nella tua **prima lezione di HTML!** 👋
 
-```
-<!DOCTYPE html>
-<html lang="it">
-    <head>
-        <title>Titolo della Pagina</title>
-    </head>
-    <body>
-        Hello World!
-    </body>
-</html>
-```
+## 🎓 Cosa imparerai
+
+* Che cos’è l’**HTML**
+* Qual è la **struttura base** di una pagina web
+* Come funziona un **documento HTML**
+* Dove si inserisce il **contenuto visibile** della pagina
+
+Iniziamo subito con il piede giusto: in questa lezione imparerai a creare una semplicissima pagina web scritta in HTML, il linguaggio che sta alla base di ogni sito Internet.
+
+## 🖼️ Panoramica
+
+Un documento HTML è composto da **tag**, ovvero parole chiave racchiuse tra parentesi angolari (< >) che indicano al browser cosa visualizzare e come farlo.
+
+Ecco alcuni concetti chiave:
+
+* Il tag `<html>` indica l’inizio del documento HTML.
+* L’attributo `lang="it"` specifica che la lingua della pagina è l’italiano 🇮🇹.
+* La pagina è divisa in due sezioni principali:
+    * `<head>` (**intestazione**): contiene informazioni “dietro le quinte”, come il titolo della pagina 🧠.
+    * `<body>` (**corpo**): contiene il vero contenuto della pagina, quello che l’utente vede 🖥️.
+
+## 🎯 Obiettivo
+
+Alla fine di questa lezione sarai in grado di:
+
+* Creare un file .html
+* Scrivere la struttura base di una pagina
+* Visualizzare il messaggio **"Hello World!"** nel browser
+
+## ✅ Conclusione
+
+🚀 Pronto? Passa alla prossima lezione per continuare a costruire il tuo primo sito web!
