@@ -1,4 +1,4 @@
-# Lezione 13 - Creiamo un Header e un Footer
+# 📘 Lezione 13 - Creiamo un Header e un Footer
 
 In questa lezione, aggiungeremo un header e un footer vuoti a tutte le pagine del nostro sito, ponendo le basi per il layout.
 

@@ -1,4 +1,4 @@
-# Lezione 11 - Diamo alle nostre pagine un tocco di stile
+# 📘 Lezione 11 - Diamo alle nostre pagine un tocco di stile
 
 In questa lezione, iniziamo a migliorare l'aspetto delle nostre pagine web introducendo il CSS.
 

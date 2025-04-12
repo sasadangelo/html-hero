@@ -1,4 +1,4 @@
-# Lezione 12 - Pubblica il tuo sito web su Internet
+# 📘 Lezione 12 - Pubblica il tuo sito web su Internet
 
 In questa lezione, imparerai come pubblicare il tuo sito web su Internet utilizzando il servizio di hosting gratuito di Altervista.
 

@@ -10,7 +10,7 @@ In questa sezione imparerai a dare uno stile professionale al tuo sito web, rend
 Questa seconda parte è composta da 7 lezioni pratiche:
 
 * [Lezione 13: Creiamo un Header e un Footer](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-13)
-* [Lezione 14: Diamo alle nostre pagine un tocco di stile](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-14)
+* [Lezione 14: Aggiungiamo i bottoni Social Media nell'header](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-14)
 * [Lezione 15: Finalizziamo il Footer](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-15)
 * [Lezione 16: Creiamo un Menù con stile e colore](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-16)
 * [Lezione 17: Creiamo un Home Page](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-17)
