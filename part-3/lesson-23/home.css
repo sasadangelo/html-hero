@@ -3,7 +3,7 @@
  * # Hero Area
  * ################################################################################
  */
- .hero-background {
+.hero-background {
     border-style: none;
     background-image: url("img/hero-image.jpeg");
     background-position: center;
@@ -11,7 +11,7 @@
     background-size: cover;
     position: relative;
 }
-  
+
 .hero-area {
     border-style: none;
     max-width: 1280px;
@@ -19,12 +19,12 @@
     margin-right: auto;
     padding: 45px 60px;
 }
-  
+
 .hero-content {
     border-style: none;
     padding: 10px;
 }
-  
+
 .hero-box {
     border-style: none;
     padding: 50px 40px;
@@ -32,17 +32,17 @@
     flex-direction: row;
     justify-content: flex-end;
 }
-      
+
 .hero-messagebox {
     border-style: none;
     padding: 50px 40px;
     max-width: 400px;
-    background-color: RGBA(139,139,139,0.5);
+    background-color: RGBA(139, 139, 139, 0.5);
     border-radius: 20px;
-    box-shadow: 10px 10px 0px 0px RGBA(0,0,0,0.5);
+    box-shadow: 10px 10px 0px 0px RGBA(0, 0, 0, 0.5);
     box-sizing: border-box;
 }
-  
+
 .hero-messagebox h1 {
     margin: 0px;
     color: #ffffff;
@@ -51,7 +51,7 @@
     font-size: 25px;
     -webkit-font-smoothing: antialiased;
 }
-  
+
 .hero-messagebox p {
     color: #ffffff;
     text-align: left;
@@ -59,7 +59,7 @@
     font-size: 15px;
     -webkit-font-smoothing: antialiased;
 }
-  
+
 #subjects {
     height: 156px;
     width: 100%;

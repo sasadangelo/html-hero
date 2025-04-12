@@ -5,7 +5,8 @@
  */
 .fa {
   font-family: var(--fa-style-family, "Font Awesome 6 Free");
-  font-weight: var(--fa-style, 900); }
+  font-weight: var(--fa-style, 900);
+}
 
 .fa,
 .fa-classic,
@@ -22,11 +23,14 @@
   font-style: normal;
   font-variant: normal;
   line-height: 1;
-  text-rendering: auto; }
+  text-rendering: auto;
+}
 
 .fab,
 .fa-brands {
-  font-family: 'Font Awesome 6 Brands'; }
+  font-family: 'Font Awesome 6 Brands';
+}
 
 .fa-check::before {
-  content: "\f00c"; }
+  content: "\f00c";
+}

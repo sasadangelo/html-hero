@@ -4,7 +4,12 @@ body {
   font-size: 13px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #3b3b3b;
   text-align: left;
 }
@@ -38,10 +43,10 @@ p {
 }
 
 div {
-    border: 1px;
-    margin: 0px 0px 0px 0px;
-    border-style: solid;
-    border-color: black;
+  border: 1px;
+  margin: 0px 0px 0px 0px;
+  border-style: solid;
+  border-color: black;
 }
 
 header {
@@ -89,8 +94,8 @@ nav ul li a {
 }
 
 #content {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 footer {
@@ -108,7 +113,7 @@ footer {
   justify-content: center;
 }
 
- #social-media-group {
+#social-media-group {
   border-style: none;
   box-sizing: border-box;
   padding-top: 43.75px;
@@ -128,7 +133,8 @@ footer {
 .social-media-title {
   border-style: none;
   color: #1d67b1;
-  font-weight: 700; /* bold*/
+  font-weight: 700;
+  /* bold*/
   margin-bottom: 5px;
   display: flex;
   flex-direction: row;
@@ -146,27 +152,27 @@ footer {
 }
 
 .social-media-icon-facebook {
-  background: -webkit-gradient(linear,left bottom,left top,color-stop(0,#597ac7),color-stop(1,#6483cb));
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #597ac7), color-stop(1, #6483cb));
   border: 1px solid #466bc1;
 }
 
 .social-media-icon-twitter {
-  background: -webkit-gradient(linear,left bottom,left top,color-stop(0,#5bbcec),color-stop(1,#69c2ee));
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #5bbcec), color-stop(1, #69c2ee));
   border: 1px solid #44b3e9;
 }
 
 .social-media-icon-linkedin {
-  background: -webkit-gradient(linear,left bottom,left top,color-stop(0,#0070b4),color-stop(1,#007ac3));
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #0070b4), color-stop(1, #007ac3));
   border: 1px solid #00609b;
 }
 
 .social-media-icon-youtube {
-  background: -webkit-gradient(linear,left bottom,left top,color-stop(0,#ff3635),color-stop(1,#ff4544));
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ff3635), color-stop(1, #ff4544));
   border: 1px solid #ff1d1b;
 }
 
 .social-media-icon-github {
-  background: -webkit-gradient(linear,left bottom,left top,color-stop(0,#333333),color-stop(1,#3b3b3b));
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #333333), color-stop(1, #3b3b3b));
   border: 1px solid #262626;
 }
 
@@ -250,5 +256,3 @@ footer {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
 }
-
-

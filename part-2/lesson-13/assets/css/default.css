@@ -4,15 +4,15 @@ body {
   font-size: 13px;
 }
 
-#page { 
+#page {
   overflow: hidden;
   border: 1px;
   border-style: solid;
   border-color: black;
 }
 
-header { 
-  background-color: #FCFCFC; 
+header {
+  background-color: #FCFCFC;
   width: 100%;
   height: 100px;
 
@@ -21,13 +21,18 @@ header {
   border-color: black;
 }
 
-main { 
-  max-width: 1080px; 
-  margin-left: auto; 
+main {
+  max-width: 1080px;
+  margin-left: auto;
   margin-right: auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #3b3b3b;
   text-align: left;
 }
@@ -65,13 +70,13 @@ ol {
 }
 
 img.img-left {
-  padding: 10px 10px 10px 0px; 
-  float:left;
+  padding: 10px 10px 10px 0px;
+  float: left;
 }
 
 img.img-right {
-  padding: 10px 0px 10px 10px; 
-  float:right;
+  padding: 10px 0px 10px 10px;
+  float: right;
 }
 
 blockquote {
@@ -81,8 +86,8 @@ blockquote {
 }
 
 footer {
-  background-color: #FCFCFC; 
-  padding: 30px 30px 30px 30px; 
+  background-color: #FCFCFC;
+  padding: 30px 30px 30px 30px;
   text-align: left;
 
   border: 1px;
@@ -90,4 +95,3 @@ footer {
   border-color: black;
   height: 120px;
 }
-

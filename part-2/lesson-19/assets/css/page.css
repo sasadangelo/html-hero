@@ -1,41 +1,43 @@
-
 /* ################################################################################# Main ################################################################################ */
 
-#page-main { background: #fcfcfc; padding: 35px; }
+#page-main {
+  background: #fcfcfc;
+  padding: 35px;
+}
 
 /* For Desktop */
-@media screen and (min-width: 1024px) { 
-  #page-container { 
-    max-width: 1080px; 
-    margin-left: auto; 
+@media screen and (min-width: 1024px) {
+  #page-container {
+    max-width: 1080px;
+    margin-left: auto;
     margin-right: auto;
   }
 }
 
 /* For Tablets or iPad */
-@media screen and (min-width: 768px) and (max-width: 1023px) { 
-  #page-container { 
-    max-width: 1080px; 
-    margin-left: auto; 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #page-container {
+    max-width: 1080px;
+    margin-left: auto;
     margin-right: auto;
   }
 }
 
 /* For Laptop or small-size screen */
-@media screen and (min-width: 480px) and (max-width: 767px) { 
-  #page-container { 
-    max-width: 1080px; 
-    margin-left: auto; 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  #page-container {
+    max-width: 1080px;
+    margin-left: auto;
     margin-right: auto;
   }
 }
 
 /* For Mobile Phones */
-@media screen and (max-width: 479px) { 
+@media screen and (max-width: 479px) {
   #page-container {
     padding: 10px;
-    max-width: 1080px; 
-    margin-left: auto; 
+    max-width: 1080px;
+    margin-left: auto;
     margin-right: auto;
   }
 }
@@ -49,52 +51,52 @@ ol {
 }
 
 /* For Desktop */
-@media screen and (min-width: 1024px) { 
+@media screen and (min-width: 1024px) {
   img.img-left {
-    padding: 10px 10px 10px 0px; 
-    float:left;
+    padding: 10px 10px 10px 0px;
+    float: left;
   }
-  
+
   img.img-right {
-    padding: 10px 0px 10px 10px; 
-    float:right;
+    padding: 10px 0px 10px 10px;
+    float: right;
   }
 }
 
 /* For Tablets or iPad */
-@media screen and (min-width: 768px) and (max-width: 1023px) { 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   img.img-left {
-    padding: 10px 10px 10px 0px; 
-    float:left;
+    padding: 10px 10px 10px 0px;
+    float: left;
   }
-  
+
   img.img-right {
-    padding: 10px 0px 10px 10px; 
-    float:right;
+    padding: 10px 0px 10px 10px;
+    float: right;
   }
 }
 
 /* For Laptop or small-size screen */
-@media screen and (min-width: 480px) and (max-width: 767px) { 
+@media screen and (min-width: 480px) and (max-width: 767px) {
   img.img-left {
-    padding: 10px 10px 10px 0px; 
-    float:left;
+    padding: 10px 10px 10px 0px;
+    float: left;
   }
-  
+
   img.img-right {
-    padding: 10px 0px 10px 10px; 
-    float:right;
+    padding: 10px 0px 10px 10px;
+    float: right;
   }
 }
 
 /* For Mobile Phones */
-@media screen and (max-width: 479px) { 
+@media screen and (max-width: 479px) {
   img.img-left {
-    padding: 10px 10px 10px 10px; 
+    padding: 10px 10px 10px 10px;
   }
-  
+
   img.img-right {
-    padding: 10px 10px 10px 10px; 
+    padding: 10px 10px 10px 10px;
   }
 }
 

@@ -3,8 +3,8 @@
  * # Home Main area
  * ################################################################################
 */
-#home-main { 
-  background: #fcfcfc; 
+#home-main {
+  background: #fcfcfc;
 }
 
 /*
@@ -12,10 +12,10 @@
  * # Home Container definitions
  * ################################################################################
  */
- #home-container { 
-  display: flex; 
-  flex-direction: column; 
-  justify-content: flex-start; 
+#home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 /*
@@ -23,28 +23,28 @@
  * # Home Content definitions
  * ################################################################################
  */
- #home-content {
-  float: left; 
-  color: #666666; 
+#home-content {
+  float: left;
+  color: #666666;
 }
 
-.hero-background { 
+.hero-background {
   background-image: url("../../assets/img/code4projects-image-hero.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative; 
+  position: relative;
 }
 
-.hero-area { 
-  max-width: 1280px; 
-  margin-left: auto; 
-  margin-right: auto; 
-  padding: 45px 60px; 
+.hero-area {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 45px 60px;
 }
 
 .hero-content {
-  padding: 10px; 
+  padding: 10px;
 }
 
 /* For Desktop */
@@ -56,7 +56,7 @@
     justify-content: flex-end;
   }
 }
-      
+
 /* For Tablets or iPad */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .hero-box {
@@ -66,7 +66,7 @@
     justify-content: center;
   }
 }
-      
+
 /* For Laptop or small-size screen */
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .hero-box {
@@ -76,7 +76,7 @@
     justify-content: center;
   }
 }
-      
+
 /* For Mobile Phones */
 @media screen and (max-width: 479px) {
   .hero-box {
@@ -85,32 +85,32 @@
     flex-direction: row;
     justify-content: center;
   }
-} 
+}
 
 .hero-messagebox {
   padding: 50px 40px;
   max-width: 400px;
-  background-color: RGBA(139, 139, 139, 0.5); 
-  border-radius: 20px; 
-  box-shadow: 10px 10px 0px 0px RGBA(0, 0, 0, 0.5); 
-  box-sizing: border-box; 
+  background-color: RGBA(139, 139, 139, 0.5);
+  border-radius: 20px;
+  box-shadow: 10px 10px 0px 0px RGBA(0, 0, 0, 0.5);
+  box-sizing: border-box;
 }
 
-.hero-messagebox h1 { 
-  margin: 0px; 
-  color: #ffffff; 
-  text-align: center; 
-  font-weight: 800; 
-  font-size: 25px; 
-  -webkit-font-smoothing: antialiased; 
+.hero-messagebox h1 {
+  margin: 0px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 800;
+  font-size: 25px;
+  -webkit-font-smoothing: antialiased;
 }
 
-.hero-messagebox p { 
-  color: #ffffff; 
-  text-align: left; 
-  line-height: 1.5; 
-  font-size: 15px; 
-  -webkit-font-smoothing: antialiased; 
+.hero-messagebox p {
+  color: #ffffff;
+  text-align: left;
+  line-height: 1.5;
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
 }
 
 /*
@@ -127,7 +127,7 @@
     justify-content: space-between;
   }
 }
-      
+
 /* For Tablets or iPad */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .circle-icon-area {
@@ -137,7 +137,7 @@
     justify-content: space-between;
   }
 }
-      
+
 /* For Laptop or small-size screen */
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .circle-icon-area {
@@ -147,7 +147,7 @@
     justify-content: flex-start;
   }
 }
-      
+
 /* For Mobile Phones */
 @media screen and (max-width: 479px) {
   .circle-icon-area {
@@ -156,14 +156,14 @@
     flex-direction: column;
     justify-content: flex-start;
   }
-} 
+}
 
 .circle-icon-box {
-  padding: 0px; 
-  display: flex; 
-  flex-direction: column; 
-  justify-content: center; 
-  margin-bottom: 30px; 
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 
 .circle-icon-box a h2 {
@@ -173,20 +173,20 @@
 }
 
 .circle-icon-box a {
-  text-decoration: none; 
-  color: #3b3b3b; 
-  text-align: center; 
+  text-decoration: none;
+  color: #3b3b3b;
+  text-align: center;
   font-weight: 700;
 }
 
 .circle-icon {
-  width: 100px; 
-  height: 100px; 
-  margin-left: auto; 
-  margin-right: auto; 
-  background-position: center center; 
-  background-size: cover; 
-  background-repeat: no-repeat; 
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /*
@@ -208,7 +208,7 @@
     gap: 20px
   }
 }
-    
+
 /* For Tablets or iPad */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .newsletter-home {
@@ -222,7 +222,7 @@
     justify-content: center;
   }
 }
-  
+
 /* For Laptop or small-size screen */
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .newsletter-home {
@@ -236,7 +236,7 @@
     justify-content: center;
   }
 }
-  
+
 /* For Mobile Phones */
 @media screen and (max-width: 479px) {
   .newsletter-home {
@@ -249,38 +249,38 @@
     flex-direction: column;
     justify-content: center;
   }
-} 
-
-.newsletter-home-image {
-  display: flex; 
-  flex-direction: row; 
-  justify-content: center; 
 }
 
-.newsletter-home-form { 
+.newsletter-home-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.newsletter-home-form {
   float: clear;
   padding: 20px;
 }
 
-.newsletter-home-text-title { 
+.newsletter-home-text-title {
   margin: 0px 0px 30px 0px;
   color: #1d67b1;
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-  font-size: 20px; 
-  font-weight: 700; 
-  text-align: center; 
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
 }
 
-.newsletter-home-text { 
+.newsletter-home-text {
   margin: 0px 0px 10px 0px;
-  color: #666666; 
-  font-size: 10px; 
+  color: #666666;
+  font-size: 10px;
   font-weight: 400;
   line-height: 16px;
-  text-align: justify; 
+  text-align: justify;
 }
 
-.newsletter-home-input { 
+.newsletter-home-input {
   margin: 0px 0px 10px 0px;
   background-color: #ffffff;
   width: 100%;
@@ -290,10 +290,10 @@
   border-radius: 4px;
   border-style: solid;
   border-width: 1px;
-  font-size: 10px; 
+  font-size: 10px;
   font-weight: 400;
   line-height: 16px;
-  text-align: justify; 
+  text-align: justify;
 }
 
 .newsletter-home-input::placeholder {
@@ -305,11 +305,11 @@
   background-color: #1d67b1;
   padding: 10px 0px;
   font-weight: 700;
-  color:#ffffff;
+  color: #ffffff;
   border: none;
   border-radius: 4px;
   width: 100%;
-  text-align: center; 
+  text-align: center;
 }
 
 /*
@@ -417,45 +417,45 @@
     flex-direction: column;
     justify-content: center;
   }
-} 
-
-.feature-content-text-title { 
-  margin: 30px 0px 30px 0px; 
-  text-align: left; 
 }
 
-.feature-content-text-title a { 
-  color: #444444 !important; 
-  text-decoration: none !important; 
+.feature-content-text-title {
+  margin: 30px 0px 30px 0px;
+  text-align: left;
 }
 
-.feature-content-text-title a:hover { 
-  color: #f47e3c !important; 
+.feature-content-text-title a {
+  color: #444444 !important;
+  text-decoration: none !important;
 }
 
-.feature-content-text-title a h3 { 
-  font-size: 18px; 
-  color: #444444; 
-  font-weight: 500; 
+.feature-content-text-title a:hover {
+  color: #f47e3c !important;
 }
 
-.feature-content-text { 
-  color: #666666; 
-  font-size: 15px; 
-  text-align: justify; 
-  line-height: 1.6em; 
+.feature-content-text-title a h3 {
+  font-size: 18px;
+  color: #444444;
+  font-weight: 500;
 }
 
-.feature-content-image { 
-  display: flex; 
-  flex-direction: row; 
-  justify-content: center; 
+.feature-content-text {
+  color: #666666;
+  font-size: 15px;
+  text-align: justify;
+  line-height: 1.6em;
 }
 
-.feature-content-text a { 
-  color: #1d67b2; 
+.feature-content-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.feature-content-text a:hover { 
-  color: #f47e3c !important; 
+.feature-content-text a {
+  color: #1d67b2;
+}
+
+.feature-content-text a:hover {
+  color: #f47e3c !important;
 }

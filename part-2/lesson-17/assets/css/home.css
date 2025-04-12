@@ -1,88 +1,88 @@
 /* ################################################################################ # Home Main area ################################################################################ */
-#home-main { 
-  background: #fcfcfc; 
+#home-main {
+  background: #fcfcfc;
 }
 
 /* ################################################################################ # Home Container definitions ################################################################################ */
-#home-container { 
-  display: flex; 
-  flex-direction: column; 
-  justify-content: flex-start; 
+#home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 /* ################################################################################ # Home Content definitions ################################################################################ */
 #home-content {
-  float: left; 
-  color: #666666; 
+  float: left;
+  color: #666666;
 }
 
 
-.hero-background { 
+.hero-background {
   background-image: url("../../assets/img/code4projects-image-hero.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative; 
+  position: relative;
 }
 
-.hero-area { 
-  max-width: 1280px; 
-  margin-left: auto; 
-  margin-right: auto; 
-  padding: 45px 60px; 
+.hero-area {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 45px 60px;
 }
 
 .hero-content {
-  padding: 10px; 
+  padding: 10px;
 }
 
-.hero-box { 
-  padding: 50px 40px; 
-  display: flex; 
-  flex-direction: row; 
-  justify-content: flex-end; 
+.hero-box {
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 .hero-messagebox {
   padding: 50px 40px;
   max-width: 400px;
-  background-color: RGBA(139, 139, 139, 0.5); 
-  border-radius: 20px; 
-  box-shadow: 10px 10px 0px 0px RGBA(0, 0, 0, 0.5); 
-  box-sizing: border-box; 
+  background-color: RGBA(139, 139, 139, 0.5);
+  border-radius: 20px;
+  box-shadow: 10px 10px 0px 0px RGBA(0, 0, 0, 0.5);
+  box-sizing: border-box;
 }
 
-.hero-messagebox h1 { 
-  margin: 0px; 
-  color: #ffffff; 
-  text-align: center; 
-  font-weight: 800; 
-  font-size: 25px; 
-  -webkit-font-smoothing: antialiased; 
+.hero-messagebox h1 {
+  margin: 0px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 800;
+  font-size: 25px;
+  -webkit-font-smoothing: antialiased;
 }
 
-.hero-messagebox p { 
-  color: #ffffff; 
-  text-align: left; 
-  line-height: 1.5; 
-  font-size: 15px; 
-  -webkit-font-smoothing: antialiased; 
+.hero-messagebox p {
+  color: #ffffff;
+  text-align: left;
+  line-height: 1.5;
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* ################################################################################ # Circle Icon Area ################################################################################ */
 .circle-icon-area {
   padding: 40px 200px;
   display: flex;
-  flex-direction: row; 
-  justify-content: space-between; 
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .circle-icon-box {
-  padding: 0px; 
-  display: flex; 
-  flex-direction: column; 
-  justify-content: center; 
-  margin-bottom: 30px; 
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 
 .circle-icon-box a h2 {
@@ -92,76 +92,124 @@
 }
 
 .circle-icon-box a {
-  text-decoration: none; 
-  color: #3b3b3b; 
-  text-align: center; 
+  text-decoration: none;
+  color: #3b3b3b;
+  text-align: center;
   font-weight: 700;
 }
 
 .circle-icon {
-  width: 100px; 
-  height: 100px; 
-  margin-left: auto; 
-  margin-right: auto; 
-  background-position: center center; 
-  background-size: cover; 
-  background-repeat: no-repeat; 
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* ################################################################################ # Newsletter in the Home Page ################################################################################ */
 .newsletter-home {
   background-color: #efefef;
-  padding: 60px 230px; 
+  padding: 60px 230px;
 }
 
 .newsletter-home-box {
-  display: flex; 
-  flex-direction: row; 
-  justify-content: center; 
-  gap: 20px; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
 }
 
 .newsletter-home-image {
-  display: flex; 
-  flex-direction: row; 
-  justify-content: center; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.newsletter-home-form { 
-  float: clear; 
+.newsletter-home-form {
+  float: clear;
 }
 
-.newsletter-home-text-title { 
-  color: #444444; 
-  font-size: 20px; 
-  font-weight: 500; 
-  margin: 30px 0px 30px 0px; 
-  text-align: left; 
+.newsletter-home-text-title {
+  color: #444444;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 30px 0px 30px 0px;
+  text-align: left;
 }
 
-.newsletter-home-text { 
-  color: #666666; 
-  font-size: 15px; 
-  text-align: justify; 
-  line-height: 1.6em; 
+.newsletter-home-text {
+  color: #666666;
+  font-size: 15px;
+  text-align: justify;
+  line-height: 1.6em;
 }
 
 /* ################################################################################ # Feature Content Area ################################################################################ */
 /* For Desktop */
-.feature-content-row-grey { background-color: #efefef; padding: 60px 230px; } .feature-content-row-white { background-color: #fcfcfc; padding: 60px 230px; } .feature-content-box-grey { display: flex; flex-direction: row; justify-content: flex-start; gap: 20px; } .feature-content-box-white { display: flex; flex-direction: row-reverse; justify-content: flex-start; gap: 20px; } }
+.feature-content-row-grey {
+  background-color: #efefef;
+  padding: 60px 230px;
+}
 
-.feature-content-text-title { margin: 30px 0px 30px 0px; text-align: left; }
+.feature-content-row-white {
+  background-color: #fcfcfc;
+  padding: 60px 230px;
+}
 
-.feature-content-text-title a { color: #444444 !important; text-decoration: none !important; }
+.feature-content-box-grey {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+}
 
-.feature-content-text-title a:hover { color: #f47e3c !important; }
+.feature-content-box-white {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  gap: 20px;
+}
+}
 
-.feature-content-text-title a h3 { font-size: 18px; color: #444444; font-weight: 500; }
+.feature-content-text-title {
+  margin: 30px 0px 30px 0px;
+  text-align: left;
+}
 
-.feature-content-text { color: #666666; font-size: 15px; text-align: justify; line-height: 1.6em; }
+.feature-content-text-title a {
+  color: #444444 !important;
+  text-decoration: none !important;
+}
 
-.feature-content-image { display: flex; flex-direction: row; justify-content: center; }
+.feature-content-text-title a:hover {
+  color: #f47e3c !important;
+}
 
-.feature-content-text a { color: #1d67b2; }
+.feature-content-text-title a h3 {
+  font-size: 18px;
+  color: #444444;
+  font-weight: 500;
+}
 
-.feature-content-text a:hover { color: #f47e3c !important; }
+.feature-content-text {
+  color: #666666;
+  font-size: 15px;
+  text-align: justify;
+  line-height: 1.6em;
+}
+
+.feature-content-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.feature-content-text a {
+  color: #1d67b2;
+}
+
+.feature-content-text a:hover {
+  color: #f47e3c !important;
+}
