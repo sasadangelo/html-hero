@@ -7,7 +7,7 @@ In questa sezione imparerai le basi di HTML: creeremo insieme un sito web compos
 
 🎯 Obiettivo: alla fine di questa parte, avrai costruito un vero mini-sito statico pronto per essere pubblicato online!
 
-## 📚 Lezioni incluse
+## 📘 Lezioni incluse
 
 Questa prima parte è composta da 12 lezioni pratiche:
 
