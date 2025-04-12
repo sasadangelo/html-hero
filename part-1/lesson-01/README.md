@@ -2,7 +2,7 @@
 
 Benvenuto nella tua **prima lezione di HTML!** 👋
 
-## 🎓 Cosa imparerai
+## 🎓 Cosa imparerai?
 
 * Che cos’è l’**HTML**
 * Qual è la **struttura base** di una pagina web

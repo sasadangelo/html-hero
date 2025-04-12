@@ -2,7 +2,7 @@
 
 In questa lezione aggiungiamo ulteriore struttura alla pagina con intestazioni e paragrafi più profondi.
 
-## 🎓 Cosa Imparerai
+## 🎓 Cosa Imparerai?
 
 - Utilizzare le intestazioni `<h3>` e `<h4>` per suddividere ulteriormente il contenuto
 - Gestire paragrafi aggiuntivi all’interno delle nuove sezioni

@@ -2,7 +2,7 @@
 
 In questa lezione aggiungiamo un secondo paragrafo e un sottotitolo alla tua pagina HTML.
 
-## 🎓 Cosa Imparerai
+## 🎓 Cosa Imparerai?
 
 - Utilizzare il tag `<h2>` per creare sottotitoli
 - Inserire più paragrafi usando il tag `<p>`

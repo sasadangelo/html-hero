@@ -2,7 +2,7 @@
 
 In questa lezione, abbiamo aggiunto 4 nuove pagine HTML al nostro sito. Ogni pagina contiene un menù di navigazione con 5 link che rimandano alle altre pagine del sito, migliorando l'interattività e la navigabilità.
 
-## 🎓 Cosa Imparerai
+## 🎓 Cosa Imparerai?
 
 - Creare più pagine HTML.
 - Implementare un **menu di navigazione** per spostarsi tra le diverse pagine del sito.

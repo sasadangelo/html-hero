@@ -2,7 +2,7 @@
 
 In questa lezione imparerai a inserire **paragrafi di testo** nelle tue pagine HTML.
 
-## 🎓 Che cosa imparerai
+## 🎓 Che cosa imparerai?
 
 - Come usare il tag `<p>` per creare paragrafi
 - Dove posizionare i paragrafi all'interno della struttura HTML

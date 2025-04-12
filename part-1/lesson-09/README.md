@@ -2,7 +2,8 @@
 
 In questa lezione, esploreremo le **liste ordinate** e **non ordinate** in HTML, due elementi fondamentali per organizzare e visualizzare elenchi di dati in una pagina web.
 
-## 🎓 Cosa Imparerai
+## 🎓 Cosa Imparerai?
+
 - Come creare una **lista non ordinata** (ul) con **elenco puntato**.
 - Come creare una **lista ordinata** (ol) con **numerazione**.
 - Utilizzare i tag `<li>` per definire ogni elemento dell'elenco.

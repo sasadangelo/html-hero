@@ -2,7 +2,7 @@
 
 In questa lezione imparerai a utilizzare le **intestazioni HTML**, uno degli elementi fondamentali per strutturare i contenuti di una pagina web.
 
-## 🎓 Che cosa imparerai
+## 🎓 Che cosa imparerai?
 
 - Che cosa sono le intestazioni HTML (`<h1>` - `<h6>`)
 - Come si usano e in quale ordine
@@ -20,7 +20,7 @@ HTML mette a disposizione sei livelli di intestazione: da `<h1>` a `<h6>`, dove 
 
 ## 🎯 Obiettivo
 
-🧠 Obiettivo della lezione: visualizzare le intestazioni nella tua pagina web e iniziare a strutturare il contenuto in modo chiaro e ordinato.
+Visualizzare le intestazioni nella tua pagina web e iniziare a strutturare il contenuto in modo chiaro e ordinato.
 
 ## ✅ Conclusione
 

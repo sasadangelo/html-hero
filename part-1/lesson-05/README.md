@@ -2,7 +2,7 @@
 
 In questa lezione impari a usare più paragrafi e cosa accade con un paragrafo vuoto.
 
-## 🎓 Cosa Imparerai
+## 🎓 Cosa Imparerai?
 
 - Inserire più paragrafi all’interno della stessa sezione
 - Capire il comportamento di un paragrafo vuoto (`<p />`)

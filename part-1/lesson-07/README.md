@@ -2,7 +2,8 @@
 
 In questa lezione esploreremo i tag HTML per formattare il testo, inclusi il grassetto, il corsivo e il sottolineato.
 
-## 🎓 Cosa Imparerai
+## 🎓 Cosa Imparerai?
+
 - Applicare il **grassetto** usando il tag `<b>` o `<strong>`
 - Usare il **corsivo** con il tag `<i>` o `<em>`
 - Aggiungere il **sottolineato** con il tag `<u>`
