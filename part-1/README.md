@@ -1,6 +1,6 @@
 # 🚀 HTML & CSS Hero – Corso Completo per Principianti (Parte I)
 
-Benvenuto alla prima parte del tutorial “HTML & CSS Hero – Corso Completo per Principianti”!
+Benvenuto alla prima parte del tutorial **HTML & CSS Hero – Corso Completo per Principianti**!
 Che tu sia un principiante assoluto o un programmatore con un po’ di esperienza, questa guida ti accompagnerà passo dopo passo nella realizzazione del tuo primo sito web.
 
 In questa sezione imparerai le basi di HTML: creeremo insieme un sito web composto da cinque pagine collegate tra loro, con paragrafi, collegamenti, immagini, liste, formattazioni di testo e molto altro.
