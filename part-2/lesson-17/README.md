@@ -12,7 +12,7 @@ Durante questa lezione vedremo come:
 - Creare una **feature area** con immagini e descrizioni per evidenziare i punti di forza del progetto.
 - Includere fogli di stile CSS esterni diversi a seconda del tipo di pagina che si vuole rappresentare.
 
-## 🧩 Panoramica della Lezione
+## 🖼️ Panoramica della Lezione
 
 Ecco cosa andremo a costruire passo dopo passo:
 

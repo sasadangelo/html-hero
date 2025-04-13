@@ -12,13 +12,13 @@ Durante questa lezione scoprirai come:
 - Costruire un **hamburger menu** per la navigazione su smartphone
 - Migliorare la leggibilità e l’usabilità del sito su schermi piccoli
 
-## Panoramica
+## 🖼️ Panoramica
 
 Affronteremo le basi del **responsive web design**, una pratica essenziale nello sviluppo moderno. Utilizzeremo strumenti semplici ma potenti come il tag viewport, le media query e i layout flessibili con Flexbox, per rendere il nostro sito bello e funzionale ovunque.
 
 Il focus sarà sull’**header** e sul menu di navigazione, due elementi cruciali per la UX. Per gli schermi piccoli implementeremo un menu compatto (hamburger menu), mentre per desktop e tablet manterremo una disposizione orizzontale e spaziosa.
 
-## Obiettivo
+## 🎯 Obiettivo
 
 L’obiettivo della lezione è **rendere il layout del sito adattabile e funzionale su tutti i dispositivi**, rispettando le best practice del responsive design.
 
@@ -29,6 +29,6 @@ Al termine della lezione, il sito sarà:
 - Ordinato e centrato su grandi schermi desktop
 - Dotato di un menu mobile pratico e accessibile
 
-# Conclusione
+# ✅ Conclusione
 
 Con questa lezione hai imparato a trasformare un sito statico in un sito **dinamicamente adattabile**. La responsività è uno standard imprescindibile oggi, e con questi strumenti sei già in grado di sviluppare interfacce moderne, flessibili e accessibili.
