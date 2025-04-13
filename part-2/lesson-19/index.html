@@ -7,12 +7,6 @@
 <html lang="it"> <!-- Inizio del documento HTML, con lingua impostata su italiano -->
 
 <head>
-    <title>HTML Hero</title> <!-- Titolo della pagina, visibile nella scheda del browser -->
-    <link rel="stylesheet" type="text/css" href="assets/css/default.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/home.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/brands.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--
         Specifica la codifica dei caratteri del documento.
         "UTF-8" è una codifica universale che supporta la maggior parte dei caratteri delle lingue del mondo,
@@ -20,6 +14,13 @@
         con testi in italiano o multilingua.
     -->
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML Hero</title> <!-- Titolo della pagina, visibile nella scheda del browser -->
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="assets/css/default.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/home.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/brands.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome.css">
 </head>
 
 <body>
@@ -109,7 +110,7 @@
                                 <div class="circle-icon" style="background-image: url(assets/img/starthere-icon.png)">
                                 </div>
                                 <h2>Seconda Pagina</h2>
-                                Seconda Pagina
+                                Clicca per andare alla Seconda Pagina
                             </a>
                         </div>
                         <div class="circle-icon-box">
@@ -117,7 +118,7 @@
                                 <div class="circle-icon" style="background-image: url(assets/img/projects-icon.png)">
                                 </div>
                                 <h2>Terza Pagina</h2>
-                                Terza Pagina
+                                Clicca per andare alla Terza Pagina
                             </a>
                         </div>
                         <div class="circle-icon-box">
@@ -125,7 +126,7 @@
                                 <div class="circle-icon" style="background-image: url(assets/img/resources-icon.png)">
                                 </div>
                                 <h2>Quarta Pagina</h2>
-                                Quarta Pagina
+                                Clicca per andare alla Quarta Pagina
                             </a>
                         </div>
                     </div>
@@ -141,12 +142,12 @@
                                     Ebook.</div>
                                 <form action="" method="post" target="_blank">
                                     <div>
-                                        <input class="newsletter-home-input" type="text" placeholder="Nome">
+                                        <input class="newsletter-home-input" name="name" type="text" placeholder="Nome"
+                                            required>
                                     </div>
                                     <div>
-                                        <input class="newsletter-home-input" type="text" placeholder="Email">
-                                        <div>
-                                        </div>
+                                        <input class="newsletter-home-input" name="email" type="email"
+                                            placeholder="Email" required>
                                         <button type="submit" class="primary">Download</button>
                                     </div>
                                 </form>
