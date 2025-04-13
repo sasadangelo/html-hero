@@ -1,3 +1,8 @@
+/*
+    © 2025 Salvatore D'Angelo
+    Questo progetto è distribuito sotto licenza MIT.
+    Vedi https://opensource.org/licenses/MIT per i dettagli.
+*/
 /* Mobile devices              @media screen and (max-width: 479px)                         */
 /* Tablets or iPad             @media screen and (min-width: 480px) and (max-width: 767px)  */
 /* Laptop or small-size screen @media screen and (min-width: 768px) and (max-width: 1023px) */
@@ -8,12 +13,17 @@
  * # Global definitions
  * ################################################################################
 */
+/* Impostazioni generali per il corpo della pagina */
 body {
   margin: 0 auto;
+  /* Centra il contenuto orizzontalmente */
   font-family: 'Helvetica Neue';
+  /* Imposta il font della pagina */
   font-size: 13px;
+  /* Imposta la dimensione del font di base */
 }
 
+/* Impostazioni generali per la pagina */
 #page {
   overflow: hidden;
 }
@@ -62,24 +72,33 @@ h6 {
  * # Header definitions
  * ################################################################################
  */
+/* Stile per l'intestazione (header) */
 header {
   background-color: #FCFCFC;
+  /* Imposta lo sfondo dell'intestazione a un colore grigio chiaro */
   width: 100%;
 }
 
 #header-area {
   padding: 0px 35px;
+  /* Aggiunge uno spazio orizzontale di 35px su entrambi i lati del header */
 }
 
 /* For Desktop */
 @media screen and (min-width: 1024px) {
   #header-group {
     max-width: 1080px;
+    /* Impone una larghezza massima di 1080px per il contenitore dell'header */
     margin-left: auto;
+    /* Allinea il contenitore dell'header al centro orizzontale */
     margin-right: auto;
+    /* Allinea il contenitore dell'header al centro orizzontale */
     display: flex;
+    /* Utilizza Flexbox per organizzare gli elementi all'interno del contenitore */
     flex-direction: row;
+    /* Imposta l'orientamento orizzontale per gli elementi all'interno */
     justify-content: space-between;
+    /* Distribuisce lo spazio in modo uniforme tra gli elementi del contenitore */
   }
 }
 
@@ -87,10 +106,15 @@ header {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   #header-group {
     max-width: 1080px;
+    /* Impone una larghezza massima di 1080px per il contenitore dell'header */
     margin-left: auto;
+    /* Allinea il contenitore dell'header al centro orizzontale */
     margin-right: auto;
+    /* Allinea il contenitore dell'header al centro orizzontale */
     display: flex;
+    /* Utilizza Flexbox per organizzare gli elementi all'interno del contenitore */
     flex-direction: row;
+    /* Imposta l'orientamento orizzontale per gli elementi all'interno */
     justify-content: space-between;
   }
 }
@@ -99,10 +123,15 @@ header {
 @media screen and (min-width: 480px) and (max-width: 767px) {
   #header-group {
     max-width: 1080px;
+    /* Impone una larghezza massima di 1080px per il contenitore dell'header */
     margin-left: auto;
+    /* Allinea il contenitore dell'header al centro orizzontale */
     margin-right: auto;
+    /* Allinea il contenitore dell'header al centro orizzontale */
     display: flex;
+    /* Utilizza Flexbox per organizzare gli elementi all'interno del contenitore */
     flex-direction: row;
+    /* Imposta l'orientamento orizzontale per gli elementi all'interno */
     justify-content: space-between;
   }
 }
@@ -111,10 +140,15 @@ header {
 @media screen and (max-width: 479px) {
   #header-group {
     max-width: 1080px;
+    /* Impone una larghezza massima di 1080px per il contenitore dell'header */
     margin-left: auto;
+    /* Allinea il contenitore dell'header al centro orizzontale */
     margin-right: auto;
+    /* Allinea il contenitore dell'header al centro orizzontale */
     display: flex;
+    /* Utilizza Flexbox per organizzare gli elementi all'interno del contenitore */
     flex-direction: column;
+    /* Imposta l'orientamento verticali per gli elementi all'interno */
     justify-content: center;
   }
 }
@@ -126,40 +160,61 @@ header {
 /*
  * Logo area
  */
+/* Stile per il logo */
 #logo {
   display: flex;
+  /* Imposta Flexbox per il logo */
   flex-direction: row;
+  /* Organizza gli elementi del logo orizzontalmente */
   justify-content: center;
+  /* Centra il logo orizzontalmente */
 }
 
 /*
  * Social Button area
  */
+/* Stile per il gruppo social media */
 #social-media-group {
   box-sizing: border-box;
+  /* Assicura che il padding non aumenti la larghezza totale del contenitore */
   padding-top: 43.75px;
+  /* Aggiunge 43.75px di padding alla parte superiore */
   padding-bottom: 43.75px;
+  /* Aggiunge 43.75px di padding alla parte inferiore */
   display: flex;
+  /* Utilizza Flexbox per il contenitore dei social media */
   flex-direction: column;
+  /* Organizza i social media in verticale */
   justify-content: left;
+  /* Allinea gli elementi del gruppo social media a sinistra */
 }
 
+/* Stile per le icone social media */
 .social-media-icons {
   display: flex;
+  /* Utilizza Flexbox per allineare le icone dei social media */
   flex-direction: row;
+  /* Allinea le icone in orizzontale */
   justify-content: center;
+  /* Centra le icone orizzontalmente */
 }
 
 /* For Desktop */
+/* Stile per il titolo della sezione social media */
 @media screen and (min-width: 1024px) {
   .social-media-title {
     color: #1d67b1;
+    /* Imposta il colore del titolo dei social media */
     font-weight: 700;
-    /* bold*/
+    /* Imposta il peso del font a grassetto */
     margin-bottom: 5px;
+    /* Aggiunge uno spazio di 5px sotto il titolo */
     display: flex;
+    /* Utilizza Flexbox per il titolo */
     flex-direction: row;
+    /* Organizza il titolo orizzontalmente */
     justify-content: left;
+    /* Allinea il titolo a sinistra */
   }
 }
 
@@ -168,12 +223,17 @@ header {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .social-media-title {
     color: #1d67b1;
+    /* Imposta il colore del titolo dei social media */
     font-weight: 700;
-    /* bold*/
+    /* Imposta il peso del font a grassetto */
     margin-bottom: 5px;
+    /* Aggiunge uno spazio di 5px sotto il titolo */
     display: flex;
+    /* Utilizza Flexbox per il titolo */
     flex-direction: row;
+    /* Organizza il titolo orizzontalmente */
     justify-content: left;
+    /* Allinea il titolo a sinistra */
   }
 }
 
@@ -181,12 +241,17 @@ header {
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .social-media-title {
     color: #1d67b1;
+    /* Imposta il colore del titolo dei social media */
     font-weight: 700;
-    /* bold*/
+    /* Imposta il peso del font a grassetto */
     margin-bottom: 5px;
+    /* Aggiunge uno spazio di 5px sotto il titolo */
     display: flex;
+    /* Utilizza Flexbox per il titolo */
     flex-direction: row;
+    /* Organizza il titolo orizzontalmente */
     justify-content: left;
+    /* Allinea il titolo a sinistra */
   }
 }
 
@@ -194,48 +259,75 @@ header {
 @media screen and (max-width: 479px) {
   .social-media-title {
     color: #1d67b1;
+    /* Imposta il colore del titolo dei social media */
     font-weight: 700;
-    /* bold*/
+    /* Imposta il peso del font a grassetto */
     margin-bottom: 5px;
+    /* Aggiunge uno spazio di 5px sotto il titolo */
     display: flex;
+    /* Utilizza Flexbox per il titolo */
     flex-direction: row;
+    /* Organizza il titolo orizzontalmente */
     justify-content: center;
+    /* Allinea il titolo al centro */
   }
 }
 
 .social-media-icon {
   width: 36px;
+  /* Imposta la larghezza dell'icona */
   height: 36px;
+  /* Imposta l'altezza dell'icona */
   float: left;
+  /* Permette di allineare l'icona a sinistra */
   margin-right: 4px;
+  /* Aggiunge uno spazio di 4px a destra dell'icona */
   position: relative;
+  /* Permette di posizionare l'icona rispetto al suo contenitore */
   border-radius: 3px;
+  /* Arrotonda gli angoli dell'icona */
   display: block;
+  /* Imposta l'icona come un blocco */
 }
 
+/* Stile per l'icona facebook del gruppo social media */
 .social-media-icon-facebook {
   background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #597ac7), color-stop(1, #6483cb));
+  /* Gradiente di colore per l'icona di Facebook */
   border: 1px solid #466bc1;
+  /* Imposta il bordo dell'icona di Facebook */
 }
 
+/* Stile per l'icona twitter del gruppo social media */
 .social-media-icon-twitter {
   background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #5bbcec), color-stop(1, #69c2ee));
+  /* Gradiente di colore per l'icona di Twitter */
   border: 1px solid #44b3e9;
+  /* Imposta il bordo dell'icona di Twitter */
 }
 
+/* Stile per l'icona linkedin del gruppo social media */
 .social-media-icon-linkedin {
   background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #0070b4), color-stop(1, #007ac3));
+  /* Gradiente di colore per l'icona di LinkedIn */
   border: 1px solid #00609b;
+  /* Imposta il bordo dell'icona di LinkedIn */
 }
 
+/* Stile per l'icona youtube del gruppo social media */
 .social-media-icon-youtube {
   background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ff3635), color-stop(1, #ff4544));
+  /* Gradiente di colore per l'icona di YouTube */
   border: 1px solid #ff1d1b;
+  /* Imposta il bordo dell'icona di YouTube */
 }
 
+/* Stile per l'icona github del gruppo social media */
 .social-media-icon-github {
   background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #333333), color-stop(1, #3b3b3b));
+  /* Gradiente di colore per l'icona di GitHub */
   border: 1px solid #262626;
+  /* Imposta il bordo dell'icona di GitHub */
 }
 
 .fa-facebook-f {
@@ -300,23 +392,38 @@ header {
 
 .fa-github {
   width: 1em;
+  /* Imposta la larghezza dell'icona di font-awesome */
   height: 1em;
+  /* Imposta l'altezza dell'icona di font-awesome */
   text-align: center;
+  /* Allinea il testo al centro */
   display: block;
+  /* Imposta l'icona come un blocco */
   position: absolute;
+  /* Posiziona l'icona in modo assoluto all'interno del contenitore */
   line-height: 1em;
+  /* Allinea verticalmente l'icona */
   color: #fff;
+  /* Imposta il colore dell'icona a bianco */
   top: 50%;
+  /* Posiziona l'icona al centro verticalmente */
   left: 50%;
+  /* Posiziona l'icona al centro orizzontalmente */
   margin-top: -0.45em;
+  /* Sposta l'icona verso l'alto */
   margin-left: -0.5em;
+  /* Sposta l'icona verso sinistra */
   font-size: 18px;
+  /* Imposta la dimensione del font dell'icona */
 }
 
 .fa {
   font: normal normal normal 14px/1 FontAwesome;
+  /* Imposta la font per le icone di FontAwesome */
   text-rendering: auto;
+  /* Ottimizza la resa del testo */
   -webkit-font-smoothing: antialiased;
+  /* Abilita il font-smoothing su Webkit */
 }
 
 /*
@@ -326,26 +433,38 @@ header {
  */
 #navigation {
   background-color: #1D67B2;
+  /* Imposta il colore di sfondo della barra di navigazione */
 }
 
 nav {
+  /*background-color: #1D67B2;*/
+  /* Se vuoi aggiungere il colore di sfondo direttamente al tag <nav>, puoi decommentare questa linea */
   padding: 5px 5px 5px 5px;
+  /* Aggiunge un padding uniforme di 5px su tutti i lati del tag <nav> */
   max-width: 1080px;
+  /* Imposta la larghezza massima del <nav> a 1080px */
   margin-left: auto;
+  /* Centra il <nav> orizzontalmente sullo schermo */
   margin-right: auto;
+  /* Centra il <nav> orizzontalmente sullo schermo */
   min-height: 40px;
+  /* Imposta un'altezza minima di 40px per il <nav> */
 }
 
 /* For Desktop */
 @media screen and (min-width: 1024px) {
   nav ul {
     margin: 0px 0px 0px 0px;
+    /* Rimuove il margine predefinito dal tag <ul> */
     position: relative;
+    /* Imposta la posizione dell'elemento come relativa per un posizionamento più preciso degli elementi figli */
   }
 
   nav ul li {
     padding: 11px 35px;
+    /* Aggiunge un padding di 11px in alto e in basso e 35px a sinistra e a destra per ogni <li> */
     display: inline-block;
+    /* Imposta ogni <li> come un elemento in linea per la visualizzazione orizzontale */
   }
 
   .hamburger {
@@ -357,12 +476,16 @@ nav {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   nav ul {
     margin: 0px 0px 0px 0px;
+    /* Rimuove il margine predefinito dal tag <ul> */
     position: relative;
+    /* Imposta la posizione dell'elemento come relativa per un posizionamento più preciso degli elementi figli */
   }
 
   nav ul li {
     padding: 11px 35px;
+    /* Aggiunge un padding di 11px in alto e in basso e 35px a sinistra e a destra per ogni <li> */
     display: inline-block;
+    /* Imposta ogni <li> come un elemento in linea per la visualizzazione orizzontale */
   }
 
   .hamburger {
@@ -374,11 +497,14 @@ nav {
 @media screen and (min-width: 480px) and (max-width: 767px) {
   nav ul {
     margin: 0px 0px 0px 0px;
+    /* Rimuove il margine predefinito dal tag <ul> */
     position: relative;
+    /* Imposta la posizione dell'elemento come relativa per un posizionamento più preciso degli elementi figli */
   }
 
   nav ul li {
     padding: 11px 35px;
+    /* Aggiunge un padding di 11px in alto e in basso e 35px a sinistra e a destra per ogni <li> */
     display: inline-block;
   }
 
@@ -394,6 +520,7 @@ nav {
     border-width: 1px;
     border-style: solid;
     margin: 10px 10px 10px 50px;
+    /* Rimuove il margine predefinito dal tag <ul> */
     padding: 10px 30px;
     background-color: #1D67B2;
     border-radius: 6px;
@@ -415,8 +542,11 @@ nav {
 
 nav ul li a {
   color: #f2f2f2;
+  /* Imposta il colore del testo del link su bianco/grigio chiaro */
   text-decoration: none;
+  /* Rimuove la sottolineatura predefinita dei link */
   font-weight: 700;
+  /* Imposta il peso del carattere del link come grassetto */
 }
 
 /*
@@ -500,6 +630,7 @@ nav ul li a {
  * # Footer
  * ################################################################################
  */
+/* Stile per il piè di pagina (footer) */
 footer {
   background-color: #1d67b2;
   padding: 30px 30px 30px 30px;
