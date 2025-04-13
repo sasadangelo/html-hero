@@ -1,4 +1,4 @@
-# HTML & CSS Hero – Corso Completo per Principianti
+# 🚀 HTML & CSS Hero – Corso Completo per Principianti
 
 💻 Benvenuto nella **guida completa su HTML e CSS per principianti!** In questo corso pratico e guidato, imparerai passo dopo passo a costruire un sito web moderno utilizzando HTML e CSS, anche se parti da zero.
 
