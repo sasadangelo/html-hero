@@ -4,6 +4,11 @@
     Vedi https://opensource.org/licenses/MIT per i dettagli.
 */
 
+#page-main {
+  background: #fcfcfc;
+  padding: 35px;
+}
+
 #page-container {
   /* Imposta la larghezza massima del contenitore a 1080px */
   max-width: 1080px;
