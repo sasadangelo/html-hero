@@ -79,77 +79,44 @@ header {
   width: 100%;
 }
 
-#header-area {
+/*
+   #header-group is different and depends on the screen size.
+   In this project we assume:
+   - Desktop screen >= 1024px
+   - Tablets or iPad screen [768px, 1023px]
+   - Laptop or small-size screen [480px, 767px]
+   - Mobile phones screen <=479px
+
+   This code is Mobile first, so this definition is valid for
+   - Mobile phones
+   - Tablets or iPad
+   - Laptop or small-size screen
+
+   It is overwritten for Desktop screen via media query.
+*/
+#header-group {
   padding: 0px 35px;
-  /* Aggiunge uno spazio orizzontale di 35px su entrambi i lati del header */
+  /* Padding di 35px sopra e sotto */
+  max-width: 1080px;
+  /* Impone una larghezza massima di 1080px per il contenitore dell'header */
+  margin-left: auto;
+  /* Allinea il contenitore dell'header al centro orizzontale */
+  margin-right: auto;
+  /* Allinea il contenitore dell'header al centro orizzontale */
+  display: flex;
+  /* Utilizza Flexbox per organizzare gli elementi all'interno del contenitore */
+  flex-direction: column;
+  /* Imposta l'orientamento verticali per gli elementi all'interno */
+  justify-content: center;
 }
 
-/* For Desktop */
-@media screen and (min-width: 1024px) {
+/* For Desktop, Tablets or iPad, and Laptop or small-size screen */
+@media screen and (min-width: 480px) {
   #header-group {
-    max-width: 1080px;
-    /* Impone una larghezza massima di 1080px per il contenitore dell'header */
-    margin-left: auto;
-    /* Allinea il contenitore dell'header al centro orizzontale */
-    margin-right: auto;
-    /* Allinea il contenitore dell'header al centro orizzontale */
-    display: flex;
-    /* Utilizza Flexbox per organizzare gli elementi all'interno del contenitore */
     flex-direction: row;
     /* Imposta l'orientamento orizzontale per gli elementi all'interno */
     justify-content: space-between;
     /* Distribuisce lo spazio in modo uniforme tra gli elementi del contenitore */
-  }
-}
-
-/* For Tablets or iPad */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  #header-group {
-    max-width: 1080px;
-    /* Impone una larghezza massima di 1080px per il contenitore dell'header */
-    margin-left: auto;
-    /* Allinea il contenitore dell'header al centro orizzontale */
-    margin-right: auto;
-    /* Allinea il contenitore dell'header al centro orizzontale */
-    display: flex;
-    /* Utilizza Flexbox per organizzare gli elementi all'interno del contenitore */
-    flex-direction: row;
-    /* Imposta l'orientamento orizzontale per gli elementi all'interno */
-    justify-content: space-between;
-  }
-}
-
-/* For Laptop or small-size screen */
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  #header-group {
-    max-width: 1080px;
-    /* Impone una larghezza massima di 1080px per il contenitore dell'header */
-    margin-left: auto;
-    /* Allinea il contenitore dell'header al centro orizzontale */
-    margin-right: auto;
-    /* Allinea il contenitore dell'header al centro orizzontale */
-    display: flex;
-    /* Utilizza Flexbox per organizzare gli elementi all'interno del contenitore */
-    flex-direction: row;
-    /* Imposta l'orientamento orizzontale per gli elementi all'interno */
-    justify-content: space-between;
-  }
-}
-
-/* For Mobile Phones */
-@media screen and (max-width: 479px) {
-  #header-group {
-    max-width: 1080px;
-    /* Impone una larghezza massima di 1080px per il contenitore dell'header */
-    margin-left: auto;
-    /* Allinea il contenitore dell'header al centro orizzontale */
-    margin-right: auto;
-    /* Allinea il contenitore dell'header al centro orizzontale */
-    display: flex;
-    /* Utilizza Flexbox per organizzare gli elementi all'interno del contenitore */
-    flex-direction: column;
-    /* Imposta l'orientamento verticali per gli elementi all'interno */
-    justify-content: center;
   }
 }
 
@@ -633,12 +600,18 @@ nav ul li a {
 /* Stile per il piè di pagina (footer) */
 footer {
   background-color: #1d67b2;
+  /* Imposta lo sfondo del piè di pagina a un colore blu */
   padding: 30px 30px 30px 30px;
+  /* Imposta il padding su tutti i lati del footer a 30px */
   text-align: left;
 }
 
+/* Stile per la sezione del footer (site-info) */
 #site-info {
   color: #f2f2f2;
+  /* Imposta il colore del testo su grigio chiaro */
   margin: 25px 0px 0px 0px;
+  /* Aggiunge uno spazio sopra l'elemento */
   text-align: center;
+  /* Centra il testo orizzontalmente */
 }

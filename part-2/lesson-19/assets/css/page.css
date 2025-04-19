@@ -11,41 +11,16 @@
   padding: 35px;
 }
 
-/* For Desktop */
-@media screen and (min-width: 1024px) {
-  #page-container {
-    max-width: 1080px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-/* For Tablets or iPad */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  #page-container {
-    max-width: 1080px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-/* For Laptop or small-size screen */
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  #page-container {
-    max-width: 1080px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-/* For Mobile Phones */
-@media screen and (max-width: 479px) {
-  #page-container {
-    padding: 10px;
-    max-width: 1080px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+#page-container {
+  padding: 10px;
+  /* Imposta la larghezza massima del contenitore a 1080px */
+  max-width: 1080px;
+  /* Imposta un margine sinistro automatico per centrare il contenitore orizzontalmente */
+  margin-left: auto;
+  /* Imposta un margine destro automatico per centrare il contenitore orizzontalmente */
+  margin-right: auto;
+  overflow: hidden;
+  /* Forza il contenitore ad adattarsi anche agli elementi flottanti (immagini) al suo interno. */
 }
 
 p {
@@ -56,58 +31,38 @@ ol {
   list-style-position: inside;
 }
 
-/* For Desktop */
-@media screen and (min-width: 1024px) {
+/* Immagini a sinistra */
+img.img-left {
+  padding: 10px 10px 10px 10px;
+}
+
+img.img-right {
+  padding: 10px 10px 10px 10px;
+}
+
+/* For Laptop and small-size screens, Tablets or iPad, Desktop */
+@media screen and (min-width: 480px) {
   img.img-left {
     padding: 10px 10px 10px 0px;
+    /* Aggiunge padding ai lati dell'immagine */
     float: left;
+    /* Fa fluttuare l'immagine a sinistra */
   }
 
   img.img-right {
     padding: 10px 0px 10px 10px;
+    /* Aggiunge padding ai lati dell'immagine */
     float: right;
+    /* Fa fluttuare l'immagine a destra */
   }
 }
 
-/* For Tablets or iPad */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  img.img-left {
-    padding: 10px 10px 10px 0px;
-    float: left;
-  }
-
-  img.img-right {
-    padding: 10px 0px 10px 10px;
-    float: right;
-  }
-}
-
-/* For Laptop or small-size screen */
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  img.img-left {
-    padding: 10px 10px 10px 0px;
-    float: left;
-  }
-
-  img.img-right {
-    padding: 10px 0px 10px 10px;
-    float: right;
-  }
-}
-
-/* For Mobile Phones */
-@media screen and (max-width: 479px) {
-  img.img-left {
-    padding: 10px 10px 10px 10px;
-  }
-
-  img.img-right {
-    padding: 10px 10px 10px 10px;
-  }
-}
-
+/* Citazioni in blocco (blockquote) */
 blockquote {
   background: #f5f7f9;
+  /* Imposta uno sfondo grigio chiaro per la citazione */
   border-bottom: 1px solid #d8dee9;
+  /* Aggiunge una linea di separazione inferiore alla citazione */
   padding: 10px 10px 10px 10px;
+  /* Aggiunge padding su tutti i lati */
 }

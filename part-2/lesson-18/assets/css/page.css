@@ -4,12 +4,15 @@
     Vedi https://opensource.org/licenses/MIT per i dettagli.
 */
 
+/* ################################################################################# Main ################################################################################ */
+
 #page-main {
   background: #fcfcfc;
   padding: 35px;
 }
 
 #page-container {
+  padding: 10px;
   /* Imposta la larghezza massima del contenitore a 1080px */
   max-width: 1080px;
   /* Imposta un margine sinistro automatico per centrare il contenitore orizzontalmente */

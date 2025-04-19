@@ -4,6 +4,11 @@
     Vedi https://opensource.org/licenses/MIT per i dettagli.
 */
 
+/*
+ * ################################################################################
+ * # Global definitions
+ * ################################################################################
+*/
 /* Impostazioni generali per il corpo della pagina */
 body {
   margin: 0 auto;
@@ -26,6 +31,11 @@ body {
   /* Imposta il colore del bordo a nero */
 }
 
+/*
+ * ################################################################################
+ * # Header definitions
+ * ################################################################################
+ */
 /* Stile per l'intestazione (header) */
 header {
   background-color: #FCFCFC;

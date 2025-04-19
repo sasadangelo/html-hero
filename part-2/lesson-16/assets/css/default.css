@@ -4,6 +4,11 @@
     Vedi https://opensource.org/licenses/MIT per i dettagli.
 */
 
+/*
+ * ################################################################################
+ * # Global definitions
+ * ################################################################################
+*/
 /* Impostazioni generali per il corpo della pagina */
 body {
   margin: 0 auto;
@@ -19,6 +24,11 @@ body {
   overflow: hidden;
 }
 
+/*
+ * ################################################################################
+ * # Header definitions
+ * ################################################################################
+ */
 /* Stile per l'intestazione (header) */
 header {
   background-color: #FCFCFC;
@@ -26,12 +36,9 @@ header {
   width: 100%;
 }
 
-#header-area {
-  padding: 0px 35px;
-  /* Aggiunge uno spazio orizzontale di 35px su entrambi i lati del header */
-}
-
 #header-group {
+  padding: 0px 35px;
+  /* Padding di 35px sopra e sotto */
   max-width: 1080px;
   /* Impone una larghezza massima di 1080px per il contenitore dell'header */
   margin-left: auto;
@@ -46,6 +53,9 @@ header {
   /* Distribuisce lo spazio in modo uniforme tra gli elementi del contenitore */
 }
 
+/*
+ * Logo area
+ */
 /* Stile per il logo */
 #logo {
   display: flex;
@@ -56,6 +66,9 @@ header {
   /* Centra il logo orizzontalmente */
 }
 
+/*
+ * Social Button area
+ */
 /* Stile per il gruppo social media */
 #social-media-group {
   box-sizing: border-box;
@@ -252,6 +265,11 @@ header {
   /* Abilita il font-smoothing su Webkit */
 }
 
+/*
+ * ################################################################################
+ * # Menu area
+ * ################################################################################
+ */
 #navigation {
   background-color: #1D67B2;
   /* Imposta il colore di sfondo della barra di navigazione */
