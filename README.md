@@ -20,7 +20,7 @@ In questa sezione aggiungerai un tocco di stile con il CSS: creerai un layout co
 
 Concludi il tuo sito aggiungendo contenuti chiave: la pagina "Chi siamo", i contatti, una sezione risorse e altro ancora.
 
-👉 [Vai alla Parte 2](https://github.com/sasadangelo/html-hero/tree/master/part-3)
+👉 [Vai alla Parte 3](https://github.com/sasadangelo/html-hero/tree/master/part-3)
 
 ## ▶️ Risorse utili
 
