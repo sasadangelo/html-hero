@@ -1,0 +1,69 @@
+/*
+    © 2025 Salvatore D'Angelo
+    Questo progetto è distribuito sotto licenza MIT.
+    Vedi https://opensource.org/licenses/MIT per i dettagli.
+*/
+
+/* ################################################################################# Main ################################################################################ */
+
+#page-main {
+  background: #fcfcfc;
+  padding: 35px;
+}
+
+#page-container {
+  padding: 10px;
+  /* Imposta la larghezza massima del contenitore a 1080px */
+  max-width: 1080px;
+  /* Imposta un margine sinistro automatico per centrare il contenitore orizzontalmente */
+  margin-left: auto;
+  /* Imposta un margine destro automatico per centrare il contenitore orizzontalmente */
+  margin-right: auto;
+  overflow: hidden;
+  /* Forza il contenitore ad adattarsi anche agli elementi flottanti (immagini) al suo interno. */
+}
+
+p {
+  color: #666666;
+  text-align: justify;
+}
+
+ol {
+  list-style-position: inside;
+}
+
+/* Immagini a sinistra */
+img.img-left {
+  padding: 10px 10px 10px 10px;
+}
+
+img.img-right {
+  padding: 10px 10px 10px 10px;
+}
+
+/* For Laptop and small-size screens, Tablets or iPad, Desktop */
+@media screen and (min-width: 480px) {
+  img.img-left {
+    padding: 10px 10px 10px 0px;
+    /* Aggiunge padding ai lati dell'immagine */
+    float: left;
+    /* Fa fluttuare l'immagine a sinistra */
+  }
+
+  img.img-right {
+    padding: 10px 0px 10px 10px;
+    /* Aggiunge padding ai lati dell'immagine */
+    float: right;
+    /* Fa fluttuare l'immagine a destra */
+  }
+}
+
+/* Citazioni in blocco (blockquote) */
+blockquote {
+  background: #f5f7f9;
+  /* Imposta uno sfondo grigio chiaro per la citazione */
+  border-bottom: 1px solid #d8dee9;
+  /* Aggiunge una linea di separazione inferiore alla citazione */
+  padding: 10px 10px 10px 10px;
+  /* Aggiunge padding su tutti i lati */
+}

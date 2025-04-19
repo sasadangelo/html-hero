@@ -1,13 +1,19 @@
-# HTML Tutorial (part 3)
+# 🚀 HTML & CSS Hero – Corso Completo per Principianti (Parte III)
 
-The goal of the third part of this tutorial is to create the look and feel of
-the website on top of the structure we defined in part 2.
+Benvenuto alla terza parte del tutorial **HTML & CSS Hero – Corso Completo per Principianti**!
+In questa parte, ci concentreremo sulla creazione dei contenuti e delle pagine specifiche del sito. Durante questo percorso, costruiremo pagine come "Chi Sono", "Start Here", "Risorse", "Progetti" e "Galleria". Ogni pagina avrà un contenuto mirato per fornire informazioni utili agli utenti.
 
-## The Lessons
+🎯 **Obiettivo**: Alla fine di questa parte, avrai creato le pagine fondamentali del sito con i contenuti specifici, pronte per essere arricchite di stile e interazione nelle parti successive del progetto.
 
-* [Lesson 19](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-19)
-* [Lesson 20](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-20)
-* [Lesson 21](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-21)
-* [Lesson 22](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-22)
-* [Lesson 23](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-23)
-* [Lesson 24](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-24)
+## 📘 Lezioni incluse
+
+Questa terza parte è composta da 6 lezioni pratiche:
+
+* [Lezione 19: Creiamo la pagina “Chi Sono”](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-20)
+* [Lezione 20: Creiamo la pagina “Start Here”](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-21)
+* [Lezione 21: Creiamo la pagina delle Risorse](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-22)
+* [Lezione 22: Creiamo la pagina dei Progetti](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-23)
+* [Lezione 23: Creiamo una Galleria di immagini](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-24)
+* [Lezione 24: Creiamo una pagina di contatti e finalizziamo il sito](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-25)
+
+**💡 Consiglio**: Segui anche il [video tutorial su YouTube](https://www.youtube.com/watch?v=cNk0bVEMb3U) per avere una spiegazione visiva e pratica mentre lavori sul codice!
