@@ -10,7 +10,7 @@ In questa parte, ci concentreremo sulla creazione dei contenuti e delle pagine s
 Questa terza parte è composta da 6 lezioni pratiche:
 
 * [Lezione 20: Creiamo la pagina “Chi Sono”](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-20)
-* [Lezione 21: Creiamo la pagina “Start Here”](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-21)
+* [Lezione 21: Creiamo la pagina “Inizia Qui”](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-21)
 * [Lezione 22: Creiamo la pagina delle Risorse](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-22)
 * [Lezione 23: Creiamo la pagina dei Progetti](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-23)
 * [Lezione 24: Creiamo una Galleria di immagini](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-24)
