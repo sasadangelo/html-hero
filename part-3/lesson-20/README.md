@@ -1,34 +1,35 @@
-# 📘 Lezione 20 - Rendiamo il nostro sito web Responsive
+# 📘 Lezione 20 - Creiamo la pagina “Chi Sono”
 
-In questa lezione ci dedicheremo a rendere il nostro sito web **completamente responsive**, ovvero capace di adattarsi automaticamente a qualsiasi tipo di dispositivo: desktop, tablet, laptop e smartphone. In questo modo miglioreremo notevolmente l’esperienza utente (UX) su ogni schermo.
+In questa lezione ci dedicheremo a creare la prima vera pagina del nostro sito web: la pagina **Chi Sono**. Questa pagina è fondamentale per introdurre te stesso e il tuo progetto ai visitatori del sito. È il primo passo per costruire una connessione con il pubblico e per comunicare chi sei, cosa fai e perché sei il punto di riferimento giusto per le informazioni che offri.
 
 ## 🎓 Cosa Imparerai?
 
 Durante questa lezione scoprirai come:
 
-- Utilizzare il meta tag `<meta name="viewport">` per il supporto ai dispositivi mobili
-- Applicare **media query CSS** per adattare il layout a diverse dimensioni di schermo
-- Cambiare il layout dell’header a seconda del dispositivo
-- Costruire un **hamburger menu** per la navigazione su smartphone
-- Migliorare la leggibilità e l’usabilità del sito su schermi piccoli
+- Creare la struttura base della pagina "Chi Sono" utilizzando HTML5
+- Organizzare il contenuto in modo chiaro e interessante
+- Aggiungere sezioni come una breve biografia, competenze e contatti
+- Utilizzare immagini e icone per rendere il contenuto visivamente interessante
 
 ## 🖼️ Panoramica
 
-Affronteremo le basi del **responsive web design**, una pratica essenziale nello sviluppo moderno. Utilizzeremo strumenti semplici ma potenti come il tag viewport, le media query e i layout flessibili con Flexbox, per rendere il nostro sito bello e funzionale ovunque.
+La pagina "Chi Sono" è una delle prime cose che gli utenti cercano quando visitano un sito web. Serve a presentarti in modo professionale, ma anche a creare un legame umano con chi naviga. Non solo fornisce una panoramica delle tue competenze e del tuo background, ma è anche un'opportunità per mostrare la tua personalità e ciò che ti differenzia.
 
-Il focus sarà sull’**header** e sul menu di navigazione, due elementi cruciali per la UX. Per gli schermi piccoli implementeremo un menu compatto (hamburger menu), mentre per desktop e tablet manterremo una disposizione orizzontale e spaziosa.
+In questa lezione, esploreremo come strutturare il contenuto della pagina in modo efficace, utilizzando:
+
+- **Sezioni chiare**: Introduzione, Esperienza, Competenze, e altro.
+- **Elementi visivi**: Aggiungere immagini del tuo profilo o icone per le competenze.
+- **Link social**: Integrare i tuoi profili social per permettere agli utenti di connettersi con te facilmente.
 
 ## 🎯 Obiettivo
 
-L’obiettivo della lezione è **rendere il layout del sito adattabile e funzionale su tutti i dispositivi**, rispettando le best practice del responsive design.
+L’obiettivo della lezione è creare una pagina "Chi Sono" completa che:
 
-Al termine della lezione, il sito sarà:
+- Offra una panoramica chiara e concisa di chi sei
+- Sia facilmente leggibile e accattivante per gli utenti
+- Sia organizzata in modo che i visitatori possano trovare rapidamente le informazioni principali
+- Mostri la tua personalità attraverso un design ben curato
 
-- Perfettamente leggibile su smartphone
-- Ottimizzato per tablet e laptop
-- Ordinato e centrato su grandi schermi desktop
-- Dotato di un menu mobile pratico e accessibile
+## ✅ Conclusione
 
-# ✅ Conclusione
-
-Con questa lezione hai imparato a trasformare un sito statico in un sito **dinamicamente adattabile**. La responsività è uno standard imprescindibile oggi, e con questi strumenti sei già in grado di sviluppare interfacce moderne, flessibili e accessibili.
+Alla fine di questa lezione, avrai creato la tua pagina "Chi Sono", un elemento chiave per qualsiasi sito web personale o professionale. La sua importanza non può essere sottovalutata: è la tua opportunità di fare una buona prima impressione sui tuoi visitatori, mostrando loro chi sei, cosa fai e come possono connettersi con te.

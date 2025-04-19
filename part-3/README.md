@@ -9,11 +9,11 @@ In questa parte, ci concentreremo sulla creazione dei contenuti e delle pagine s
 
 Questa terza parte è composta da 6 lezioni pratiche:
 
-* [Lezione 19: Creiamo la pagina “Chi Sono”](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-20)
-* [Lezione 20: Creiamo la pagina “Start Here”](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-21)
-* [Lezione 21: Creiamo la pagina delle Risorse](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-22)
-* [Lezione 22: Creiamo la pagina dei Progetti](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-23)
-* [Lezione 23: Creiamo una Galleria di immagini](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-24)
-* [Lezione 24: Creiamo una pagina di contatti e finalizziamo il sito](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-25)
+* [Lezione 20: Creiamo la pagina “Chi Sono”](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-20)
+* [Lezione 21: Creiamo la pagina “Start Here”](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-21)
+* [Lezione 22: Creiamo la pagina delle Risorse](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-22)
+* [Lezione 23: Creiamo la pagina dei Progetti](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-23)
+* [Lezione 24: Creiamo una Galleria di immagini](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-24)
+* [Lezione 25: Creiamo una pagina di contatti e finalizziamo il sito](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-25)
 
 **💡 Consiglio**: Segui anche il [video tutorial su YouTube](https://www.youtube.com/watch?v=cNk0bVEMb3U) per avere una spiegazione visiva e pratica mentre lavori sul codice!
