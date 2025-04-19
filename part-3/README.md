@@ -1,7 +1,7 @@
 # 🚀 HTML & CSS Hero – Corso Completo per Principianti (Parte III)
 
 Benvenuto alla terza parte del tutorial **HTML & CSS Hero – Corso Completo per Principianti**!
-In questa parte, ci concentreremo sulla creazione dei contenuti e delle pagine specifiche del sito. Durante questo percorso, costruiremo pagine come "Chi Sono", "Start Here", "Risorse", "Progetti" e "Galleria". Ogni pagina avrà un contenuto mirato per fornire informazioni utili agli utenti.
+In questa parte, ci concentreremo sulla creazione dei contenuti e delle pagine specifiche del sito. Durante questo percorso, costruiremo pagine come "Chi Sono", "Inizia Qui", "Risorse", "Progetti" e "Galleria". Ogni pagina avrà un contenuto mirato per fornire informazioni utili agli utenti.
 
 🎯 **Obiettivo**: Alla fine di questa parte, avrai creato le pagine fondamentali del sito con i contenuti specifici, pronte per essere arricchite di stile e interazione nelle parti successive del progetto.
 
