@@ -1,0 +1,186 @@
+<!--
+    © 2025 Salvatore D'Angelo
+    Questo progetto è distribuito sotto licenza MIT.
+    Vedi https://opensource.org/licenses/MIT per i dettagli.
+-->
+<!DOCTYPE html> <!-- Dichiara il tipo di documento: HTML5 -->
+<html lang="it"> <!-- Inizio del documento HTML, con lingua impostata su italiano -->
+
+<head>
+    <!--
+        Specifica la codifica dei caratteri del documento.
+        "UTF-8" è una codifica universale che supporta la maggior parte dei caratteri delle lingue del mondo,
+        inclusi gli accenti, i simboli speciali e le emoji. È fondamentale per evitare problemi di visualizzazione
+        con testi in italiano o multilingua.
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML Hero</title> <!-- Titolo della pagina, visibile nella scheda del browser -->
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="assets/css/default.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/page.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/brands.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome.css">
+</head>
+
+<body>
+    <div id="page">
+        <header>
+            <div id="header-group">
+                <div id="logo">
+                    <img src="assets/img/code4projects-logo-mini.webp" alt="Code4Projects Logo" width="150"
+                        height="150">
+                </div>
+                <div id="social-media-group">
+                    <div class="social-media-title">Seguimi su:</div>
+                    <div class="social-media-icons">
+                        <a aria-label="Code4Projects Facebook page" title="Code4Projects Facebook page"
+                            class="social-media-icon social-media-icon-facebook"
+                            href="https://www.facebook.com/code4projects/">
+                            <span class="fa-brands fa-facebook-f"></span>
+                        </a>
+                        <a aria-label="Code4Projects Twitter page" title="Code4Projects Twitter page"
+                            class="social-media-icon social-media-icon-twitter"
+                            href="https://twitter.com/code4projects">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a aria-label="Code4Projects Linkedin page" title="Code4Projects Linkedin page"
+                            class="social-media-icon social-media-icon-linkedin"
+                            href="https://www.linkedin.com/in/salvatore-d-angelo-0321851/">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a aria-label="Code4Projects Youtube channel" title="Code4Projects Youtube channel"
+                            class="social-media-icon social-media-icon-youtube"
+                            href="https://www.youtube.com/channel/UCBntvkFS3phHOFAWNS8_4pg/">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                        <a aria-label="Code4Projects Github page" title="Code4Projects Github page"
+                            class="social-media-icon social-media-icon-github" href="https://github.com/sasadangelo">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="navigation">
+            <!-- Hamburger icon -->
+            <input class="drop-menu-checkbox" type="checkbox" id="drop-menu-checkbox">
+            <label class="hamburger" for="drop-menu-checkbox">
+                <span class="hamburger-line"></span>
+            </label>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="chi_sono.html">Chi Sono</a></li>
+                    <li><a href="start_here.html">Nuovo Utente? Inizia Qui</a></li>
+                    <li><a href="quarta_pagina.html">Quarta Pagina</a></li>
+                    <li><a href="quinta_pagina.html">Quinta Pagina</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main class="page-main">
+            <div id="page-container">
+                <!-- Contenuto visibile della pagina -->
+
+                <!--
+                    Le intestazioni HTML (da <h1> a <h6>) rappresentano titoli di diverso livello.
+                    <h1> è il titolo principale, <h2> è un sottotitolo, e così via fino a <h6>.
+                    È buona pratica usare solo un <h1> per pagina.
+                -->
+                <h1>Nuovo Utente? Inizia Qui</h1>
+                <!--
+                    Il tag <p> definisce un paragrafo di testo.
+                    In questo esempio usiamo del testo generico in latino ("Lorem Ipsum")
+                    comunemente utilizzato nel web design per riempire lo spazio e simulare
+                    del contenuto reale durante la fase di progettazione.
+                -->
+                <p>
+                    Se questa è la prima volta che visiti questo sito, probabilmente ti starai chiedendo come possa
+                    aiutarti a diventare un programmatore migliore. Nella pagina seguente, spiego perché ho creato
+                    questo sito e quali benefici puoi ottenere come programmatore hobbista o professionista.
+                </p>
+                <h2>Chi Sono?</h2>
+                <img class="responsive_img" src="assets/img/salvatore_d_angelo.jpeg" alt="Salvatore D'Angelo">
+                <p>
+                    Mi chiamo Salvatore D’Angelo e sono un ingegnere software professionista che lavora per una nota
+                    azienda di software americana. Puoi leggere <a href="chi_sono.html">la mia storia qui</a>.
+                </p>
+                <h2>Qual è la mia esperienza?</h2>
+                <p>
+                    Con oltre 30 anni di esperienza come sviluppatore software professionista, ho avuto l'opportunità
+                    di lavorare su numerosi progetti. Puoi leggere la mia carriera completa sulla mia
+                    <a href="https://www.linkedin.com/in/salvatore-d-angelo-0321851/">pagina Linkedin</a>.
+                    Ho avuto la fortuna di essere coinvolto in tutte le fasi del ciclo di sviluppo del software.
+                </p>
+                <figure>
+                    <img class="responsive_img" src="assets/img/software-developer2.jpg" alt="Software Developer">
+                    <figcaption>Foto da <a
+                            href="https://clipartstation.com/software-developer-clipart-5/">https://clipartstation.com</a>
+                    </figcaption>
+                </figure>
+                <h2>Perché questo sito web?</h2>
+                <p>
+                    Amo scrivere, penso che la scrittura sia uno strumento fantastico per consolidare le mie conoscenze.
+                    Per questo motivo, ho deciso di aprire questo sito web per condividere tutto ciò che ho imparato
+                    negli ultimi anni. <strong>Credo che possa aiutare altre persone che vogliono avvicinarsi a questo
+                        fantastico mondo, sia professionalmente che come hobby</strong>.
+                </p>
+                <figure>
+                    <img class="responsive_img" src="assets/img/sharing-knowledge.png" alt="Condivisione Conoscenza">
+                </figure>
+                <p>
+                    Ho sempre creduto che il modo migliore per imparare un nuovo linguaggio di programmazione o
+                    una nuova tecnologia sia creare un piccolo progetto con esso.
+                </p>
+                <p>
+                    Questa sarà la filosofia di questo sito web: <strong>spiegare come utilizzare linguaggi di
+                        programmazione e tecnologie attraverso piccoli progetti o tutorial spiegati passo dopo
+                        passo</strong>.
+                </p>
+                <p>
+                    Questa filosofia e la mia prospettiva sul mondo dello sviluppo software sono un buon mix per
+                    aiutarti a capire come imparare un linguaggio di programmazione o una tecnologia, quali sono le cose
+                    che contano davvero e come le aziende oggi affrontano le nuove sfide che il mondo pone loro.
+                </p>
+                <h2>Come Iniziare?</h2>
+                <p>
+                    Questo sito web contiene una serie di progetti in cui spiego, passo dopo passo, come utilizzare una
+                    tecnologia specifica. Ti consiglio di visitare la pagina Progetti e cercare un progetto che ti
+                    interessa.
+                </p>
+                <p>
+                    In tutti questi anni di esperienza, ho imparato che le persone imparano più velocemente quando
+                    studiano qualcosa che le appassiona.
+                </p>
+                <p>
+                    Tutti i progetti e i tutorial forniscono il codice sorgente che puoi scaricare dalla
+                    <a href="https://github.com/sasadangelo">mia pagina GitHub</a>.
+                </p>
+                <p>Una volta selezionato un progetto, leggi gli articoli e cerca di comprendere i concetti di base. In
+                    questa fase, non è importante che tu capisca tutto e ogni parte del codice sorgente. Quando i
+                    concetti di base sono chiari, puoi scaricare il codice sorgente e iniziare a sperimentare.
+                </p>
+                <figure>
+                    <img class="responsive_img" src="assets/img/make-project.png" alt="Crea Progetti">
+                </figure>
+                <p>
+                    Quando sarai in grado di eseguire il software, puoi entrare nei dettagli e analizzare come funziona.
+                    In questa fase, puoi fare il fork dei progetti e provare a correggere dei bug o aggiungere nuove
+                    funzionalità. Sentiti libero di farlo e fare una pull request. Sarò felice di unire il tuo
+                    contributo nel codice originale.
+                </p>
+                <p>
+                    Nel mio blog, ci sono alcuni articoli stand-alone che non sono inclusi in nessun progetto. Puoi
+                    trovarli partendo dalla pagina Blog e cliccando sui link in fondo alla pagina.
+                </p>
+            </div>
+        </main>
+        <footer>
+            <div id="site-info">
+                Code4Projects, Copyright Salvatore D'Angelo © 2016-2025.
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
