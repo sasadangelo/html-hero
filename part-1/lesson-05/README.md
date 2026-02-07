@@ -1,21 +1,22 @@
-# 📘 Lezione 5 - Aggiungi un secondo Paragrafo
+# 📘 Lesson 5 – Add a Second Paragraph
 
-In questa lezione impari a usare più paragrafi e cosa accade con un paragrafo vuoto.
+In this lesson, you’ll learn how to use multiple paragraphs and what happens when a paragraph is empty.
 
-## 🎓 Cosa Imparerai?
+## 🎓 What Will You Learn?
 
-- Inserire più paragrafi all’interno della stessa sezione
-- Capire il comportamento di un paragrafo vuoto (`<p />`)
-- Continuare a migliorare la struttura del contenuto
+- How to insert multiple paragraphs within the same section  
+- Understand the behavior of an empty paragraph (`<p />`)  
+- Continue improving your content structure  
 
-## 🖼️ Panoramica
+## 🖼️ Overview
 
-Stiamo costruendo passo dopo passo la struttura di una pagina HTML. Dopo aver introdotto titoli e paragrafi, ora aggiungiamo un ulteriore paragrafo di contenuto e un paragrafo vuoto per osservare il suo effetto sulla visualizzazione.
+We’re building the structure of an HTML page step by step. After introducing headings and paragraphs, we now add another content paragraph and an empty paragraph to observe its effect on the page rendering.
 
-## 🎯 Obiettivo
+## 🎯 Goal
 
-Comprendere come i paragrafi si comportano nel flusso del documento e come HTML interpreta un elemento `<p>` privo di contenuto.
+Understand how paragraphs behave in the document flow and how HTML interprets an empty `<p>` element.
 
-## ✅ Conclusione
+## ✅ Conclusion
 
-Ora sei in grado di usare paragrafi consecutivi e gestire correttamente anche quelli vuoti, migliorando la leggibilità della tua pagina.
+You can now use consecutive paragraphs and properly handle empty ones, improving the readability of your page.
+
