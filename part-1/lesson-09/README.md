@@ -1,19 +1,22 @@
-# 📘 Lezione 9 - Liste ordinate e non ordinate
+# 📘 Lesson 9 – Ordered and Unordered Lists
 
-In questa lezione, esploreremo le **liste ordinate** e **non ordinate** in HTML, due elementi fondamentali per organizzare e visualizzare elenchi di dati in una pagina web.
+In this lesson, we’ll explore **ordered** and **unordered** lists in HTML, two fundamental elements for organizing and displaying lists of data on a web page.
 
-## 🎓 Cosa Imparerai?
+## 🎓 What Will You Learn?
 
-- Come creare una **lista non ordinata** (ul) con **elenco puntato**.
-- Come creare una **lista ordinata** (ol) con **numerazione**.
-- Utilizzare i tag `<li>` per definire ogni elemento dell'elenco.
-- Aggiungere link e altri contenuti all'interno delle liste.
+- How to create an **unordered list** (`ul`) with **bullet points**  
+- How to create an **ordered list** (`ol`) with **numbering**  
+- How to use the `<li>` tag to define each list item  
+- How to add links and other content inside lists  
 
-## 🖼️ Panoramica
-Abbiamo visto come utilizzare le liste ordinate e non ordinate in HTML per organizzare e visualizzare elenchi. Le liste ordinate sono numerate automaticamente dal browser, mentre le liste non ordinate utilizzano punti elenco per separare gli elementi.
+## 🖼️ Overview
 
-## 🎯 Obiettivo
-L'obiettivo di questa lezione è imparare a strutturare elenchi di informazioni in una pagina HTML utilizzando le liste ordinate e non ordinate. Inoltre, è stato mostrato come inserire link all'interno delle liste per navigare tra le pagine del sito.
+We learned how to use ordered and unordered lists in HTML to organize and display lists. Ordered lists are automatically numbered by the browser, while unordered lists use bullet points to separate items.
 
-## ✅ Conclusione
-In questa lezione abbiamo appreso come utilizzare le liste in HTML per creare una struttura ordinata e chiara nelle nostre pagine web. Le liste ordinate e non ordinate sono strumenti utili per organizzare informazioni e migliorare l'usabilità del sito. L'inclusione di link nelle liste rende la navigazione tra le pagine ancora più fluida e intuitiva.
+## 🎯 Goal
+
+The goal of this lesson is to learn how to structure lists of information on an HTML page using ordered and unordered lists. You’ll also see how to include links within lists to navigate between pages of your site.
+
+## ✅ Conclusion
+
+In this lesson, we learned how to use lists in HTML to create clear and organized structures on our web pages. Ordered and unordered lists are useful tools for organizing information and improving site usability. Including links within lists makes navigation between pages even smoother and more intuitive.
