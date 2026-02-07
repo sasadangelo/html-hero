@@ -1,21 +1,21 @@
-# 📘 Lezione 6 - Aggiungi tutti i paragrafi in 4 Sezioni diverse
+# 📘 Lesson 6 – Add All Paragraphs into 4 Different Sections
 
-In questa lezione aggiungiamo ulteriore struttura alla pagina con intestazioni e paragrafi più profondi.
+In this lesson, we add more structure to the page using deeper headings and paragraphs.
 
-## 🎓 Cosa Imparerai?
+## 🎓 What Will You Learn?
 
-- Utilizzare le intestazioni `<h3>` e `<h4>` per suddividere ulteriormente il contenuto
-- Gestire paragrafi aggiuntivi all’interno delle nuove sezioni
-- Capire l’organizzazione gerarchica del contenuto in HTML
+- How to use `<h3>` and `<h4>` headings to further divide your content  
+- How to manage additional paragraphs within the new sections  
+- Understand the hierarchical organization of content in HTML  
 
-## 🖼️ Panoramica
+## 🖼️ Overview
 
-Dopo aver appreso le intestazioni di primo e secondo livello, estendiamo la gerarchia della pagina HTML introducendo sezioni di terzo e quarto livello. Ognuna di queste include più paragrafi, contribuendo a creare una struttura più dettagliata e leggibile.
+After learning first- and second-level headings, we extend the HTML page hierarchy by introducing third- and fourth-level sections. Each of these includes multiple paragraphs, helping to create a more detailed and readable structure.
 
-## 🎯 Obiettivo
+## 🎯 Goal
 
-Strutturare correttamente una pagina HTML con livelli di titoli inferiori, in modo da rendere il contenuto più navigabile e semanticamente organizzato.
+Properly structure an HTML page using lower-level headings to make content more navigable and semantically organized.
 
-## ✅ Conclusione
+## ✅ Conclusion
 
-Con le intestazioni `<h3>` e `<h4>` puoi creare sezioni più articolate, migliorando la chiarezza e la leggibilità della tua pagina.
+With `<h3>` and `<h4>` headings, you can create more articulated sections, improving clarity and readability across your page.
