@@ -1,34 +1,35 @@
-# 📘 Lezione 12 - Pubblica il tuo sito web su Internet
+# 📘 Lesson 12 – Publish Your Website on the Internet
 
-In questa lezione, imparerai come pubblicare il tuo sito web su Internet utilizzando il servizio di hosting gratuito di Altervista.
+In this lesson, you’ll learn how to publish your website on the Internet using Altervista’s free hosting service.
 
-## 🎓 Cosa imparerai?
+## 🎓 What You Will Learn
 
-Imparerai a creare uno spazio web per il tuo sito su Altervista, configurare il piano di hosting e pubblicare il tuo sito utilizzando un client FTP come FileZilla.
+You’ll learn how to create a web space for your site on Altervista, configure the hosting plan, and publish your website using an FTP client like FileZilla.
 
-## 🖼️ Panoramica
+## 🖼️ Overview
 
-Pubblicare il tuo sito web su Internet è il passo finale per renderlo accessibile a chiunque. In questa lezione, ti guiderò attraverso la creazione di uno spazio web gratuito su Altervista, la configurazione di un piano di hosting, e l'uso di FileZilla per caricare i tuoi file online.
+Publishing your website on the Internet is the final step to make it accessible to everyone. In this lesson, I’ll guide you through creating a free web space on Altervista, setting up a hosting plan, and using FileZilla to upload your files online.
 
-## 🎯 Obiettivo
+## 🎯 Goal
 
-L'obiettivo di questa lezione è di rendere il tuo sito web visibile al pubblico, facendolo pubblicare su un server online tramite Altervista e FileZilla. Alla fine di questa lezione, il tuo sito sarà live su Internet.
+The goal of this lesson is to make your website visible to the public by publishing it on an online server using Altervista and FileZilla. By the end of this lesson, your site will be live on the Internet.
 
-## Procedura per creare lo spazio web per il tuo sito
+## Steps to Create a Web Space for Your Website
 
-1. Accedi al sito di [Altervista](https://it.altervista.org/).
-2. Inserisci il nome del tuo sito web.
-3. Clicca sul bottone **Prosegui** relativo al dominio **<nome sito web>.altervista.org**.
-4. Inserisci i tuoi dati oppure registrati usando l'autenticazione di Google o Facebook.
-5. Completa i dati mancanti, accetta i Termini di Servizio, e clicca su reCAPTCHA per confermare che non sei un robot. Poi clicca su **Procedi**.
-6. Riceverai una prima email con un link che dovrai cliccare solo se vuoi segnalare qualche problema. Puoi ignorare questa prima email.
-7. Entro 48 ore riceverai una seconda email con un link cliccando il quale potrai attivare il tuo sito web.
-8. Altervista crea automaticamente uno spazio web con WordPress. Devi convertirlo in un piano di Hosting con FileManager.
-9. Per fare ciò, clicca sul menu **Impostazioni** -> **Passa ad Hosting**.
-10. Ti verrà chiesto di inserire il tuo numero di telefono, a cui verrà inviato, via SMS, un codice di verifica.
-11. Inserisci il codice che ti hanno inviato.
-12. Ti apparirà un nuovo form con altri dati da completare, poi clicca su **Procedi**.
-13. Conferma la richiesta cliccando sul bottone **Conferma**.
+1. Go to [Altervista](https://it.altervista.org/).  
+2. Enter the name of your website.  
+3. Click the **Continue** button for the domain **<your website name>.altervista.org**.  
+4. Enter your information or register using Google or Facebook authentication.  
+5. Complete the missing details, accept the Terms of Service, and click the reCAPTCHA to confirm you are not a robot. Then click **Proceed**.  
+6. You will receive a first email with a link that you only need to click if you want to report a problem. You can ignore this first email.  
+7. Within 48 hours, you will receive a second email with a link. Clicking it will activate your website.  
+8. Altervista automatically creates a web space with WordPress. You need to convert it to a Hosting plan with FileManager.  
+9. To do this, click the **Settings** menu -> **Switch to Hosting**.  
+10. You will be asked to enter your phone number, where a verification code will be sent via SMS.  
+11. Enter the code you received.  
+12. A new form with additional information will appear; complete it and click **Proceed**.  
+13. Confirm the request by clicking the **Confirm** button.
+
 
 ## Procedura per pubblicare il tuo sito online
 
