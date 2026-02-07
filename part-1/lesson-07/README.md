@@ -1,28 +1,29 @@
-# 📘 Lezione 7 - Migliora la leggibilità dei paragrafi con la formattazione
+# 📘 Lesson 7 – Improve Paragraph Readability with Formatting
 
-In questa lezione esploreremo i tag HTML per formattare il testo, inclusi il grassetto, il corsivo e il sottolineato.
+In this lesson, we’ll explore HTML tags for text formatting, including bold, italic, and underline.
 
-## 🎓 Cosa Imparerai?
+## 🎓 What Will You Learn?
 
-- Applicare il **grassetto** usando il tag `<b>` o `<strong>`
-- Usare il **corsivo** con il tag `<i>` o `<em>`
-- Aggiungere il **sottolineato** con il tag `<u>`
-- Comprendere la differenza tra `<b>` e `<strong>`, e tra `<i>` e `<em>`
+- How to apply **bold** using the `<b>` or `<strong>` tags  
+- How to use **italic** with the `<i>` or `<em>` tags  
+- How to add **underline** with the `<u>` tag  
+- Understand the difference between `<b>` and `<strong>`, and between `<i>` and `<em>`  
 
-## 🖼️ Panoramica
+## 🖼️ Overview
 
-In HTML, è possibile modificare l'aspetto del testo tramite vari tag di formattazione. In questa lezione, imparerai a:
-- **Grassetto** (`<b>`) per evidenziare il testo.
-- **Corsivo** (`<i>`) per enfatizzare una parola o frase.
-- **Sottolineato** (`<u>`) per aggiungere un effetto di sottolineatura.
+In HTML, you can change the appearance of text using various formatting tags. In this lesson, you’ll learn to:
 
-Oltre a questi, vedremo anche l'uso semantico di tag come `<strong>` e `<em>` che offrono un significato aggiuntivo rispetto ai tag puramente stilistici come `<b>` e `<i>`.
+- **Bold** (`<b>`) to emphasize text  
+- **Italic** (`<i>`) to highlight a word or phrase  
+- **Underline** (`<u>`) to add underlining  
 
-## 🎯 Obiettivo
+Additionally, we’ll cover the semantic use of tags like `<strong>` and `<em>`, which provide extra meaning beyond purely stylistic tags like `<b>` and `<i>`.
 
-- Rendere il testo più leggibile e visivamente distintivo.
-- Apprendere quando utilizzare i tag di formattazione stilistica rispetto a quelli semantici.
+## 🎯 Goal
 
-## ✅ Conclusione
+- Make text more readable and visually distinct  
+- Learn when to use stylistic formatting tags versus semantic tags  
 
-Questa lezione ti permette di aggiungere enfasi al testo e migliorarne la leggibilità utilizzando i tag HTML di formattazione del testo. Se usati correttamente, questi strumenti ti aiuteranno a presentare il contenuto in modo più accattivante.
+## ✅ Conclusion
+
+This lesson enables you to add emphasis and improve readability using HTML text formatting tags. When used correctly, these tools help present content in a more engaging and clear way.
