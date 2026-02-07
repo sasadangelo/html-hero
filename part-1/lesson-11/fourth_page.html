@@ -1,31 +1,56 @@
 <!--
     © 2025 Salvatore D'Angelo
-    Questo progetto è distribuito sotto licenza MIT.
-    Vedi https://opensource.org/licenses/MIT per i dettagli.
+    This project is distributed under the MIT license.
+    See https://opensource.org/licenses/MIT for details.
 -->
-<!DOCTYPE html> <!-- Dichiara il tipo di documento: HTML5 -->
-<html lang="it"> <!-- Inizio del documento HTML, con lingua impostata su italiano -->
+<!DOCTYPE html> <!-- Declares the document type: HTML5 -->
+<html lang="en"> <!-- Start of the HTML document, with language set to English -->
 
 <head>
-    <title>HTML Hero</title> <!-- Titolo della pagina, visibile nella scheda del browser -->
+    <title>HTML Hero</title> <!-- Page title, visible in the browser tab -->
+    <link rel="stylesheet" type="text/css" href="default.css">
     <!--
-        Specifica la codifica dei caratteri del documento.
-        "UTF-8" è una codifica universale che supporta la maggior parte dei caratteri delle lingue del mondo,
-        inclusi gli accenti, i simboli speciali e le emoji. È fondamentale per evitare problemi di visualizzazione
-        con testi in italiano o multilingua.
+        Specifies the character encoding of the document.
+        "UTF-8" is a universal encoding that supports most characters from world languages,
+        including accents, special symbols, and emojis. It's essential to avoid display issues
+        with multilingual texts.
     -->
     <meta charset="UTF-8">
 </head>
 
 <body>
-    <!-- Contenuto visibile della pagina -->
+    <!-- Visible page content -->
 
     <!--
-        Le intestazioni HTML (da <h1> a <h6>) rappresentano titoli di diverso livello.
-        <h1> è il titolo principale, <h2> è un sottotitolo, e così via fino a <h6>.
-        È buona pratica usare solo un <h1> per pagina.
+        HTML headings (from <h1> to <h6>) represent titles of different levels.
+        <h1> is the main title, <h2> is a subtitle, and so on up to <h6>.
+        It's good practice to use only one <h1> per page.
     -->
-    <h1>Intestazione di 1° livello - Quarta Pagina</h1>
+    <h1>Level 1 Heading - Fourth Page</h1>
+
+    <!--
+        Il tag <blockquote> è utilizzato per citare un lungo estratto di testo o una citazione da una fonte esterna.
+        Il testo all'interno del <blockquote> viene solitamente formattato con un rientro a sinistra per evidenziarlo rispetto al resto del contenuto.
+        In questo caso, il testo è un esempio di "Lorem ipsum" che simula un contenuto che potrebbe essere citato in un documento.
+    -->
+    <blockquote>
+        <b>Aut velit impedit</b> eos <b>fugiat praesentium</b> qui reiciendis iste qui dolores dolores
+        At quia atque ex expedita ullam. Vel eligendi possimus in odit aspernatur est
+        consequatur molestias.
+    </blockquote>
+    <!--
+        Questo è un elenco di link che permette la navigazione tra le pagine del sito.
+        Ogni elemento <li> contiene un link <a> che porta a una pagina HTML specifica.
+        Questo codice rappresenta il menù del sito web.
+    -->
+    <ul>
+        <li><a href="index.html">Click here to go to the first page</a></li>
+        <li><a href="second_page.html">Click here to go to the second page</a></li>
+        <li><a href="third_page.html">Click here to go to the third page</a></li>
+        <li><a href="fourth_page.html">Click here to go to the fourth page</a></li>
+        <li><a href="fifth_page.html">Click here to go to the fifth page</a></li>
+    </ul>
+    <h2>Level 2 Heading - Fourth Page</h2>
 
     <!--
         Il tag <p> definisce un paragrafo di testo.
@@ -34,24 +59,19 @@
         del contenuto reale durante la fase di progettazione.
     -->
     <p>
-        <b>Aut velit impedit</b> eos <b>fugiat praesentium</b> qui reiciendis iste qui dolores dolores
-        At quia atque ex expedita ullam. Vel eligendi possimus in odit aspernatur est
-        consequatur molestias.
-    </p>
-    <a href="index.html">Clicca qui per andare alla prima pagina</a><br />
-    <a href="seconda_pagina.html">Clicca qui per andare alla seconda pagina</a><br />
-    <a href="terza_pagina.html">Clicca qui per andare alla terza pagina</a><br />
-    <a href="quarta_pagina.html">Clicca qui per andare alla quarta pagina</a><br />
-    <a href="quinta_pagina.html">Clicca qui per andare alla quinta pagina</a><br />
-    <h2>Intestazione di 2° livello - Quarta Pagina</h2>
-    <p>
         At quia earum et voluptas assumenda ut ducimus inventore. Ut modi adipisci id quidem
         molestias cum iste tenetur ex culpa vero sit repellendus suscipit. Aut magni optio
         vel internos excepturi ut aliquid necessitatibus ea doloremque quia ex <i>accusamus numquam</i>.
         Et quibusdam laudantium hic nisi molestias sit dicta pariatur eum tempora accusamus
         in aperiam cumque eos animi sapiente?
     </p>
-    <p />
+    <img class="img-left" src="img/fourth-page-img1.jpeg" alt="Fourth Page Image 1">
+    <ol>
+        <li>Et corporis veniam et delectus dolorem.</li>
+        <li>Est culpa nulla ea molestias enim non rerum iure!</li>
+        <li>Rem eveniet galisum vel nihil quae id iste exercitationem ut suscipit accusantium.</li>
+    </ol>
+    <img class="img-right" src="img/fourth-page-img2.jpeg" alt="Fourth Page Image 2">
     <p>
         <u>Ex repellat labore</u> ut consequatur nihil et vitae animi qui nihil debitis est odit impedit.
         Est perspiciatis magnam et nihil voluptas et similique eveniet sed architecto quam. At quos
@@ -63,7 +83,7 @@
         ipsam et similique voluptate. Ut aliquam rerum sit molestiae dolore eum iusto illo et delectus
         asperiores ea autem sunt cum nostrum quam sed voluptatem dolorem!
     </p>
-    <h3>Intestazione di 3° livello - Quarta Pagina</h3>
+    <h3>Level 3 Heading - Fourth Page</h3>
     <p>
         <u>Ex repellat labore</u> ut consequatur nihil et vitae animi qui nihil debitis est odit impedit.
         Est perspiciatis magnam et nihil voluptas et similique eveniet sed architecto quam. At quos
@@ -75,13 +95,13 @@
         ipsam et similique voluptate. Ut aliquam rerum sit molestiae dolore eum iusto illo et delectus
         asperiores ea autem sunt cum nostrum quam sed voluptatem dolorem!
     </p>
-    <p />
+    <img class="img-left" src="img/fourth-page-img3.jpeg" alt="Fourth Page Image 3">
     <p>
         <u>Lorem ipsum</u> dolor sit amet. Sit sunt corrupti ex rerum voluptatibus in illo aspernatur ut
         galisum incidunt ad voluptatem cupiditate sit repellendus ipsam et suscipit corporis. In
         quidem delectus ut inventore dolorem sed possimus nemo.
     </p>
-    <h4>Intestazione di 4° livello - Quarta Pagina</h4>
+    <h4>Level 4 Heading - Fourth Page</h4>
     <p>
         <b>Vel asperiores</b> nobis ea inventore nulla eos blanditiis quibusdam et tenetur enim cum
         voluptas unde. Vel molestiae ducimus eum ducimus maxime nam aliquid quod et veritatis dolores.
@@ -89,6 +109,12 @@
         sit veritatis blanditiis ut sint minus et ratione tenetur qui aliquid voluptatem.
     </p>
     <p />
+    <p>
+        <strong>Lorem ipsum</strong> dolor sit amet. Et repudiandae exercitationem et quae debitis et ratione
+        <i>soluta id tempore</i> magni ut molestias eaque ad dignissimos praesentium quo dolorem voluptatibus.
+        Et asperiores optio ex enim harum eos illo aperiam <em>eos obcaecati</em> alias et maiores explicabo.
+        Vel voluptatem rerum et inventore earum hic velit placeat qui magni facilis.
+    </p>
     <p>
         <strong>Lorem ipsum</strong> dolor sit amet. Et repudiandae exercitationem et quae debitis et ratione
         <i>soluta id tempore</i> magni ut molestias eaque ad dignissimos praesentium quo dolorem voluptatibus.
