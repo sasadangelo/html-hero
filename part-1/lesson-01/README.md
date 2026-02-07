@@ -1,36 +1,36 @@
-# 📘 Lezione 1 – La tua prima pagina HTML
+# 📘 Lesson 1 – Your First HTML Page
 
-Benvenuto nella tua **prima lezione di HTML!** 👋
+Welcome to your **first HTML lesson!** 👋
 
-## 🎓 Cosa imparerai?
+## 🎓 What Will You Learn?
 
-* Che cos’è l’**HTML**
-* Qual è la **struttura base** di una pagina web
-* Come funziona un **documento HTML**
-* Dove si inserisce il **contenuto visibile** della pagina
+* What **HTML** is
+* The **basic structure** of a web page
+* How an **HTML document** works
+* Where to place the **visible content** of the page
 
-Iniziamo subito con il piede giusto: in questa lezione imparerai a creare una semplicissima pagina web scritta in HTML, il linguaggio che sta alla base di ogni sito Internet.
+Let’s start on the right foot: in this lesson you’ll learn how to create a very simple web page written in HTML — the language that powers every website on the Internet.
 
-## 🖼️ Panoramica
+## 🖼️ Overview
 
-Un documento HTML è composto da **tag**, ovvero parole chiave racchiuse tra parentesi angolari (< >) che indicano al browser cosa visualizzare e come farlo.
+An HTML document is made up of **tags**, which are keywords enclosed in angle brackets (< >) that tell the browser what to display and how.
 
-Ecco alcuni concetti chiave:
+Here are some key concepts:
 
-* Il tag `<html>` indica l’inizio del documento HTML.
-* L’attributo `lang="it"` specifica che la lingua della pagina è l’italiano 🇮🇹.
-* La pagina è divisa in due sezioni principali:
-    * `<head>` (**intestazione**): contiene informazioni “dietro le quinte”, come il titolo della pagina 🧠.
-    * `<body>` (**corpo**): contiene il vero contenuto della pagina, quello che l’utente vede 🖥️.
+* The `<html>` tag marks the beginning of the HTML document.
+* The `lang="it"` attribute specifies that the page language is Italian 🇮🇹.
+* The page is divided into two main sections:
+    * `<head>` (**head**): contains “behind-the-scenes” information, such as the page title 🧠.
+    * `<body>` (**body**): contains the actual page content — what the user sees 🖥️.
 
-## 🎯 Obiettivo
+## 🎯 Goal
 
-Alla fine di questa lezione sarai in grado di:
+By the end of this lesson, you’ll be able to:
 
-* Creare un file .html
-* Scrivere la struttura base di una pagina
-* Visualizzare il messaggio **"Hello World!"** nel browser
+* Create an `.html` file
+* Write the basic structure of a page
+* Display the message **"Hello World!"** in your browser
 
-## ✅ Conclusione
+## ✅ Conclusion
 
-🚀 Pronto? Passa alla prossima lezione per continuare a costruire il tuo primo sito web!
+🚀 Ready? Move on to the next lesson to keep building your first website!
