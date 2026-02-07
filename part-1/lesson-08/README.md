@@ -1,23 +1,23 @@
-# 📘 Lezione 8 - Aggiungi nuove pagine al tuo sito web
+# 📘 Lesson 8 – Add New Pages to Your Website
 
-In questa lezione, abbiamo aggiunto 4 nuove pagine HTML al nostro sito. Ogni pagina contiene un menù di navigazione con 5 link che rimandano alle altre pagine del sito, migliorando l'interattività e la navigabilità.
+In this lesson, we added 4 new HTML pages to our website. Each page contains a navigation menu with 5 links pointing to the other pages, improving interactivity and navigability.
 
-## 🎓 Cosa Imparerai?
+## 🎓 What Will You Learn?
 
-- Creare più pagine HTML.
-- Implementare un **menu di navigazione** per spostarsi tra le diverse pagine del sito.
-- Utilizzare il tag `<a>` per creare collegamenti ipertestuali.
+- How to create multiple HTML pages  
+- How to implement a **navigation menu** to move between different pages of the site  
+- How to use the `<a>` tag to create hyperlinks  
 
-## 🖼️ Panoramica
+## 🖼️ Overview
 
-Abbiamo aggiunto 4 nuove pagine HTML. Ogni pagina include un menu di navigazione che contiene 5 link. Questi link permettono di navigare facilmente tra le pagine del sito, creando un'esperienza utente più fluida. Ogni pagina del sito ha un layout simile, con un menù di navigazione consistente in tutte le pagine. Il menu consente di visitare tutte le pagine passando dall'una all'altra.
+We added 4 new HTML pages. Each page includes a navigation menu with 5 links. These links allow users to easily navigate between pages, creating a smoother user experience. Every page has a similar layout, with a consistent navigation menu across all pages. The menu enables users to visit all pages by moving from one to another.
 
-## 🎯 Obiettivo
+## 🎯 Goal
 
-- Creare una navigazione semplice tra le pagine del sito.
-- Utilizzare il tag `<a>` per definire i collegamenti tra le pagine HTML.
-- Migliorare l'esperienza utente tramite un'interfaccia di navigazione chiara e intuitiva.
+- Create simple navigation between website pages  
+- Use the `<a>` tag to define links between HTML pages  
+- Improve the user experience with a clear and intuitive navigation interface  
 
-## ✅ Conclusione
+## ✅ Conclusion
 
-Abbiamo aggiunto una funzionalità di navigazione completa al sito, che permette di spostarsi tra le pagine in modo semplice. Con il menu di navigazione, l'utente può facilmente esplorare tutte le sezioni del sito senza perdere il contesto.
+We added a complete navigation feature to the site, allowing users to move between pages easily. With the navigation menu, users can explore all sections of the website without losing context.
