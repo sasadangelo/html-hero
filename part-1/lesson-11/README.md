@@ -1,21 +1,21 @@
-# 📘 Lezione 11 - Diamo alle nostre pagine un tocco di stile
+# 📘 Lesson 11 – Give Our Pages a Touch of Style
 
-In questa lezione, iniziamo a migliorare l'aspetto delle nostre pagine web introducendo il CSS.
+In this lesson, we’ll start improving the appearance of our web pages by introducing CSS.
 
-## 🎓 Cosa imparerai?
+## 🎓 What You Will Learn
 
-Imparerai come aggiungere stili CSS alle pagine HTML, personalizzare il layout e i colori, e come strutturare il tuo file CSS per renderlo più gestibile.
+You’ll learn how to add CSS styles to HTML pages, customize the layout and colors, and structure your CSS file to make it more manageable.
 
-## 🖼️ Panoramica
+## 🖼️ Overview
 
-In questa lezione, vedremo come stilizzare le pagine HTML utilizzando CSS. Imparerai a configurare i principali stili di layout, come i margini, la larghezza massima della pagina, la formattazione dei titoli, dei paragrafi, delle liste ordinate e non ordinate, nonché l'integrazione delle immagini con un layout fluido.
+In this lesson, we’ll see how to style HTML pages using CSS. You’ll learn how to configure the main layout styles, such as margins, maximum page width, formatting for headings, paragraphs, ordered and unordered lists, and integrating images with a fluid layout.
 
-Abbiamo introdotto anche l'uso di classi per allineare le immagini e aggiungere stile agli elementi di testo come le citazioni (blockquote).
+We also introduce the use of classes to align images and add style to text elements such as blockquotes.
 
-## 🎯 Obiettivo
+## 🎯 Goal
 
-L'obiettivo di questa lezione è di rendere visivamente più piacevoli le tue pagine web, utilizzando CSS per definire le proprietà di layout, tipografia e aspetto degli elementi.
+The goal of this lesson is to make your web pages visually more appealing by using CSS to define layout, typography, and element appearance.
 
-## ✅ Conclusione
+## ✅ Conclusion
 
-Alla fine di questa lezione, avrai una comprensione di base su come applicare stili CSS per migliorare l'aspetto delle tue pagine web. Avrai anche creato una struttura di base per il tuo file CSS che ti permetterà di espandere facilmente il design in futuro.
+By the end of this lesson, you’ll have a basic understanding of how to apply CSS styles to improve the look of your web pages. You’ll also have created a basic structure for your CSS file, which will allow you to easily expand the design in the future.
