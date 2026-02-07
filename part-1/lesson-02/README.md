@@ -1,27 +1,28 @@
-# 📘 Lezione 2 – Le Intestazioni
+# 📘 Lesson 2 – Headings
 
-In questa lezione imparerai a utilizzare le **intestazioni HTML**, uno degli elementi fondamentali per strutturare i contenuti di una pagina web.
+In this lesson, you’ll learn how to use **HTML headings**, one of the fundamental elements for structuring the content of a web page.
 
-## 🎓 Che cosa imparerai?
+## 🎓 What Will You Learn?
 
-- Che cosa sono le intestazioni HTML (`<h1>` - `<h6>`)
-- Come si usano e in quale ordine
-- A cosa servono per l’organizzazione dei contenuti
-- Buone pratiche per la scrittura semantica e l’accessibilità
+- What HTML headings are (`<h1>` – `<h6>`)
+- How to use them and in what order
+- How they help organize content
+- Best practices for semantic writing and accessibility
 
-## 🖼️ Panoramica
+## 🖼️ Overview
 
-HTML mette a disposizione sei livelli di intestazione: da `<h1>` a `<h6>`, dove `<h1>` è il titolo più importante e `<h6>` il meno rilevante. Le intestazioni aiutano i lettori (e i motori di ricerca!) a comprendere la struttura logica dei tuoi contenuti.
+HTML provides six heading levels: from `<h1>` to `<h6>`, where `<h1>` is the most important title and `<h6>` is the least important. Headings help readers (and search engines!) understand the logical structure of your content.
 
-📌 Alcuni consigli pratici:
-- Usa **solo un `<h1>`** per pagina, tipicamente per il titolo principale.
-- I sottotitoli possono usare `<h2>`, `<h3>`, ecc., a seconda della gerarchia.
-- Mantieni un ordine coerente per facilitare la lettura e l'accessibilità.
+📌 Some practical tips:
 
-## 🎯 Obiettivo
+- Use **only one `<h1>`** per page, typically for the main title.
+- Subheadings can use `<h2>`, `<h3>`, and so on, depending on the hierarchy.
+- Keep a consistent order to improve readability and accessibility.
 
-Visualizzare le intestazioni nella tua pagina web e iniziare a strutturare il contenuto in modo chiaro e ordinato.
+## 🎯 Goal
 
-## ✅ Conclusione
+Display headings on your web page and start structuring your content in a clear and organized way.
 
-🚀 Continua così, sei sulla buona strada per diventare un HTML Hero!
+## ✅ Conclusion
+
+🚀 Keep going — you’re on the right path to becoming an HTML Hero!
