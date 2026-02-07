@@ -1,27 +1,28 @@
-# 🚀 HTML & CSS Hero – Corso Completo per Principianti (Parte I)
+# 🚀 HTML & CSS Hero – Complete Beginner Course (Part I)
 
-Benvenuto alla prima parte del tutorial **HTML & CSS Hero – Corso Completo per Principianti**!
-Che tu sia un principiante assoluto o un programmatore con un po’ di esperienza, questa guida ti accompagnerà passo dopo passo nella realizzazione del tuo primo sito web.
+Welcome to the first part of the **HTML & CSS Hero – Complete Beginner Course**!
+Whether you’re an absolute beginner or a developer with some experience, this guide will walk you step by step through building your very first website.
 
-In questa sezione imparerai le basi di HTML: creeremo insieme un sito web composto da cinque pagine collegate tra loro, con paragrafi, collegamenti, immagini, liste, formattazioni di testo e molto altro.
+In this section, you’ll learn the basics of HTML: together we’ll create a website made up of five interconnected pages, including paragraphs, links, images, lists, text formatting, and much more.
 
-🎯 Obiettivo: alla fine di questa parte, avrai costruito un vero mini-sito statico pronto per essere pubblicato online!
+🎯 Goal: by the end of this part, you’ll have built a real mini static website ready to be published online!
 
-## 📘 Lezioni incluse
+## 📘 Included Lessons
 
-Questa prima parte è composta da 12 lezioni pratiche:
+This first part consists of 12 hands-on lessons:
 
-* [Lezione 01: la tua prima pagina HTML](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-01)
-* [Lezione 02: le Intestazioni](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-02)
-* [Lezione 03: I Paragrafi](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-03)
-* [Lezione 04: Le Sezioni](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-04)
-* [Lezione 05: Aggiungi un secondo Paragrafo](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-05)
-* [Lezione 06: Aggiungi tutti i paragrafi in 4 Sezioni diverse](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-06)
-* [Lezione 07: Migliora la leggibilità dei paragrafi con la Formattazione](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-07)
-* [Lezione 08: Aggiungi nuove pagine al tuo sito web](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-08)
-* [Lezione 09: Liste ordinate e non ordinate](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-09)
-* [Lezione 10: Aggiungi le immagini al tuo sito web](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-10)
-* [Lezione 11: Diamo alle nostre pagine un tocco di stile](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-11)
-* [Lezione 12: Pubblica il tuo sito web su Internet](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-12)
+* [Lesson 01: Your First HTML Page](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-01)
+* [Lesson 02: Headings](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-02)
+* [Lesson 03: Paragraphs](https://github.com/sasadangelo/html-hero/tree/master/master/part-1/lesson-03)
+* [Lesson 04: Sections](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-04)
+* [Lesson 05: Add a Second Paragraph](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-05)
+* [Lesson 06: Add All Paragraphs into 4 Different Sections](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-06)
+* [Lesson 07: Improve Paragraph Readability with Formatting](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-07)
+* [Lesson 08: Add New Pages to Your Website](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-08)
+* [Lesson 09: Ordered and Unordered Lists](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-09)
+* [Lesson 10: Add Images to Your Website](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-10)
+* [Lesson 11: Give Our Pages a Touch of Style](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-11)
+* [Lesson 12: Publish Your Website on the Internet](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-12)
 
-**💡 Consiglio**: Segui anche il [video tutorial su YouTube](https://www.youtube.com/watch?v=cNk0bVEMb3U) per avere una spiegazione visiva e pratica mentre lavori sul codice!
+**💡 Tip**: Follow along with the [YouTube video tutorial](https://www.youtube.com/watch?v=cNk0bVEMb3U) for a visual, hands-on explanation while you work on the code! It is in italian.
+
