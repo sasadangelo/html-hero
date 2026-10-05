@@ -1,0 +1,255 @@
+/*
+    © 2025 Salvatore D'Angelo
+    Questo progetto è distribuito sotto licenza MIT.
+    Vedi https://opensource.org/licenses/MIT per i dettagli.
+*/
+
+/* ################################################################################# Main ################################################################################ */
+
+#page-main {
+  background: #fcfcfc;
+  padding: 35px;
+}
+
+#page-container {
+  padding: 10px;
+  /* Imposta la larghezza massima del contenitore a 1080px */
+  max-width: 1080px;
+  /* Imposta un margine sinistro automatico per centrare il contenitore orizzontalmente */
+  margin-left: auto;
+  /* Imposta un margine destro automatico per centrare il contenitore orizzontalmente */
+  margin-right: auto;
+  overflow: hidden;
+  /* Forza il contenitore ad adattarsi anche agli elementi flottanti (immagini) al suo interno. */
+}
+
+p {
+  color: #666666;
+  text-align: justify;
+}
+
+p a {
+  color: #1D67B2;
+}
+
+ol {
+  list-style-position: inside;
+}
+
+/* Immagini a sinistra */
+img.img-left {
+  padding: 10px 10px 10px 10px;
+}
+
+img.img-right {
+  padding: 10px 10px 10px 10px;
+}
+
+/* For Laptop and small-size screens, Tablets or iPad, Desktop */
+@media screen and (min-width: 480px) {
+  img.img-left {
+    padding: 10px 10px 10px 0px;
+    /* Aggiunge padding ai lati dell'immagine */
+    float: left;
+    /* Fa fluttuare l'immagine a sinistra */
+  }
+
+  img.img-right {
+    padding: 10px 0px 10px 10px;
+    /* Aggiunge padding ai lati dell'immagine */
+    float: right;
+    /* Fa fluttuare l'immagine a destra */
+  }
+}
+
+/* Citazioni in blocco (blockquote) */
+blockquote {
+  background: #f5f7f9;
+  /* Imposta uno sfondo grigio chiaro per la citazione */
+  border-bottom: 1px solid #d8dee9;
+  /* Aggiunge una linea di separazione inferiore alla citazione */
+  padding: 10px 10px 10px 10px;
+  /* Aggiunge padding su tutti i lati */
+}
+
+figure {
+  margin: 0px;
+}
+
+figure figcaption a {
+  color: #1D67B2;
+}
+
+/*
+ * ################################################################################
+ * # Stile per la pagina Contatti (form)
+ * # NOVITÀ LEZIONE 23
+ * ################################################################################
+ */
+
+/*
+ * Il form occupa tutta la larghezza disponibile.
+ * display: flex + flex-direction: column impilano verticalmente tutti gli elementi.
+ */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+/*
+ * Le etichette (label) sono in grassetto per essere chiaramente identificabili.
+ */
+form label {
+    font-weight: 700;
+    color: #3b3b3b;
+    margin-top: 10px;
+}
+
+/*
+ * Stile comune per i campi input e textarea del form.
+ * box-sizing: border-box garantisce che il padding non aumenti la larghezza totale.
+ */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #555555;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/*
+ * Effetto visivo quando un campo è selezionato (focus):
+ * il bordo diventa blu per indicare che il campo è attivo.
+ */
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    outline: none;
+    border-color: #1d67b2;
+    box-shadow: 0 0 4px rgba(29, 103, 178, 0.3);
+}
+
+/*
+ * Il pulsante di invio usa lo stesso colore blu della navigazione
+ * per mantenere la coerenza visiva del sito.
+ */
+form button[type="submit"] {
+    margin-top: 15px;
+    background-color: #1d67b2;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    width: 100%;
+}
+
+form button[type="submit"]:hover {
+    background-color: #155493;
+}
+
+/*
+ * ################################################################################
+ * # Stile per la Galleria fotografica
+ * # NOVITÀ LEZIONE 24
+ * ################################################################################
+ */
+
+/*
+ * .gallery-grid: contenitore della griglia di immagini.
+ * display: grid attiva il layout CSS Grid.
+ * grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)) crea automaticamente
+ * tutte le colonne che ci stanno nella larghezza disponibile.
+ * Ogni colonna è larga almeno 150px e al massimo 1 frazione dello spazio disponibile.
+ */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/*
+ * .gallery-cell: ogni cella della griglia contiene un'immagine.
+ * overflow: hidden garantisce che l'immagine non esca dai bordi della cella.
+ */
+.gallery-cell {
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+/*
+ * Le immagini nella griglia coprono la cella al 100% della larghezza.
+ * cursor: pointer mostra un cursore a mano per indicare che sono cliccabili.
+ * opacity: 0.85 le rende leggermente traslucide per un effetto visivo.
+ * La transizione opacity rende il passaggio a opacità 1 graduale su hover.
+ */
+.gallery-cell img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer;
+    opacity: 0.85;
+    transition: opacity 0.2s ease;
+    display: block;
+}
+
+.gallery-cell img:hover {
+    opacity: 1;
+}
+
+/*
+ * #gallery-viewer: il visualizzatore a schermo intero.
+ * display: none lo nasconde inizialmente.
+ * position: fixed lo posiziona rispetto alla viewport (finestra del browser).
+ * z-index: 100 lo mette sopra tutti gli altri elementi della pagina.
+ * background-color: rgba(0,0,0,0.9) crea uno sfondo nero semi-trasparente.
+ */
+#gallery-viewer {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 100;
+    text-align: center;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+#gallery-viewer img {
+    max-height: 80vh;
+    max-width: 90vw;
+    border: 3px solid #ffffff;
+}
+
+/*
+ * #gallery-close: il pulsante × per chiudere il visualizzatore.
+ * position: absolute + top/right lo posizionano in alto a destra.
+ */
+#gallery-close {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 1;
+}
+
+#gallery-close:hover {
+    color: #cccccc;
+}

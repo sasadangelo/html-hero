@@ -1,30 +1,33 @@
-# 📘 Lezione 17 - Creiamo un Home Page.
+# 📘 Lezione 17 – Creiamo la Home Page
 
-In questa lezione impareremo a **creare la home page del nostro sito web**, progettandola con cura sia dal punto di vista strutturale che visivo. Partiremo da zero per costruire una pagina iniziale che dia una **prima impressione forte e professionale** del progetto HTML Hero.
+In questa lezione progettiamo la **Home Page** del sito. Introduce una struttura completamente diversa dalle altre pagine: un'area hero con immagine di sfondo, una sezione con icone circolari e una sezione con feature articles a due colonne.
 
-## 🎓 Cosa Imparerai
+## 🎓 Cosa Imparerai?
 
-Durante questa lezione vedremo come:
+- Come strutturare una home page con sezioni distinte: hero, icone, feature articles
+- Come usare un'immagine di sfondo CSS con `background-image` e `background-size: cover`
+- Come posizionare un box di testo sovrapposto all'immagine con `position` e Flexbox
+- Come usare CSS Flexbox per affiancare immagini e testo nelle feature sections
+- Come caricare un foglio di stile dedicato alla home page (`home.css`) separato da `default.css`
 
-- Creare una **struttura HTML5 completa** con header, contenuto principale e footer.
-- Inserire una **hero image** e una **call to action** efficace.
-- Aggiungere **icone rappresentative** per guidare l’utente verso i contenuti principali del sito.
-- Creare una **feature area** con immagini e descrizioni per evidenziare i punti di forza del progetto.
-- Includere fogli di stile CSS esterni diversi a seconda del tipo di pagina che si vuole rappresentare.
+## 🖼️ Struttura della Home Page
 
-## 🖼️ Panoramica della Lezione
+La home page è composta da tre aree principali:
 
-Ecco cosa andremo a costruire passo dopo passo:
+1. **Hero area** — immagine di sfondo a schermo intero con un box di testo sovrapposto
+2. **Circle icon area** — tre icone circolari cliccabili che portano alle sezioni principali del sito
+3. **Feature sections** — coppie immagine+testo che presentano i contenuti del sito
 
-1. **Sezione Hero**: un grande banner con un messaggio di benvenuto e pulsante call to action.
-2. **Sezione con icone**: collegamenti visivi ai contenuti principali del sito (lezioni, strumenti, tutorial, ecc).
-3. **Feature area** a due colonne, con immagini descrittive e testo esplicativo.
-4. **Sezione newsletter**: layout pronto per l’integrazione futura di un form.
+## 📂 File modificati in questa lezione
 
-## 🎯 Obiettivo della Lezione
+| File | Operazione | Descrizione |
+|---|---|---|
+| `index.html` | ✏️ Modificato | Struttura completa della home page |
+| `home.css` | ✨ Nuovo | Stili dedicati alla home page |
 
-L'obiettivo è **imparare a progettare una home page**, curandone la struttura HTML, l'organizzazione dei contenuti e la presentazione visiva tramite CSS. Costruiremo una pagina di benvenuto chiara, efficace e navigabile, che potrà servire come base per qualsiasi sito web.
+## 🎯 Obiettivo
 
-## ✅ Conclusione
-
-Al termine di questa lezione, avrai costruito una home page completa e professionale, pronta per essere usata o estesa in un vero sito web.
+Alla fine di questa lezione avrai:
+- Una home page professionale con hero image, icone e feature sections
+- Capito come separare gli stili della home page in un file CSS dedicato
+- Imparato a usare `background-image` per le immagini di sfondo

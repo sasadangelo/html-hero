@@ -1,90 +1,264 @@
-<!DOCTYPE html>
-<html lang="en">
+<!--
+    © 2025 Salvatore D'Angelo
+    Questo progetto è distribuito sotto licenza MIT.
+    Vedi https://opensource.org/licenses/MIT per i dettagli.
+-->
+<!DOCTYPE html> <!-- Dichiara il tipo di documento: HTML5 -->
+<html lang="it"> <!-- Inizio del documento HTML, con lingua impostata su italiano -->
 
 <head>
-    <meta charset="utf-8">
-    <title>My Website</title>
-    <link rel="stylesheet" type="text/css" href="default.css">
-    <link rel="stylesheet" type="text/css" href="home.css">
-    <link rel="stylesheet" type="text/css" href="fontawesome.css">
-    <link rel="stylesheet" type="text/css" href="brands.css">
+    <!--
+        Specifica la codifica dei caratteri del documento.
+        "UTF-8" è una codifica universale che supporta la maggior parte dei caratteri delle lingue del mondo,
+        inclusi gli accenti, i simboli speciali e le emoji. È fondamentale per evitare problemi di visualizzazione
+        con testi in italiano o multilingua.
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML Hero</title> <!-- Titolo della pagina, visibile nella scheda del browser -->
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="assets/css/default.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/home.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/brands.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome.css">
 </head>
 
 <body>
-    <header>
-        <div id="logo">
-            <img src="img/logo.png" alt="My Website" width="150" height="150">
-        </div>
-        <div id="social-media-group">
-            <div class="social-media-title">Follow me on:</div>
-            <div class="social-media-icons">
-                <a aria-label="Facebook page" title="Facebook page" class="social-media-icon social-media-icon-facebook"
-                    href="https://www.facebook.com/code4projects/">
-                    <span class="fa-brands fa-facebook-f"></span>
-                </a>
-                <a aria-label="Twitter page" title="Twitter page" class="social-media-icon social-media-icon-twitter"
-                    href="https://twitter.com/code4projects">
-                    <i class="fa-brands fa-twitter"></i>
-                </a>
-                <a aria-label="Linkedin page" title="Linkedin page" class="social-media-icon social-media-icon-linkedin"
-                    href="https://www.linkedin.com/in/salvatore-d-angelo-0321851/">
-                    <i class="fa-brands fa-linkedin"></i>
-                </a>
-                <a aria-label="Youtube channel" title="Youtube channel"
-                    class="social-media-icon social-media-icon-youtube"
-                    href="https://www.youtube.com/channel/UCBntvkFS3phHOFAWNS8_4pg/">
-                    <i class="fa-brands fa-youtube"></i>
-                </a>
-                <a aria-label="Github page" title="Github page" class="social-media-icon social-media-icon-github"
-                    href="https://github.com/sasadangelo">
-                    <i class="fa-brands fa-github"></i>
-                </a>
+    <!-- Contenuto visibile della pagina -->
+    <div id="page">
+        <header>
+            <div id="header-group">
+                <div id="logo">
+                    <img src="assets/img/code4projects-logo-mini.webp" alt="Code4Projects Logo" width="150"
+                        height="150">
+                </div>
+                <div id="social-media-group">
+                    <div class="social-media-title">Seguimi su:</div>
+                    <div class="social-media-icons">
+                        <a aria-label="Code4Projects Facebook page" title="Code4Projects Facebook page"
+                            class="social-media-icon social-media-icon-facebook"
+                            href="https://www.facebook.com/code4projects/">
+                            <span class="fa-brands fa-facebook-f"></span>
+                        </a>
+                        <a aria-label="Code4Projects Twitter page" title="Code4Projects Twitter page"
+                            class="social-media-icon social-media-icon-twitter"
+                            href="https://twitter.com/code4projects">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a aria-label="Code4Projects Linkedin page" title="Code4Projects Linkedin page"
+                            class="social-media-icon social-media-icon-linkedin"
+                            href="https://www.linkedin.com/in/salvatore-d-angelo-0321851/">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a aria-label="Code4Projects Youtube channel" title="Code4Projects Youtube channel"
+                            class="social-media-icon social-media-icon-youtube"
+                            href="https://www.youtube.com/channel/UCBntvkFS3phHOFAWNS8_4pg/">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                        <a aria-label="Code4Projects Github page" title="Code4Projects Github page"
+                            class="social-media-icon social-media-icon-github" href="https://github.com/sasadangelo">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
+        </header>
+        <div id="navigation">
+            <!-- Hamburger icon -->
+            <input class="drop-menu-checkbox" type="checkbox" id="drop-menu-checkbox">
+            <label class="hamburger" for="drop-menu-checkbox">
+                <span class="hamburger-line"></span>
+            </label>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="chi_sono.html">Chi Sono</a></li>
+                    <li><a href="inizia_qui.html">Nuovo Utente? Inizia Qui</a></li>
+                    <li><a href="risorse.html">Risorse</a></li>
+                    <li><a href="contatti.html">Contatti</a></li>
+                    <li><a href="galleria.html">Galleria</a></li>
+                </ul>
+            </nav>
         </div>
-    </header>
-    <div id="navigation">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about-me.html">About me</a></li>
-                <li><a href="contacts.html">Contacts</a></li>
-                <li><a href="resources.html">Resources</a></li>
-            </ul>
-        </nav>
+        <!--
+            NOVITÀ LEZIONE 24: aggiorniamo la Home Page per collegare i circle-icon-box e le
+            feature sections alle vere pagine del sito (Galleria, Risorse, Contatti, Chi Sono)
+            invece dei placeholder "Seconda/Terza/Quarta Pagina".
+
+            Questo è il passo in cui la homepage diventa finalmente coerente con
+            tutte le pagine costruite nelle lezioni precedenti.
+        -->
+        <main class="home-main">
+            <div id="home-container">
+                <div id="home-content">
+                    <div class="hero-background">
+                        <div class="hero-area">
+                            <div class="hero-content">
+                                <div class="hero-box">
+                                    <div class="hero-messagebox">
+                                        <h1>Benvenuto su HTML Hero!</h1>
+                                        <p>
+                                            Questo sito è stato costruito passo dopo passo seguendo il corso
+                                            <strong>HTML &amp; CSS Hero</strong>. Qui puoi trovare la mia storia,
+                                            le risorse utili per imparare a programmare, la mia galleria fotografica
+                                            e molto altro. <a href="inizia_qui.html">Inizia qui</a> se è la tua
+                                            prima visita!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--
+                        I circle-icon-box ora puntano alle pagine reali del sito:
+                        - Galleria: la galleria fotografica creata in questa lezione
+                        - Risorse: la pagina risorse creata nella Lezione 22
+                        - Contatti: la pagina contatti creata nella Lezione 23
+                    -->
+                    <div class="circle-icon-area">
+                        <div class="circle-icon-box">
+                            <a title="La Mia Galleria" href="galleria.html">
+                                <div class="circle-icon" style="background-image: url(assets/img/starthere-icon.png)">
+                                </div>
+                                <h2>La Mia Galleria</h2>
+                                Guarda le mie foto
+                            </a>
+                        </div>
+                        <div class="circle-icon-box">
+                            <a title="Risorse" href="risorse.html">
+                                <div class="circle-icon" style="background-image: url(assets/img/projects-icon.png)">
+                                </div>
+                                <h2>Risorse</h2>
+                                Libri e siti utili
+                            </a>
+                        </div>
+                        <div class="circle-icon-box">
+                            <a title="Contatti" href="contatti.html">
+                                <div class="circle-icon" style="background-image: url(assets/img/resources-icon.png)">
+                                </div>
+                                <h2>Contatti</h2>
+                                Scrivimi un messaggio
+                            </a>
+                        </div>
+                    </div>
+                    <div class="newsletter-home">
+                        <div class="newsletter-home-box">
+                            <div class="newsletter-home-image">
+                                <img src="assets/img/3D-DockerCover-medium.png"
+                                    alt="Iscriviti alla Newsletter e scarica l'eBook gratuito">
+                            </div>
+                            <div class="newsletter-home-form">
+                                <div class="newsletter-home-text-title">Scarica l'eBook Gratuito</div>
+                                <div class="newsletter-home-text">Iscriviti alla Newsletter e scarica gratuitamente
+                                    l'eBook <strong>HTML &amp; CSS – Dal Principiante all'Esperto</strong>.</div>
+                                <form action="" method="post" target="_blank">
+                                    <div>
+                                        <input class="newsletter-home-input" name="name" type="text" placeholder="Nome"
+                                            required>
+                                    </div>
+                                    <div>
+                                        <input class="newsletter-home-input" name="email" type="email"
+                                            placeholder="Email" required>
+                                        <button type="submit" class="primary">Scarica</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!--
+                        Le feature sections ora puntano alle pagine reali del sito.
+                        Le immagini sono le stesse usate nelle lezioni precedenti.
+                    -->
+                    <div class="feature-content-row-white">
+                        <div class="feature-content-box-white">
+                            <div class="feature-content-image">
+                                <a href="galleria.html">
+                                    <img src="assets/img/feature-image-1.jpeg" alt="La Mia Galleria Fotografica">
+                                </a>
+                            </div>
+                            <div class="feature-content-text">
+                                <div class="feature-content-text-title">
+                                    <a href="galleria.html" title="La Mia Galleria">
+                                        <h3>La Mia Galleria Fotografica</h3>
+                                    </a>
+                                </div>
+                                Una raccolta di fotografie che mi rappresentano. Ogni immagine racconta un momento
+                                speciale della mia vita. Clicca su una foto per vederla ingrandita.
+                                <br><br>
+                                <a href="galleria.html">Guarda la galleria &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature-content-row-grey">
+                        <div class="feature-content-box-grey">
+                            <div class="feature-content-image">
+                                <a href="contatti.html">
+                                    <img src="assets/img/feature-image-2.jpeg" alt="Contattami">
+                                </a>
+                            </div>
+                            <div class="feature-content-text">
+                                <div class="feature-content-text-title">
+                                    <a href="contatti.html" title="Contatti">
+                                        <h3>Contattami</h3>
+                                    </a>
+                                </div>
+                                Hai domande o suggerimenti? Compila il modulo di contatto e
+                                ti risponderò il prima possibile.
+                                <br><br>
+                                <a href="contatti.html">Scrivimi &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature-content-row-white">
+                        <div class="feature-content-box-white">
+                            <div class="feature-content-image">
+                                <a href="risorse.html">
+                                    <img src="assets/img/feature-image-3.jpeg" alt="Risorse Utili">
+                                </a>
+                            </div>
+                            <div class="feature-content-text">
+                                <div class="feature-content-text-title">
+                                    <a href="risorse.html" title="Risorse">
+                                        <h3>Risorse Utili per Imparare</h3>
+                                    </a>
+                                </div>
+                                Libri, siti web, strumenti di sviluppo: qui trovi tutto quello che uso
+                                io stesso ogni giorno per continuare a imparare e migliorare.
+                                <br><br>
+                                <a href="risorse.html">Vai alle risorse &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature-content-row-grey">
+                        <div class="feature-content-box-grey">
+                            <div class="feature-content-image">
+                                <a href="chi_sono.html">
+                                    <img src="assets/img/feature-image-4.jpeg" alt="Chi Sono">
+                                </a>
+                            </div>
+                            <div class="feature-content-text">
+                                <div class="feature-content-text-title">
+                                    <a href="chi_sono.html" title="Chi Sono">
+                                        <h3>Chi Sono</h3>
+                                    </a>
+                                </div>
+                                Sono Salvatore D'Angelo, programmatore professionista dal 1999 con oltre
+                                30 anni di esperienza. Scopri la mia storia, il mio percorso e perché
+                                ho creato questo sito.
+                                <br><br>
+                                <a href="chi_sono.html">Leggi la mia storia &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div id="site-info">
+                Code4Projects, Copyright Salvatore D'Angelo © 2016-2025.
+            </div>
+        </footer>
     </div>
-    <main>
-        <div id="hero">
-            Hero Image
-        </div>
-        <div id="subjects">
-            <div id="subject1">
-                <a href="first_page.html">My Stories</a>
-            </div>
-            <div id="subject2">
-                <a href="gallery.html">My Gallery</a>
-            </div>
-            <div id="subject3">
-                <a href="sport.html">My Sports</a>
-            </div>
-        </div>
-        <div id="newsletter">
-            Newsletter
-        </div>
-        <div id="feature-content">
-            <div class="feature-content-row">
-                Feature Item 1
-            </div>
-            <div class="feature-content-row">
-                Feature Item 2
-            </div>
-            <div class="feature-content-row">
-                Feature Item 3
-            </div>
-        </div>
-    </main>
-    <footer>
-        HTML Hero, Copyright Salvatore D'Angelo © 2023.
-    </footer>
 </body>
 
 </html>

@@ -16,9 +16,9 @@ In this section, you’ll add style using CSS: you’ll create a layout with a h
 
 👉 [Go to Part 2](https://github.com/sasadangelo/html-hero/tree/master/part-2)
 
-## 🧾 Part 3 – Add Essential Content
+## 🧾 Part 3 – Build the Real Pages
 
-Complete your website by adding key content: the “About Us” page, contacts, a resources section, and more.
+Complete your website by building all the key pages: About Me, Start Here, Resources, Contacts, and a photo Gallery with a lightbox viewer.
 
 👉 [Go to Part 3](https://github.com/sasadangelo/html-hero/tree/master/part-3)
 

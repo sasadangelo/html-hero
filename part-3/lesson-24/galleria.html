@@ -1,0 +1,166 @@
+<!--
+    © 2025 Salvatore D'Angelo
+    Questo progetto è distribuito sotto licenza MIT.
+    Vedi https://opensource.org/licenses/MIT per i dettagli.
+-->
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML Hero – Galleria</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="assets/css/default.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/page.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/brands.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome.css">
+    <!--
+        Il JavaScript per la galleria è in un file esterno separato.
+        Separare HTML, CSS e JavaScript in file distinti è una buona pratica:
+        - il codice è più leggibile e organizzato
+        - lo stesso file JS può essere riutilizzato da più pagine
+        - il browser può memorizzare il file nella cache
+
+        defer garantisce che lo script venga eseguito solo dopo che il DOM
+        è stato completamente caricato, evitando errori.
+    -->
+    <script type="text/javascript" src="assets/js/galleria.js" defer></script>
+</head>
+
+<body>
+    <div id="page">
+        <header>
+            <div id="header-group">
+                <div id="logo">
+                    <img src="assets/img/code4projects-logo-mini.webp" alt="Code4Projects Logo" width="150"
+                        height="150">
+                </div>
+                <div id="social-media-group">
+                    <div class="social-media-title">Seguimi su:</div>
+                    <div class="social-media-icons">
+                        <a aria-label="Code4Projects Facebook page" title="Code4Projects Facebook page"
+                            class="social-media-icon social-media-icon-facebook"
+                            href="https://www.facebook.com/code4projects/">
+                            <span class="fa-brands fa-facebook-f"></span>
+                        </a>
+                        <a aria-label="Code4Projects Twitter page" title="Code4Projects Twitter page"
+                            class="social-media-icon social-media-icon-twitter"
+                            href="https://twitter.com/code4projects">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a aria-label="Code4Projects Linkedin page" title="Code4Projects Linkedin page"
+                            class="social-media-icon social-media-icon-linkedin"
+                            href="https://www.linkedin.com/in/salvatore-d-angelo-0321851/">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a aria-label="Code4Projects Youtube channel" title="Code4Projects Youtube channel"
+                            class="social-media-icon social-media-icon-youtube"
+                            href="https://www.youtube.com/channel/UCBntvkFS3phHOFAWNS8_4pg/">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                        <a aria-label="Code4Projects Github page" title="Code4Projects Github page"
+                            class="social-media-icon social-media-icon-github" href="https://github.com/sasadangelo">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="navigation">
+            <!-- Hamburger icon per menu mobile -->
+            <input class="drop-menu-checkbox" type="checkbox" id="drop-menu-checkbox">
+            <label class="hamburger" for="drop-menu-checkbox">
+                <span class="hamburger-line"></span>
+            </label>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="chi_sono.html">Chi Sono</a></li>
+                    <li><a href="inizia_qui.html">Nuovo Utente? Inizia Qui</a></li>
+                    <li><a href="risorse.html">Risorse</a></li>
+                    <li><a href="contatti.html">Contatti</a></li>
+                    <!--
+                        NOVITÀ LEZIONE 24: aggiunto il link alla Galleria nel menu di navigazione.
+                    -->
+                    <li><a href="galleria.html">Galleria</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main class="page-main">
+            <div id="page-container">
+                <!--
+                    NOVITÀ LEZIONE 24: questa è la nuova pagina "Galleria".
+
+                    Una galleria fotografica organizza le immagini in una griglia (grid).
+                    Il CSS nella classe .gallery-grid usa:
+                    - display: grid: attiva il layout a griglia
+                    - grid-template-columns: repeat(auto-fill, minmax(150px, 1fr))
+                      crea automaticamente quante colonne ci stanno, ognuna larga almeno 150px
+                    - gap: lo spazio tra le celle della griglia
+
+                    Cliccando su un'immagine si apre un visualizzatore a schermo intero.
+                    La logica è gestita dal file JavaScript esterno assets/js/galleria.js,
+                    incluso nell'<head> con l'attributo defer.
+                -->
+                <h1>La Mia Galleria</h1>
+                <p>
+                    Una raccolta di foto che mi rappresentano. Clicca su un'immagine per ingrandirla.
+                </p>
+
+                <!-- Griglia di immagini -->
+                <div class="gallery-grid">
+                    <div class="gallery-cell">
+                        <img src="assets/gallery/gallery1.jpeg" alt="Foto 1" onclick="mostraImmagine(this);">
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="assets/gallery/gallery2.jpeg" alt="Foto 2" onclick="mostraImmagine(this);">
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="assets/gallery/gallery3.jpeg" alt="Foto 3" onclick="mostraImmagine(this);">
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="assets/gallery/gallery4.jpeg" alt="Foto 4" onclick="mostraImmagine(this);">
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="assets/gallery/gallery5.jpeg" alt="Foto 5" onclick="mostraImmagine(this);">
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="assets/gallery/gallery6.jpeg" alt="Foto 6" onclick="mostraImmagine(this);">
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="assets/gallery/gallery7.jpeg" alt="Foto 7" onclick="mostraImmagine(this);">
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="assets/gallery/gallery8.jpeg" alt="Foto 8" onclick="mostraImmagine(this);">
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="assets/gallery/gallery9.jpeg" alt="Foto 9" onclick="mostraImmagine(this);">
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="assets/gallery/gallery10.jpeg" alt="Foto 10" onclick="mostraImmagine(this);">
+                    </div>
+                </div>
+
+                <!--
+                    Visualizzatore a schermo intero.
+                    Inizialmente è nascosto (display: none nel CSS).
+                    Viene mostrato da JavaScript quando si clicca su una foto.
+                    Il pulsante × chiude il visualizzatore.
+                -->
+                <div id="gallery-viewer">
+                    <span id="gallery-close" onclick="chiudiImmagine();">&times;</span>
+                    <img id="gallery-expanded-img" src="" alt="Immagine espansa">
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div id="site-info">
+                Code4Projects, Copyright Salvatore D'Angelo © 2016-2025.
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>

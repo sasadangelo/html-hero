@@ -1,35 +1,31 @@
-# 📘 Lezione 20 - Creiamo la pagina “Chi Sono”
+# 📘 Lezione 20 – Creiamo la pagina "Chi Sono"
 
-In questa lezione ci dedicheremo a creare la prima vera pagina del nostro sito web: la pagina **Chi Sono**. Questa pagina è fondamentale per introdurre te stesso e il tuo progetto ai visitatori del sito. È il primo passo per costruire una connessione con il pubblico e per comunicare chi sei, cosa fai e perché sei il punto di riferimento giusto per le informazioni che offri.
+In questa lezione creiamo la prima vera pagina di contenuto del sito: la pagina **Chi Sono**. È la pagina in cui il visitatore scopre chi sei, qual è la tua storia e cosa ti ha portato a creare questo sito.
 
 ## 🎓 Cosa Imparerai?
 
 Durante questa lezione scoprirai come:
 
-- Creare la struttura base della pagina "Chi Sono" utilizzando HTML5
-- Organizzare il contenuto in modo chiaro e interessante
-- Aggiungere sezioni come una breve biografia, competenze e contatti
-- Utilizzare immagini e icone per rendere il contenuto visivamente interessante
+- Creare una pagina di contenuto usando la stessa struttura (header, nav, footer) delle pagine precedenti
+- Usare i tag `<h1>`, `<h2>`, `<p>` per organizzare una biografia in modo leggibile
+- Inserire un'immagine del profilo con la classe `responsive_img` per adattarla allo schermo
+- Usare i link `<a>` per collegare a profili esterni (GitHub, LinkedIn)
+- Aggiornare il menu di navigazione per includere il link alla nuova pagina
 
 ## 🖼️ Panoramica
 
-La pagina "Chi Sono" è una delle prime cose che gli utenti cercano quando visitano un sito web. Serve a presentarti in modo professionale, ma anche a creare un legame umano con chi naviga. Non solo fornisce una panoramica delle tue competenze e del tuo background, ma è anche un'opportunità per mostrare la tua personalità e ciò che ti differenzia.
+La pagina Chi Sono è strutturata semplicemente: una serie di paragrafi `<p>` che raccontano la storia di Salvatore, con un'immagine del profilo in cima. Non ci sono novità CSS particolari rispetto alla Parte II — l'obiettivo è concentrarsi sul contenuto e sulla struttura HTML.
 
-In questa lezione, esploreremo come strutturare il contenuto della pagina in modo efficace, utilizzando:
+## 📂 File modificati in questa lezione
 
-- **Sezioni chiare**: Introduzione, Esperienza, Competenze, e altro.
-- **Elementi visivi**: Aggiungere immagini del tuo profilo o icone per le competenze.
-- **Link social**: Integrare i tuoi profili social per permettere agli utenti di connettersi con te facilmente.
+| File | Operazione | Descrizione |
+|---|---|---|
+| `chi_sono.html` | ✨ Nuovo | La nuova pagina Chi Sono |
+| Tutti gli `.html` | ✏️ Modificato | Menu aggiornato con link a Chi Sono |
 
 ## 🎯 Obiettivo
 
-L’obiettivo della lezione è creare una pagina "Chi Sono" completa che:
-
-- Offra una panoramica chiara e concisa di chi sei
-- Sia facilmente leggibile e accattivante per gli utenti
-- Sia organizzata in modo che i visitatori possano trovare rapidamente le informazioni principali
-- Mostri la tua personalità attraverso un design ben curato
-
-## ✅ Conclusione
-
-Alla fine di questa lezione, avrai creato la tua pagina "Chi Sono", un elemento chiave per qualsiasi sito web personale o professionale. La sua importanza non può essere sottovalutata: è la tua opportunità di fare una buona prima impressione sui tuoi visitatori, mostrando loro chi sei, cosa fai e come possono connettersi con te.
+Alla fine di questa lezione avrai:
+- Creato la pagina `chi_sono.html` con contenuto reale (non Lorem Ipsum)
+- Inserito un'immagine responsive del profilo
+- Aggiornato il menu in tutte le pagine del sito

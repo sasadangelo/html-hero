@@ -1,21 +1,27 @@
-# 📘 Lesson 4 – Sections
+# 📘 Lesson 4 – Add a Subheading and a Second Paragraph
 
-In this lesson, we’ll add a second paragraph and a subheading to your HTML page.
+In this lesson, we add a second-level heading (`<h2>`) and a second paragraph to make the page content more structured.
 
 ## 🎓 What Will You Learn?
 
-- How to use the `<h2>` tag to create subheadings  
-- How to add multiple paragraphs using the `<p>` tag  
-- How to better structure your page content  
+- How to use the `<h2>` tag to create a subheading
+- How to add multiple paragraphs using the `<p>` tag
+- How to better organize page content with a clear hierarchy
 
 ## 🖼️ Overview
 
-So far, we’ve created an HTML page with a main heading and one paragraph of text. Now we’ll introduce a second-level heading (`<h2>`) and add another paragraph to start organizing the content like a real web page.
+So far, we have a page with a main heading (`<h1>`) and one paragraph. Now we introduce a subheading (`<h2>`) and a second paragraph to start building a richer, more realistic page structure.
+
+The heading hierarchy works like a document outline:
+- `<h1>` — main title (one per page)
+- `<h2>` — section title
+- `<h3>` — subsection title
+- and so on down to `<h6>`
 
 ## 🎯 Goal
 
-Learn how to divide text into well-organized sections and paragraphs to make your content clearer and your layout more structured.
+Add a subheading and a second paragraph, and understand how HTML heading levels create a logical content hierarchy.
 
 ## ✅ Conclusion
 
-Now your HTML page has a richer and more readable structure — you’re already building content like a real web developer!
+Your HTML page now has a richer structure with multiple levels of content. You are already writing HTML like a real web developer!

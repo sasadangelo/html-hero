@@ -1,32 +1,38 @@
-# 📘 Lezione 21 - Creiamo la pagina "Inizia Qui"
+# 📘 Lezione 21 – Creiamo la pagina "Inizia Qui"
 
-In questa lezione, ci concentreremo sulla creazione della pagina **Inizia Qui**, che accoglierà i nuovi visitatori del nostro sito e spiegherà di cosa tratta il sito web, quali sono i suoi obiettivi e perché è utile seguirlo.
+In questa lezione creiamo la pagina **Inizia Qui**, che accoglie i nuovi visitatori spiegando chi è l'autore del sito, qual è la sua filosofia e come iniziare a usare il sito. È la pagina a cui rimandare chi approda per la prima volta.
 
 ## 🎓 Cosa Imparerai?
 
 Durante questa lezione scoprirai come:
 
-- Creare una pagina di introduzione chiara e accogliente per i nuovi visitatori
-- Scrivere un testo informativo che spieghi la filosofia e gli obiettivi del sito
-- Utilizzare HTML e CSS per realizzare una pagina semplice e ben strutturata
-- Rendere la pagina facilmente accessibile e visibile nella navigazione del sito
+- Usare il tag `<figure>` con `<figcaption>` per le immagini con didascalia
+- Usare `<strong>` per evidenziare concetti chiave nel testo
+- Strutturare una pagina lunga con più `<h2>` come sottosezioni
+- Inserire immagini responsive con la classe `responsive_img`
+- Aggiornare il menu per includere la nuova pagina
 
 ## 🖼️ Panoramica
 
-La pagina **Inizia Qui** è una delle più importanti di un sito web, in quanto funge da punto di partenza per i nuovi utenti. Qui, i visitatori possono capire rapidamente di cosa si occupa il sito, cosa possono imparare e come trarre vantaggio dai contenuti proposti.
+La pagina "Inizia Qui" usa gli stessi tag HTML della pagina Chi Sono, ma introduce `<figure>` e `<figcaption>`: un modo semantico per associare una didascalia a un'immagine.
 
-Durante questa lezione, non solo costruiremo il layout e lo stile di questa pagina, ma creeremo anche un messaggio che comunichi chiaramente perché il sito è utile per chi vuole imparare a programmare o approfondire le proprie competenze.
+```html
+<figure>
+    <img class="responsive_img" src="assets/img/software-developer2.jpg" alt="Software Developer">
+    <figcaption>Foto da <a href="...">clipartstation.com</a></figcaption>
+</figure>
+```
+
+## 📂 File modificati in questa lezione
+
+| File | Operazione | Descrizione |
+|---|---|---|
+| `inizia_qui.html` | ✨ Nuovo | La nuova pagina "Inizia Qui" |
+| Tutti gli `.html` | ✏️ Modificato | Menu aggiornato con link a "Inizia Qui" |
 
 ## 🎯 Obiettivo
 
-L'obiettivo di questa lezione è **fornire una guida introduttiva chiara e utile** per chi approda per la prima volta sul sito. Alla fine di questa lezione, avrai creato una pagina "Inizia Qui" che:
-
-- Accoglie il visitatore e spiega brevemente cosa troverà sul sito
-- Descrive gli obiettivi del sito e come può aiutare i programmatori, sia principianti che esperti
-- Invita i visitatori a esplorare il sito e a iniziare il loro percorso di apprendimento
-
-## ✅ Conclusione
-
-Con questa lezione, avrai completato una delle pagine più importanti del sito: la **pagina di benvenuto** per i nuovi visitatori. Sarà chiaro, fin dal primo sguardo, cosa offre il sito e come può aiutare chiunque sia interessato a migliorare le proprie competenze di programmazione.
-
-Adesso, con la pagina **Inizia Qui** pronta, i nuovi visitatori sapranno esattamente come muoversi nel sito e quale percorso seguire per diventare programmatori migliori!
+Alla fine di questa lezione avrai:
+- Creato la pagina `inizia_qui.html` con contenuto reale strutturato in sezioni
+- Usato `<figure>` e `<figcaption>` per le immagini con didascalia
+- Compreso la differenza semantica tra `<img>` semplice e `<figure>`

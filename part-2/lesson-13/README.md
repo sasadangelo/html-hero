@@ -1,17 +1,31 @@
-# 📘 Lezione 13 - Creiamo un Header e un Footer
+# 📘 Lezione 13 – Creiamo un Header e un Footer
 
-In questa lezione, aggiungeremo un header e un footer vuoti a tutte le pagine del nostro sito, ponendo le basi per il layout.
+In questa lezione aggiungiamo a tutte le pagine del sito un **header** con il logo e un **footer** con il copyright. È il primo passo verso un layout visivamente coerente.
 
 ## 🎓 Cosa Imparerai?
-In questa lezione imparerai a inserire e strutturare i tag `<header>` e `<footer>` in tutte le pagine del tuo sito web.
+
+- Cosa sono i tag semantici `<header>` e `<footer>` e perché usarli
+- Come aggiungere un logo nell'header con il tag `<img>`
+- Come inserire il testo di copyright nel footer
+- Come applicare stili CSS di base a header e footer (colore di sfondo, padding, centratura)
+- Come replicare la stessa struttura su tutte le pagine del sito
 
 ## 🖼️ Panoramica
-Il layout di un sito web è essenziale per la sua usabilità e per l’aspetto generale. In questa lezione, iniziamo a definire la struttura del nostro sito web aggiungendo un header e un footer vuoti. Questi sono elementi comuni in molte pagine web, che di solito contengono il logo, il menu di navigazione e altre informazioni di utilità nel caso del header, e informazioni di copyright o link a privacy e termini nel caso del footer.
 
-Utilizzeremo i tag HTML5 `<header>` e `<footer>`, che rendono la struttura della pagina più semantica e accessibile. Entrambi gli elementi saranno inizialmente vuoti e serviranno come base per future aggiunte di contenuti.
+I tag `<header>` e `<footer>` sono elementi semantici HTML5: indicano al browser (e ai motori di ricerca) che quella zona della pagina ha un ruolo specifico. Usarli al posto di semplici `<div>` rende il codice più leggibile e accessibile.
+
+In questa lezione l'header contiene il logo del sito, e il footer contiene il testo di copyright. Nelle lezioni successive arricchiremo entrambi con altri contenuti.
+
+## 📂 File modificati in questa lezione
+
+| File | Operazione | Descrizione |
+|---|---|---|
+| Tutti gli `.html` | ✏️ Modificato | Aggiunti `<header>` con logo e `<footer>` con copyright |
+| `default.css` | ✏️ Modificato | Stili per header e footer |
 
 ## 🎯 Obiettivo
-Alla fine di questa lezione, avrai aggiunto un header e un footer a tutte le pagine del tuo sito web. Sebbene siano vuoti per ora, la loro struttura è pronta per essere personalizzata in seguito con contenuti specifici come il logo, i menu di navigazione e le informazioni legali.
 
-## ✅ Conclusione
-Abbiamo posto le basi per il layout del nostro sito web. L'uso dei tag `<header>` e `<footer>` non solo migliora l'organizzazione del codice, ma prepara il terreno per l'aggiunta di contenuti utili e un design coerente su tutte le pagine.
+Alla fine di questa lezione avrai:
+- Un header con il logo del sito presente in tutte le pagine
+- Un footer con il testo di copyright in tutte le pagine
+- Capito la differenza tra tag semantici e `<div>` generici

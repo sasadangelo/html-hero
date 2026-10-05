@@ -1,22 +1,21 @@
-# 📘 Lesson 5 – Add a Second Paragraph
+# 📘 Lesson 5 – Add Multiple Paragraphs
 
-In this lesson, you’ll learn how to use multiple paragraphs and what happens when a paragraph is empty.
+In this lesson, we add more paragraphs to the page and learn how multiple paragraphs work together in an HTML document.
 
 ## 🎓 What Will You Learn?
 
-- How to insert multiple paragraphs within the same section  
-- Understand the behavior of an empty paragraph (`<p />`)  
-- Continue improving your content structure  
+- How to insert multiple paragraphs within the same section
+- How the browser renders consecutive `<p>` elements (automatic spacing)
+- How to keep your HTML readable when the content grows
 
 ## 🖼️ Overview
 
-We’re building the structure of an HTML page step by step. After introducing headings and paragraphs, we now add another content paragraph and an empty paragraph to observe its effect on the page rendering.
+A real web page rarely has just one paragraph of text. In this lesson we add more `<p>` elements to fill out the page content, observing how the browser automatically adds vertical space between paragraphs.
 
 ## 🎯 Goal
 
-Understand how paragraphs behave in the document flow and how HTML interprets an empty `<p>` element.
+Add several paragraphs to the page and understand how HTML handles multiple `<p>` elements in the document flow.
 
 ## ✅ Conclusion
 
-You can now use consecutive paragraphs and properly handle empty ones, improving the readability of your page.
-
+You can now write pages with multiple paragraphs and understand how the browser renders them — an essential skill for any content-heavy page.

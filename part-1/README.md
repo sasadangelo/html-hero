@@ -13,7 +13,7 @@ This first part consists of 12 hands-on lessons:
 
 * [Lesson 01: Your First HTML Page](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-01)
 * [Lesson 02: Headings](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-02)
-* [Lesson 03: Paragraphs](https://github.com/sasadangelo/html-hero/tree/master/master/part-1/lesson-03)
+* [Lesson 03: Paragraphs](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-03)
 * [Lesson 04: Sections](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-04)
 * [Lesson 05: Add a Second Paragraph](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-05)
 * [Lesson 06: Add All Paragraphs into 4 Different Sections](https://github.com/sasadangelo/html-hero/tree/master/part-1/lesson-06)
