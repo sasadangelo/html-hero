@@ -1,21 +1,15 @@
 <!--
     © 2025 Salvatore D'Angelo
-    Questo progetto è distribuito sotto licenza MIT.
-    Vedi https://opensource.org/licenses/MIT per i dettagli.
+    This project is distributed under the MIT license.
+    See https://opensource.org/licenses/MIT for details.
 -->
-<!DOCTYPE html> <!-- Dichiara il tipo di documento: HTML5 -->
-<html lang="it"> <!-- Inizio del documento HTML, con lingua impostata su italiano -->
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <!--
-        Specifica la codifica dei caratteri del documento.
-        "UTF-8" è una codifica universale che supporta la maggior parte dei caratteri delle lingue del mondo,
-        inclusi gli accenti, i simboli speciali e le emoji. È fondamentale per evitare problemi di visualizzazione
-        con testi in italiano o multilingua.
-    -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>HTML Hero</title> <!-- Titolo della pagina, visibile nella scheda del browser -->
+    <title>HTML Hero</title>
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <link rel="stylesheet" type="text/css" href="assets/css/default.css">
     <link rel="stylesheet" type="text/css" href="assets/css/home.css">
@@ -24,7 +18,7 @@
 </head>
 
 <body>
-    <!-- Contenuto visibile della pagina -->
+
     <div id="page">
         <header>
             <div id="header-group">
@@ -33,7 +27,7 @@
                         height="150">
                 </div>
                 <div id="social-media-group">
-                    <div class="social-media-title">Seguimi su:</div>
+                    <div class="social-media-title">Follow me on:</div>
                     <div class="social-media-icons">
                         <a aria-label="Code4Projects Facebook page" title="Code4Projects Facebook page"
                             class="social-media-icon social-media-icon-facebook"
@@ -64,7 +58,7 @@
             </div>
         </header>
         <div id="navigation">
-            <!-- Hamburger icon -->
+            <!-- Hamburger icon for mobile menu -->
             <input class="drop-menu-checkbox" type="checkbox" id="drop-menu-checkbox">
             <label class="hamburger" for="drop-menu-checkbox">
                 <span class="hamburger-line"></span>
@@ -72,21 +66,21 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="chi_sono.html">Chi Sono</a></li>
-                    <li><a href="inizia_qui.html">Nuovo Utente? Inizia Qui</a></li>
-                    <li><a href="risorse.html">Risorse</a></li>
-                    <li><a href="contatti.html">Contatti</a></li>
-                    <li><a href="galleria.html">Galleria</a></li>
+                    <li><a href="about-me.html">About Me</a></li>
+                    <li><a href="start-here.html">New User? Start Here</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
                 </ul>
             </nav>
         </div>
         <!--
-            NOVITÀ LEZIONE 24: aggiorniamo la Home Page per collegare i circle-icon-box e le
-            feature sections alle vere pagine del sito (Galleria, Risorse, Contatti, Chi Sono)
-            invece dei placeholder "Seconda/Terza/Quarta Pagina".
+            NEW IN LESSON 24: we update the Home Page to link the circle-icon-box elements
+            and the feature sections to the real site pages (Gallery, Resources, Contacts, About Me)
+            instead of the placeholder "Second/Third/Fourth Page" links.
 
-            Questo è il passo in cui la homepage diventa finalmente coerente con
-            tutte le pagine costruite nelle lezioni precedenti.
+            This is the step where the homepage finally becomes consistent with
+            all the pages built in the previous lessons.
         -->
         <main class="home-main">
             <div id="home-container">
@@ -96,13 +90,13 @@
                             <div class="hero-content">
                                 <div class="hero-box">
                                     <div class="hero-messagebox">
-                                        <h1>Benvenuto su HTML Hero!</h1>
+                                        <h1>Welcome to HTML Hero!</h1>
                                         <p>
-                                            Questo sito è stato costruito passo dopo passo seguendo il corso
-                                            <strong>HTML &amp; CSS Hero</strong>. Qui puoi trovare la mia storia,
-                                            le risorse utili per imparare a programmare, la mia galleria fotografica
-                                            e molto altro. <a href="inizia_qui.html">Inizia qui</a> se è la tua
-                                            prima visita!
+                                            This site was built step by step following the
+                                            <strong>HTML &amp; CSS Hero</strong> course. Here you can find my story,
+                                            useful resources to learn programming, my photo gallery
+                                            and much more. <a href="start-here.html">Start here</a> if it's your
+                                            first visit!
                                         </p>
                                     </div>
                                 </div>
@@ -110,34 +104,34 @@
                         </div>
                     </div>
                     <!--
-                        I circle-icon-box ora puntano alle pagine reali del sito:
-                        - Galleria: la galleria fotografica creata in questa lezione
-                        - Risorse: la pagina risorse creata nella Lezione 22
-                        - Contatti: la pagina contatti creata nella Lezione 23
+                        The circle-icon-box elements now link to the real pages of the site:
+                        - Gallery: the photo gallery created in this lesson
+                        - Resources: the resources page created in Lesson 22
+                        - Contacts: the contacts page created in Lesson 23
                     -->
                     <div class="circle-icon-area">
                         <div class="circle-icon-box">
-                            <a title="La Mia Galleria" href="galleria.html">
+                            <a title="My Gallery" href="gallery.html">
                                 <div class="circle-icon" style="background-image: url(assets/img/starthere-icon.png)">
                                 </div>
-                                <h2>La Mia Galleria</h2>
-                                Guarda le mie foto
+                                <h2>My Gallery</h2>
+                                Browse my photos
                             </a>
                         </div>
                         <div class="circle-icon-box">
-                            <a title="Risorse" href="risorse.html">
+                            <a title="Resources" href="resources.html">
                                 <div class="circle-icon" style="background-image: url(assets/img/projects-icon.png)">
                                 </div>
-                                <h2>Risorse</h2>
-                                Libri e siti utili
+                                <h2>Resources</h2>
+                                Books and useful sites
                             </a>
                         </div>
                         <div class="circle-icon-box">
-                            <a title="Contatti" href="contatti.html">
+                            <a title="Contacts" href="contacts.html">
                                 <div class="circle-icon" style="background-image: url(assets/img/resources-icon.png)">
                                 </div>
-                                <h2>Contatti</h2>
-                                Scrivimi un messaggio
+                                <h2>Contacts</h2>
+                                Send me a message
                             </a>
                         </div>
                     </div>
@@ -145,108 +139,102 @@
                         <div class="newsletter-home-box">
                             <div class="newsletter-home-image">
                                 <img src="assets/img/3D-DockerCover-medium.png"
-                                    alt="Iscriviti alla Newsletter e scarica l'eBook gratuito">
+                                    alt="Subscribe to the Newsletter and download the free eBook">
                             </div>
                             <div class="newsletter-home-form">
-                                <div class="newsletter-home-text-title">Scarica l'eBook Gratuito</div>
-                                <div class="newsletter-home-text">Iscriviti alla Newsletter e scarica gratuitamente
-                                    l'eBook <strong>HTML &amp; CSS – Dal Principiante all'Esperto</strong>.</div>
+                                <div class="newsletter-home-text-title">Download the Free eBook</div>
+                                <div class="newsletter-home-text">Subscribe to the Newsletter and download the free eBook <strong>HTML &amp; CSS – From Beginner to Hero</strong>.</div>
                                 <form action="" method="post" target="_blank">
                                     <div>
-                                        <input class="newsletter-home-input" name="name" type="text" placeholder="Nome"
+                                        <input class="newsletter-home-input" name="name" type="text" placeholder="Name"
                                             required>
                                     </div>
                                     <div>
                                         <input class="newsletter-home-input" name="email" type="email"
                                             placeholder="Email" required>
-                                        <button type="submit" class="primary">Scarica</button>
+                                        <button type="submit" class="primary">Download</button>
                                     </div>
                                 </form>
                             </div>
                         </div>
                     </div>
                     <!--
-                        Le feature sections ora puntano alle pagine reali del sito.
-                        Le immagini sono le stesse usate nelle lezioni precedenti.
+                        The feature sections now link to the real pages of the site.
+                        The images are the same used in the previous lessons.
                     -->
                     <div class="feature-content-row-white">
                         <div class="feature-content-box-white">
                             <div class="feature-content-image">
-                                <a href="galleria.html">
-                                    <img src="assets/img/feature-image-1.jpeg" alt="La Mia Galleria Fotografica">
+                                <a href="gallery.html">
+                                    <img src="assets/img/feature-image-1.jpeg" alt="My Photo Gallery">
                                 </a>
                             </div>
                             <div class="feature-content-text">
                                 <div class="feature-content-text-title">
-                                    <a href="galleria.html" title="La Mia Galleria">
-                                        <h3>La Mia Galleria Fotografica</h3>
+                                    <a href="gallery.html" title="My Gallery">
+                                        <h3>My Photo Gallery</h3>
                                     </a>
                                 </div>
-                                Una raccolta di fotografie che mi rappresentano. Ogni immagine racconta un momento
-                                speciale della mia vita. Clicca su una foto per vederla ingrandita.
+                                A collection of photos that represent me. Each image tells a special moment of my life. Click on a photo to enlarge it.
                                 <br><br>
-                                <a href="galleria.html">Guarda la galleria &rarr;</a>
+                                <a href="gallery.html">See the gallery &rarr;</a>
                             </div>
                         </div>
                     </div>
                     <div class="feature-content-row-grey">
                         <div class="feature-content-box-grey">
                             <div class="feature-content-image">
-                                <a href="contatti.html">
-                                    <img src="assets/img/feature-image-2.jpeg" alt="Contattami">
+                                <a href="contacts.html">
+                                    <img src="assets/img/feature-image-2.jpeg" alt="Contact Me">
                                 </a>
                             </div>
                             <div class="feature-content-text">
                                 <div class="feature-content-text-title">
-                                    <a href="contatti.html" title="Contatti">
-                                        <h3>Contattami</h3>
+                                    <a href="contacts.html" title="Contacts">
+                                        <h3>Contact Me</h3>
                                     </a>
                                 </div>
-                                Hai domande o suggerimenti? Compila il modulo di contatto e
-                                ti risponderò il prima possibile.
+                                Have questions or suggestions? Fill out the contact form and I will get back to you as soon as possible.
                                 <br><br>
-                                <a href="contatti.html">Scrivimi &rarr;</a>
+                                <a href="contacts.html">Write to me &rarr;</a>
                             </div>
                         </div>
                     </div>
                     <div class="feature-content-row-white">
                         <div class="feature-content-box-white">
                             <div class="feature-content-image">
-                                <a href="risorse.html">
-                                    <img src="assets/img/feature-image-3.jpeg" alt="Risorse Utili">
+                                <a href="resources.html">
+                                    <img src="assets/img/feature-image-3.jpeg" alt="Useful Learning Resources">
                                 </a>
                             </div>
                             <div class="feature-content-text">
                                 <div class="feature-content-text-title">
-                                    <a href="risorse.html" title="Risorse">
-                                        <h3>Risorse Utili per Imparare</h3>
+                                    <a href="resources.html" title="Resources">
+                                        <h3>Useful Learning Resources</h3>
                                     </a>
                                 </div>
-                                Libri, siti web, strumenti di sviluppo: qui trovi tutto quello che uso
-                                io stesso ogni giorno per continuare a imparare e migliorare.
+                                Books, websites, developer tools: here you find everything I use every day to keep learning and improving.
                                 <br><br>
-                                <a href="risorse.html">Vai alle risorse &rarr;</a>
+                                <a href="resources.html">Go to resources &rarr;</a>
                             </div>
                         </div>
                     </div>
                     <div class="feature-content-row-grey">
                         <div class="feature-content-box-grey">
                             <div class="feature-content-image">
-                                <a href="chi_sono.html">
-                                    <img src="assets/img/feature-image-4.jpeg" alt="Chi Sono">
+                                <a href="about-me.html">
+                                    <img src="assets/img/feature-image-4.jpeg" alt="About Me">
                                 </a>
                             </div>
                             <div class="feature-content-text">
                                 <div class="feature-content-text-title">
-                                    <a href="chi_sono.html" title="Chi Sono">
-                                        <h3>Chi Sono</h3>
+                                    <a href="about-me.html" title="About Me">
+                                        <h3>About Me</h3>
                                     </a>
                                 </div>
-                                Sono Salvatore D'Angelo, programmatore professionista dal 1999 con oltre
-                                30 anni di esperienza. Scopri la mia storia, il mio percorso e perché
-                                ho creato questo sito.
+                                I am Salvatore D'Angelo, a professional software engineer since 1999 with over 30 years of experience. Discover my story, my career and why I created this site.
                                 <br><br>
-                                <a href="chi_sono.html">Leggi la mia storia &rarr;</a>
+                                <a href="about-me.html">Read my story &rarr;</a>
                             </div>
                         </div>
                     </div>
@@ -255,7 +243,7 @@
         </main>
         <footer>
             <div id="site-info">
-                Code4Projects, Copyright Salvatore D'Angelo © 2016-2025.
+                Code4Projects, Copyright Salvatore D'Angelo &copy; 2016-2025.
             </div>
         </footer>
     </div>

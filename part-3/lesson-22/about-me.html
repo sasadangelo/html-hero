@@ -1,0 +1,142 @@
+<!--
+    © 2025 Salvatore D'Angelo
+    This project is distributed under the MIT license.
+    See https://opensource.org/licenses/MIT for details.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML Hero – About Me</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="assets/css/default.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/page.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/brands.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome.css">
+</head>
+
+<body>
+    <div id="page">
+        <header>
+            <div id="header-group">
+                <div id="logo">
+                    <img src="assets/img/code4projects-logo-mini.webp" alt="Code4Projects Logo" width="150"
+                        height="150">
+                </div>
+                <div id="social-media-group">
+                    <div class="social-media-title">Follow me on:</div>
+                    <div class="social-media-icons">
+                        <a aria-label="Code4Projects Facebook page" title="Code4Projects Facebook page"
+                            class="social-media-icon social-media-icon-facebook"
+                            href="https://www.facebook.com/code4projects/">
+                            <span class="fa-brands fa-facebook-f"></span>
+                        </a>
+                        <a aria-label="Code4Projects Twitter page" title="Code4Projects Twitter page"
+                            class="social-media-icon social-media-icon-twitter"
+                            href="https://twitter.com/code4projects">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a aria-label="Code4Projects Linkedin page" title="Code4Projects Linkedin page"
+                            class="social-media-icon social-media-icon-linkedin"
+                            href="https://www.linkedin.com/in/salvatore-d-angelo-0321851/">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a aria-label="Code4Projects Youtube channel" title="Code4Projects Youtube channel"
+                            class="social-media-icon social-media-icon-youtube"
+                            href="https://www.youtube.com/channel/UCBntvkFS3phHOFAWNS8_4pg/">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                        <a aria-label="Code4Projects Github page" title="Code4Projects Github page"
+                            class="social-media-icon social-media-icon-github" href="https://github.com/sasadangelo">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="navigation">
+            <!-- Hamburger icon for mobile menu -->
+            <input class="drop-menu-checkbox" type="checkbox" id="drop-menu-checkbox">
+            <label class="hamburger" for="drop-menu-checkbox">
+                <span class="hamburger-line"></span>
+            </label>
+            <nav>
+                                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <!--
+                        NEW IN LESSON 20: "About Me" replaces "Second Page" in the navigation menu.
+                        This is the first real page of the site: the author's biography.
+                    -->
+                    <li><a href="about-me.html">About Me</a></li>
+                    <li><a href="start-here.html">New User? Start Here</a></li>
+                    <!--
+                        NEW IN LESSON 22: "Resources" replaces "Fifth Page" in the navigation menu.
+                        Every time we create a real page, we replace one placeholder.
+                    -->
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="fourth_page.html">Fourth Page</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main class="page-main">
+            <div id="page-container">
+                <!--
+                    NEW IN LESSON 20: this is the new "About Me" page.
+
+                    HTML headings (from <h1> to <h6>) represent titles at different levels.
+                    <h1> is the main title, <h2> is a subtitle, and so on down to <h6>.
+                    Best practice: use only one <h1> per page.
+                -->
+                <h1>About Me</h1>
+
+                <!--
+                    The <img> tag embeds an image in the page.
+                    - src: path to the image file
+                    - alt: alternative text shown if the image cannot load (also used by screen readers)
+                    The class "responsive_img" is defined in page.css and makes the image scale
+                    proportionally to fit smaller screens.
+                -->
+                <img class="responsive_img" src="assets/img/salvatore_d_angelo.jpeg" alt="Salvatore D'Angelo">
+
+                <p>
+                    My name is Salvatore D'Angelo and I have been a professional software engineer since 1999.
+                </p>
+                <p>
+                    I started programming in 1986 as a hobby and, before moving to professional work,
+                    I worked with several programming languages such as Turbo Pascal, C, C++, Java, SQL and Visual Basic.
+                </p>
+                <p>
+                    I have always believed that the best way to learn a programming language or a technology
+                    is to build a small project with it. For this reason, during that period I worked on various
+                    projects including compilers, operating systems, shop management systems, and so on.
+                    Some of them are available on my <a href="https://github.com/sasadangelo/">GitHub page</a>.
+                </p>
+                <p>
+                    During that time I was attending a Computer Science school in a small nearby town.
+                    In 1992 I enrolled in the Computer Science degree at the University of Salerno
+                    and graduated with honours in 1998.
+                </p>
+                <p>
+                    After a brief period of military service, I started working in 1999. For a couple of months
+                    I worked for a small company in Naples, then I moved to a well-known American software company
+                    in Rome, where I still work today.
+                </p>
+                <p>
+                    At this company I have worked on many projects, collaborating on the design and implementation
+                    of numerous software products. I currently work in the Cloud area, designing and implementing
+                    resilient solutions for our platform. You can read my full career history on my
+                    <a href="https://www.linkedin.com/in/salvatore-d-angelo-0321851/">LinkedIn page</a>.
+                </p>
+            </div>
+        </main>
+        <footer>
+            <div id="site-info">
+                Code4Projects, Copyright Salvatore D'Angelo &copy; 2016-2025.
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

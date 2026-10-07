@@ -1,20 +1,20 @@
-# 📘 Lezione 24 – Creiamo la Galleria e aggiorniamo la Home Page
+# Lesson 24 – Building the Photo Gallery and Completing the Home Page
 
-In questa lezione facciamo due cose: aggiungiamo la **galleria fotografica interattiva** con CSS Grid e JavaScript esterno, e **aggiorniamo la Home Page** per collegare tutte le sezioni reali del sito al posto dei placeholder.
+In this lesson we do two things: we add an **interactive photo gallery** using CSS Grid and external JavaScript, and we **update the Home Page** to link all real site sections instead of the placeholders.
 
-## 🎓 Cosa Imparerai?
+## What You Will Learn
 
-Durante questa lezione scoprirai come:
+In this lesson you will discover how to:
 
-- Usare **CSS Grid** per organizzare le immagini in una griglia responsive
-- La proprietà `grid-template-columns: repeat(auto-fill, minmax(...))` per colonne automatiche
-- Come gestire le immagini con `object-fit: cover` per uniformare le dimensioni
-- Come creare un **visualizzatore lightbox** con `position: fixed` e `z-index`
-- Separare il **JavaScript in un file esterno** (`assets/js/galleria.js`) con `defer`
-- **Aggiornare una pagina esistente** (la Home) quando il sito cresce
-- Usare le entità HTML (`&amp;`, `&rarr;`) per caratteri speciali nel testo
+- Use **CSS Grid** to arrange images in a responsive grid
+- The `grid-template-columns: repeat(auto-fill, minmax(...))` property for automatic columns
+- How to manage images with `object-fit: cover` to normalise their dimensions
+- How to build a **lightbox viewer** with `position: fixed` and `z-index`
+- Separate **JavaScript into an external file** (`assets/js/gallery.js`) with `defer`
+- **Update an existing page** (the Home Page) as the site grows
+- Use HTML entities (`&amp;`, `&rarr;`) for special characters in text
 
-## 🖼️ CSS Grid e il Lightbox
+## CSS Grid and the Lightbox
 
 ```css
 .gallery-grid {
@@ -24,33 +24,33 @@ Durante questa lezione scoprirai come:
 }
 ```
 
-Il pattern lightbox usa un `div` nascosto (`display: none`) che copre tutta la viewport, reso visibile da JavaScript al click su una foto.
+The lightbox pattern uses a hidden `div` (`display: none`) that covers the full viewport, made visible by JavaScript when a photo is clicked.
 
-## 🖼️ Aggiornamento della Home Page
+## Updating the Home Page
 
-La Home Page passa da:
+The Home Page changes from:
 
-| Prima | Dopo |
+| Before | After |
 |---|---|
-| "Seconda Pagina" → `seconda_pagina.html` | "La Mia Galleria" → `galleria.html` |
-| "Terza Pagina" → `terza_pagina.html` | "Risorse" → `risorse.html` |
-| "Quarta Pagina" → `quarta_pagina.html` | "Chi Sono" → `chi_sono.html` |
-| Testi Lorem Ipsum | Descrizioni reali del sito |
+| "Second Page" → `second_page.html` | "My Gallery" → `gallery.html` |
+| "Third Page" → `third_page.html` | "Resources" → `resources.html` |
+| "Fourth Page" → `fourth_page.html` | "Contacts" → `contacts.html` |
+| Lorem Ipsum placeholder text | Real descriptions of each section |
 
-## 📂 File modificati in questa lezione
+## Files Changed in This Lesson
 
-| File | Operazione | Descrizione |
+| File | Operation | Description |
 |---|---|---|
-| `galleria.html` | ✨ Nuovo | Galleria fotografica con lightbox |
-| `assets/gallery/` | ✨ Nuovo | 10 immagini della galleria |
-| `assets/js/galleria.js` | ✨ Nuovo | Funzioni JS per mostrare/chiudere le foto |
-| `assets/css/page.css` | ✏️ Modificato | Stili per griglia e lightbox |
-| `index.html` | ✏️ Modificato | Homepage aggiornata con link reali e testi descrittivi |
-| Tutti gli `.html` | ✏️ Modificato | Menu aggiornato con link a Galleria |
+| `gallery.html` | ✨ New | Photo gallery with lightbox |
+| `assets/gallery/` | ✨ New | 10 gallery images |
+| `assets/js/gallery.js` | ✨ New | JS functions to show/close photos |
+| `assets/css/page.css` | ✏️ Modified | Styles for the grid and lightbox |
+| `index.html` | ✏️ Modified | Home Page updated with real links and descriptive text |
+| All `.html` files | ✏️ Modified | Navigation menu updated with link to Gallery |
 
-## 🎯 Obiettivo
+## Goal
 
-Alla fine di questa lezione avrai:
-- Una galleria fotografica responsive con CSS Grid e lightbox JavaScript
-- Una Home Page che punta alle pagine reali del sito con descrizioni significative
-- Il codice JavaScript separato in un file esterno riutilizzabile
+By the end of this lesson you will have:
+- A responsive photo gallery with CSS Grid and a JavaScript lightbox
+- A Home Page that links to the real site pages with meaningful descriptions
+- JavaScript code separated into a reusable external file

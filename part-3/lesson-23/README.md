@@ -1,43 +1,43 @@
-# 📘 Lezione 23 – Creiamo la pagina "Contatti" con un Form HTML
+# Lesson 23 – Building the "Contacts" Page with an HTML Form
 
-In questa lezione aggiungiamo al sito la pagina **Contatti**, che permette ai visitatori di inviare messaggi direttamente tramite un modulo HTML. Impareremo i principali elementi di un form e come applicare stili CSS personalizzati.
+In this lesson we add the **Contacts** page to the site, which lets visitors send messages directly through an HTML form. We will learn the main form elements and how to apply custom CSS styles.
 
-## 🎓 Cosa Imparerai?
+## What You Will Learn
 
-Durante questa lezione scoprirai come:
+In this lesson you will discover how to:
 
-- Creare un **form HTML** con il tag `<form>`
-- Usare i principali tipi di input: `text`, `email`, `textarea`
-- Associare etichette ai campi del form con il tag `<label>` (buona pratica per l'accessibilità)
-- Aggiungere un pulsante di invio con `<button type="submit">`
-- Stilizzare il form con CSS: bordi, padding, effetti `:focus`, hover sui pulsanti
-- Usare `display: flex; flex-direction: column` per impilare verticalmente gli elementi del form
+- Create an **HTML form** with the `<form>` tag
+- Use the main input types: `text`, `email`, `textarea`
+- Associate labels with form fields using the `<label>` tag (best practice for accessibility)
+- Add a submit button with `<button type="submit">`
+- Style the form with CSS: borders, padding, `:focus` effects, button hover states
+- Use `display: flex; flex-direction: column` to stack form elements vertically
 
-## 🖼️ Panoramica
+## Overview
 
-Un form HTML è composto da:
+An HTML form is made up of:
 
-| Elemento | Uso |
+| Element | Purpose |
 |---|---|
-| `<form>` | Contenitore del modulo |
-| `<label>` | Etichetta descrittiva del campo |
-| `<input type="text">` | Campo testo a riga singola |
-| `<input type="email">` | Campo email (valida automaticamente) |
-| `<textarea>` | Campo testo a più righe |
-| `<button type="submit">` | Pulsante di invio |
+| `<form>` | The form container |
+| `<label>` | Descriptive label for a field |
+| `<input type="text">` | Single-line text field |
+| `<input type="email">` | Email field (automatically validated) |
+| `<textarea>` | Multi-line text field |
+| `<button type="submit">` | Submit button |
 
-## 📂 File modificati in questa lezione
+## Files Changed in This Lesson
 
-| File | Operazione | Descrizione |
+| File | Operation | Description |
 |---|---|---|
-| `contatti.html` | ✨ Nuovo | La nuova pagina Contatti con form |
-| `assets/css/page.css` | ✏️ Modificato | Aggiunti stili per il form |
-| Tutti gli `.html` | ✏️ Modificato | Menu aggiornato con link a Contatti |
+| `contacts.html` | ✨ New | The new Contacts page with a form |
+| `assets/css/page.css` | ✏️ Modified | Added CSS styles for the form |
+| All `.html` files | ✏️ Modified | Navigation menu updated with link to Contacts |
 
-## 🎯 Obiettivo
+## Goal
 
-Alla fine di questa lezione avrai:
-- Creato una pagina `contatti.html` con un form HTML funzionale
-- Applicato stili CSS per rendere il form visivamente attraente
-- Capito come associare label ai campi per l'accessibilità
-- Compreso gli effetti CSS `:focus` e `:hover` per i controlli del form
+By the end of this lesson you will have:
+- Created `contacts.html` with a working HTML form
+- Applied CSS styles to make the form visually attractive
+- Understood how to associate labels with fields for accessibility
+- Learned about `:focus` and `:hover` CSS effects for form controls

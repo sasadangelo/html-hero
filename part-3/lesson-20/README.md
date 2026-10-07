@@ -1,31 +1,31 @@
-# 📘 Lezione 20 – Creiamo la pagina "Chi Sono"
+# Lesson 20 – Building the "About Me" Page
 
-In questa lezione creiamo la prima vera pagina di contenuto del sito: la pagina **Chi Sono**. È la pagina in cui il visitatore scopre chi sei, qual è la tua storia e cosa ti ha portato a creare questo sito.
+In this lesson we create the first real content page of the site: the **About Me** page. This is the page where visitors discover who you are, your story, and what led you to build this site.
 
-## 🎓 Cosa Imparerai?
+## What You Will Learn
 
-Durante questa lezione scoprirai come:
+In this lesson you will discover how to:
 
-- Creare una pagina di contenuto usando la stessa struttura (header, nav, footer) delle pagine precedenti
-- Usare i tag `<h1>`, `<h2>`, `<p>` per organizzare una biografia in modo leggibile
-- Inserire un'immagine del profilo con la classe `responsive_img` per adattarla allo schermo
-- Usare i link `<a>` per collegare a profili esterni (GitHub, LinkedIn)
-- Aggiornare il menu di navigazione per includere il link alla nuova pagina
+- Create a content page reusing the same structure (header, nav, footer) as previous pages
+- Use the `<h1>`, `<h2>`, `<p>` tags to organise a biography in a readable way
+- Insert a profile image with the `responsive_img` class to adapt it to any screen size
+- Use `<a>` links to link to external profiles (GitHub, LinkedIn)
+- Update the navigation menu to include the link to the new page
 
-## 🖼️ Panoramica
+## Overview
 
-La pagina Chi Sono è strutturata semplicemente: una serie di paragrafi `<p>` che raccontano la storia di Salvatore, con un'immagine del profilo in cima. Non ci sono novità CSS particolari rispetto alla Parte II — l'obiettivo è concentrarsi sul contenuto e sulla struttura HTML.
+The About Me page is structured simply: a series of `<p>` paragraphs that tell Salvatore's story, with a profile image at the top. There are no new CSS concepts compared to Part II — the focus is on content and HTML structure.
 
-## 📂 File modificati in questa lezione
+## Files Changed in This Lesson
 
-| File | Operazione | Descrizione |
+| File | Operation | Description |
 |---|---|---|
-| `chi_sono.html` | ✨ Nuovo | La nuova pagina Chi Sono |
-| Tutti gli `.html` | ✏️ Modificato | Menu aggiornato con link a Chi Sono |
+| `about-me.html` | ✨ New | The new About Me page |
+| All `.html` files | ✏️ Modified | Navigation menu updated with link to About Me |
 
-## 🎯 Obiettivo
+## Goal
 
-Alla fine di questa lezione avrai:
-- Creato la pagina `chi_sono.html` con contenuto reale (non Lorem Ipsum)
-- Inserito un'immagine responsive del profilo
-- Aggiornato il menu in tutte le pagine del sito
+By the end of this lesson you will have:
+- Created `about-me.html` with real content (no Lorem Ipsum)
+- Added a responsive profile image
+- Updated the navigation menu across all site pages

@@ -1,35 +1,35 @@
-# 📘 Lezione 22 – Creiamo la pagina "Risorse"
+# Lesson 22 – Building the "Resources" Page
 
-In questa lezione aggiungiamo al sito la pagina **Risorse**, che raccoglie libri consigliati, siti web utili e strumenti di sviluppo. È una delle pagine più importanti per un sito personale di un programmatore.
+In this lesson we add the **Resources** page to the site, which collects recommended books, useful websites and development tools. This is one of the most important pages for a developer's personal site.
 
-## 🎓 Cosa Imparerai?
+## What You Will Learn
 
-Durante questa lezione scoprirai come:
+In this lesson you will discover how to:
 
-- Creare una nuova pagina HTML partendo da un template esistente
-- Strutturare il contenuto con intestazioni `<h2>` e liste `<ul>/<li>`
-- Aggiungere link a risorse esterne con l'attributo `target="_blank"` per aprirli in una nuova scheda
-- Aggiornare il menu di navigazione in tutte le pagine del sito per includere il nuovo link
+- Create a new HTML page from an existing template
+- Structure content with `<h2>` headings and `<ul>`/`<li>` lists
+- Add links to external resources using the `target="_blank"` attribute to open them in a new tab
+- Update the navigation menu across all site pages to include the new link
 
-## 🖼️ Panoramica
+## Overview
 
-Ogni volta che aggiungiamo una nuova pagina al sito, dobbiamo fare due cose:
+Every time we add a new page to the site, we need to do two things:
 
-1. **Creare il file HTML** della nuova pagina con il suo contenuto
-2. **Aggiornare il menu** in tutte le pagine esistenti, aggiungendo il link alla nuova pagina
+1. **Create the HTML file** for the new page with its content
+2. **Update the navigation menu** in all existing pages, adding the link to the new page
 
-Questo è il flusso di lavoro che seguiremo in ogni lezione della Parte III.
+This is the workflow we follow in every lesson of Part III.
 
-## 📂 File modificati in questa lezione
+## Files Changed in This Lesson
 
-| File | Operazione | Descrizione |
+| File | Operation | Description |
 |---|---|---|
-| `risorse.html` | ✨ Nuovo | La nuova pagina Risorse |
-| Tutti gli `.html` | ✏️ Modificato | Menu aggiornato: Risorse sostituisce Quinta Pagina |
+| `resources.html` | ✨ New | The new Resources page |
+| All `.html` files | ✏️ Modified | Menu updated: Resources replaces Fifth Page |
 
-## 🎯 Obiettivo
+## Goal
 
-Alla fine di questa lezione avrai:
-- Creato la pagina `risorse.html` con contenuto organizzato in sezioni
-- Aggiornato il menu in tutte le pagine per includere il link "Risorse"
-- Compreso il flusso di lavoro per aggiungere nuove pagine a un sito esistente
+By the end of this lesson you will have:
+- Created `resources.html` with content organised in sections
+- Updated the menu across all pages to include the "Resources" link
+- Understood the workflow for adding new pages to an existing site

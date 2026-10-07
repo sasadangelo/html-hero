@@ -1,21 +1,15 @@
 <!--
     © 2025 Salvatore D'Angelo
-    Questo progetto è distribuito sotto licenza MIT.
-    Vedi https://opensource.org/licenses/MIT per i dettagli.
+    This project is distributed under the MIT license.
+    See https://opensource.org/licenses/MIT for details.
 -->
-<!DOCTYPE html> <!-- Dichiara il tipo di documento: HTML5 -->
-<html lang="it"> <!-- Inizio del documento HTML, con lingua impostata su italiano -->
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <!--
-        Specifica la codifica dei caratteri del documento.
-        "UTF-8" è una codifica universale che supporta la maggior parte dei caratteri delle lingue del mondo,
-        inclusi gli accenti, i simboli speciali e le emoji. È fondamentale per evitare problemi di visualizzazione
-        con testi in italiano o multilingua.
-    -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>HTML Hero</title> <!-- Titolo della pagina, visibile nella scheda del browser -->
+    <title>HTML Hero</title>
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <link rel="stylesheet" type="text/css" href="assets/css/default.css">
     <link rel="stylesheet" type="text/css" href="assets/css/home.css">
@@ -24,7 +18,6 @@
 </head>
 
 <body>
-    <!-- Contenuto visibile della pagina -->
     <div id="page">
         <header>
             <div id="header-group">
@@ -33,7 +26,7 @@
                         height="150">
                 </div>
                 <div id="social-media-group">
-                    <div class="social-media-title">Seguimi su:</div>
+                    <div class="social-media-title">Follow me on:</div>
                     <div class="social-media-icons">
                         <a aria-label="Code4Projects Facebook page" title="Code4Projects Facebook page"
                             class="social-media-icon social-media-icon-facebook"
@@ -64,7 +57,7 @@
             </div>
         </header>
         <div id="navigation">
-            <!-- Hamburger icon -->
+            <!-- Hamburger icon for mobile menu -->
             <input class="drop-menu-checkbox" type="checkbox" id="drop-menu-checkbox">
             <label class="hamburger" for="drop-menu-checkbox">
                 <span class="hamburger-line"></span>
@@ -72,10 +65,10 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="chi_sono.html">Chi Sono</a></li>
-                    <li><a href="inizia_qui.html">Nuovo Utente? Inizia Qui</a></li>
-                    <li><a href="quarta_pagina.html">Quarta Pagina</a></li>
-                    <li><a href="quinta_pagina.html">Quinta Pagina</a></li>
+                    <li><a href="about-me.html">About Me</a></li>
+                    <li><a href="start-here.html">New User? Start Here</a></li>
+                    <li><a href="fourth_page.html">Fourth Page</a></li>
+                    <li><a href="fifth_page.html">Fifth Page</a></li>
                 </ul>
             </nav>
         </div>
@@ -89,12 +82,11 @@
                                     <div class="hero-messagebox">
                                         <h1>Welcome to HTML Hero!</h1>
                                         <p>
-                                            Ex beatae consequatur hic provident quis et aliquam voluptas eum nesciunt
-                                            unde ab ipsa aspernatur
-                                            est veniam
-                                            recusandae? Est magni neque ex delectus dolor et nisi quas et similique
-                                            laboriosam ut rerum
-                                            placeat ut ratione totam.
+                                            This site was built step by step following the
+                                            <strong>HTML &amp; CSS Hero</strong> course. Here you can find my story,
+                                            useful resources to learn programming, my photo gallery
+                                            and much more. <a href="start-here.html">Start here</a> if it's your
+                                            first visit!
                                         </p>
                                     </div>
                                 </div>
@@ -103,27 +95,27 @@
                     </div>
                     <div class="circle-icon-area">
                         <div class="circle-icon-box">
-                            <a title="Seconda Pagina" href="seconda_pagina.html">
+                            <a title="Second Page" href="second_page.html">
                                 <div class="circle-icon" style="background-image: url(assets/img/starthere-icon.png)">
                                 </div>
-                                <h2>Seconda Pagina</h2>
-                                Clicca per andare alla Seconda Pagina
+                                <h2>Second Page</h2>
+                                Click to go to the Second Page
                             </a>
                         </div>
                         <div class="circle-icon-box">
-                            <a title="Terza Pagina" href="terza_pagina.html">
+                            <a title="Third Page" href="third_page.html">
                                 <div class="circle-icon" style="background-image: url(assets/img/projects-icon.png)">
                                 </div>
-                                <h2>Terza Pagina</h2>
-                                Clicca per andare alla Terza Pagina
+                                <h2>Third Page</h2>
+                                Click to go to the Third Page
                             </a>
                         </div>
                         <div class="circle-icon-box">
-                            <a title="Quarta Pagina" href="quarta_pagina.html">
+                            <a title="Fourth Page" href="fourth_page.html">
                                 <div class="circle-icon" style="background-image: url(assets/img/resources-icon.png)">
                                 </div>
-                                <h2>Quarta Pagina</h2>
-                                Clicca per andare alla Quarta Pagina
+                                <h2>Fourth Page</h2>
+                                Click to go to the Fourth Page
                             </a>
                         </div>
                     </div>
@@ -139,7 +131,7 @@
                                     Ebook.</div>
                                 <form action="" method="post" target="_blank">
                                     <div>
-                                        <input class="newsletter-home-input" name="name" type="text" placeholder="Nome"
+                                        <input class="newsletter-home-input" name="name" type="text" placeholder="Name"
                                             required>
                                     </div>
                                     <div>
@@ -154,125 +146,72 @@
                     <div class="feature-content-row-white">
                         <div class="feature-content-box-white">
                             <div class="feature-content-image">
-                                <a href="seconda_pagina.html">
-                                    <img src="assets/img/feature-image-1.jpeg" alt="Funzionalità 2 - Pagina 2">
+                                <a href="second_page.html">
+                                    <img src="assets/img/feature-image-1.jpeg" alt="Feature 2 – Second Page">
                                 </a>
                             </div>
                             <div class="feature-content-text">
                                 <div class="feature-content-text-title">
-                                    <a href="seconda_pagina.html" title="Funzionalità 1">
-                                        <h3>Funzionalità 2 - Pagina 2</h3>
+                                    <a href="second_page.html" title="Feature 2 – Second Page">
+                                        <h3>Feature 2 – Second Page</h3>
                                     </a>
                                 </div>
-                                Cum quam porro ut nobis odit vel voluptatum sint et voluptatem quas aut aliquid fuga ut
-                                Quis iusto vel
-                                praesentium omnis. Sed excepturi aliquam quo laboriosam enim
-                                et quia praesentium At pariatur reprehenderit! Et quibusdam delectus sit natus
-                                reprehenderit hic
-                                cupiditate cupiditate. Et cumque ipsam est saepe iste ut odio aperiam
-                                sed debitis voluptas ut provident dolores est culpa voluptas ea facilis voluptates.
-
-                                Non natus tempore ea dicta quae sit impedit dolorem et labore libero. Ut porro rerum cum
-                                aliquid
-                                deserunt ut voluptatem velit qui numquam incidunt sed temporibus
-                                dolore 33 totam doloremque est laborum voluptate? Ab nulla corrupti et perspiciatis
-                                quasi sit doloribus
-                                magnam et amet distinctio quo consectetur dolorum! Qui soluta
-                                odit eum dolores provident et earum error et voluptatem voluptatem aut enim architecto.
+                                This page contains placeholder content that will be replaced in a future lesson with a real site page.
+                                <br><br>
                             </div>
                         </div>
                     </div>
                     <div class="feature-content-row-grey">
                         <div class="feature-content-box-grey">
                             <div class="feature-content-image">
-                                <a href="terza_pagina.html">
-                                    <img src="assets/img/feature-image-2.jpeg" alt="Funzionalità 3 - Pagina 3">
+                                <a href="third_page.html">
+                                    <img src="assets/img/feature-image-2.jpeg" alt="Feature 3 – Third Page">
                                 </a>
                             </div>
                             <div class="feature-content-text">
                                 <div class="feature-content-text-title">
-                                    <a href="terza_pagina.html" title="Funzionalità 3">
-                                        <h3>Funzionalità 3 - Pagina 3</h3>
+                                    <a href="third_page.html" title="Feature 3 – Third Page">
+                                        <h3>Feature 3 – Third Page</h3>
                                     </a>
                                 </div>
-                                Cum quam porro ut nobis odit vel voluptatum sint et voluptatem quas aut aliquid fuga ut
-                                Quis iusto vel
-                                praesentium omnis. Sed excepturi aliquam quo laboriosam enim
-                                et quia praesentium At pariatur reprehenderit! Et quibusdam delectus sit natus
-                                reprehenderit hic
-                                cupiditate cupiditate. Et cumque ipsam est saepe iste ut odio aperiam
-                                sed debitis voluptas ut provident dolores est culpa voluptas ea facilis voluptates.
-
-                                Non natus tempore ea dicta quae sit impedit dolorem et labore libero. Ut porro rerum cum
-                                aliquid
-                                deserunt ut voluptatem velit qui numquam incidunt sed temporibus
-                                dolore 33 totam doloremque est laborum voluptate? Ab nulla corrupti et perspiciatis
-                                quasi sit doloribus
-                                magnam et amet distinctio quo consectetur dolorum! Qui soluta
-                                odit eum dolores provident et earum error et voluptatem voluptatem aut enim architecto.
-                                s
-                            </div>
+                                This page contains placeholder content that will be replaced in a future lesson with a real site page.
+                                <br><br>
+                                                        </div>
                         </div>
                     </div>
                     <div class="feature-content-row-white">
                         <div class="feature-content-box-white">
                             <div class="feature-content-image">
-                                <a href="quarta_pagina.html">
-                                    <img src="assets/img/feature-image-3.jpeg" alt="Funzionalità 4 - Pagina 4">
+                                <a href="fourth_page.html">
+                                    <img src="assets/img/feature-image-3.jpeg" alt="Feature 4 – Fourth Page">
                                 </a>
                             </div>
                             <div class="feature-content-text">
                                 <div class="feature-content-text-title">
-                                    <a href="quarta_pagina.html" title="Funzionalità 4">
-                                        <h3>Funzionalità 4 - Pagina 4</h3>
+                                    <a href="fourth_page.html" title="Feature 4 – Fourth Page">
+                                        <h3>Feature 4 – Fourth Page</h3>
                                     </a>
                                 </div>
-                                Cum quam porro ut nobis odit vel voluptatum sint et voluptatem quas aut aliquid fuga ut
-                                Quis iusto vel
-                                praesentium omnis. Sed excepturi aliquam quo laboriosam enim
-                                et quia praesentium At pariatur reprehenderit! Et quibusdam delectus sit natus
-                                reprehenderit hic
-                                cupiditate cupiditate. Et cumque ipsam est saepe iste ut odio aperiam
-                                sed debitis voluptas ut provident dolores est culpa voluptas ea facilis voluptates.
-
-                                Non natus tempore ea dicta quae sit impedit dolorem et labore libero. Ut porro rerum cum
-                                aliquid
-                                deserunt ut voluptatem velit qui numquam incidunt sed temporibus
-                                dolore 33 totam doloremque est laborum voluptate? Ab nulla corrupti et perspiciatis
-                                quasi sit doloribus
-                                magnam et amet distinctio quo consectetur dolorum! Qui soluta
-                                odit eum dolores provident et earum error et voluptatem voluptatem aut enim architecto.
+                                This page contains placeholder content that will be replaced in a future lesson with a real site page.
+                                <br><br>
                             </div>
                         </div>
                     </div>
                     <div class="feature-content-row-grey">
                         <div class="feature-content-box-grey">
                             <div class="feature-content-image">
-                                <a href="quinta_pagina.html">
-                                    <img src="assets/img/feature-image-4.jpeg" alt="Funzionalità 5 - Pagina 5">
+                                <a href="fifth_page.html">
+                                    <img src="assets/img/feature-image-4.jpeg" alt="Feature 5 – Fifth Page">
                                 </a>
                             </div>
                             <div class="feature-content-text">
                                 <div class="feature-content-text-title">
-                                    <a href="quinta_pagina.html" title="Funzionalità 5">
-                                        <h3>Funzionalità 5 - Pagina 5</h3>
+                                    <a href="fifth_page.html" title="Feature 5 – Fifth Page">
+                                        <h3>Feature 5 – Fifth Page</h3>
                                     </a>
                                 </div>
-                                Cum quam porro ut nobis odit vel voluptatum sint et voluptatem quas aut aliquid fuga ut
-                                Quis iusto vel
-                                praesentium omnis. Sed excepturi aliquam quo laboriosam enim
-                                et quia praesentium At pariatur reprehenderit! Et quibusdam delectus sit natus
-                                reprehenderit hic
-                                cupiditate cupiditate. Et cumque ipsam est saepe iste ut odio aperiam
-                                sed debitis voluptas ut provident dolores est culpa voluptas ea facilis voluptates.
-
-                                Non natus tempore ea dicta quae sit impedit dolorem et labore libero. Ut porro rerum cum
-                                aliquid
-                                deserunt ut voluptatem velit qui numquam incidunt sed temporibus
-                                dolore 33 totam doloremque est laborum voluptate? Ab nulla corrupti et perspiciatis
-                                quasi sit doloribus
-                                magnam et amet distinctio quo consectetur dolorum! Qui soluta
-                                odit eum dolores provident et earum error et voluptatem voluptatem aut enim architecto.
+                                This page contains placeholder content that will be replaced in a future lesson with a real site page.
+                                <br><br>
                             </div>
                         </div>
                     </div>
@@ -281,7 +220,7 @@
         </main>
         <footer>
             <div id="site-info">
-                Code4Projects, Copyright Salvatore D'Angelo © 2016-2025.
+                Code4Projects, Copyright Salvatore D'Angelo &copy; 2016-2025.
             </div>
         </footer>
     </div>

@@ -1,7 +1,7 @@
 /*
     © 2025 Salvatore D'Angelo
-    Questo progetto è distribuito sotto licenza MIT.
-    Vedi https://opensource.org/licenses/MIT per i dettagli.
+    This project is distributed under the MIT license.
+    See https://opensource.org/licenses/MIT for details.
 */
 /* Mobile devices              @media screen and (max-width: 479px)                         */
 /* Tablets or iPad             @media screen and (min-width: 480px) and (max-width: 767px)  */
@@ -13,17 +13,17 @@
  * # Global definitions
  * ################################################################################
 */
-/* Impostazioni generali per il corpo della pagina */
+/* General settings for the page body */
 body {
   margin: 0 auto;
-  /* Centra il contenuto orizzontalmente */
+  /* Centre content horizontally */
   font-family: 'Helvetica Neue';
-  /* Imposta il font della pagina */
+  /* Set the page font */
   font-size: 13px;
-  /* Imposta la dimensione del font di base */
+  /* Set the base font size */
 }
 
-/* Impostazioni generali per la pagina */
+/* General settings for the page */
 #page {
   overflow: hidden;
 }
@@ -72,10 +72,10 @@ h6 {
  * # Header definitions
  * ################################################################################
  */
-/* Stile per l'intestazione (header) */
+/* Styles for the header */
 header {
   background-color: #FCFCFC;
-  /* Imposta lo sfondo dell'intestazione a un colore grigio chiaro */
+  /* Set the header background to a light grey */
   width: 100%;
 }
 
@@ -98,11 +98,11 @@ header {
   padding: 0px 35px;
   /* Padding di 35px sopra e sotto */
   max-width: 1080px;
-  /* Impone una larghezza massima di 1080px per il contenitore dell'header */
+  /* Set maximum width of 1080px for the header container */
   margin-left: auto;
-  /* Allinea il contenitore dell'header al centro orizzontale */
+  /* Centre the header container horizontally */
   margin-right: auto;
-  /* Allinea il contenitore dell'header al centro orizzontale */
+  /* Centre the header container horizontally */
   display: flex;
   /* Utilizza Flexbox per organizzare gli elementi all'interno del contenitore */
   flex-direction: column;
@@ -116,7 +116,7 @@ header {
     flex-direction: row;
     /* Imposta l'orientamento orizzontale per gli elementi all'interno */
     justify-content: space-between;
-    /* Distribuisce lo spazio in modo uniforme tra gli elementi del contenitore */
+    /* Distribute space evenly between container elements */
   }
 }
 
@@ -127,7 +127,7 @@ header {
 /*
  * Logo area
  */
-/* Stile per il logo */
+/* Styles for the logo */
 #logo {
   display: flex;
   /* Imposta Flexbox per il logo */
@@ -140,10 +140,10 @@ header {
 /*
  * Social Button area
  */
-/* Stile per il gruppo social media */
+/* Styles for the social media group */
 #social-media-group {
   box-sizing: border-box;
-  /* Assicura che il padding non aumenti la larghezza totale del contenitore */
+  /* Ensure padding does not increase the total container width */
   padding-top: 43.75px;
   /* Aggiunge 43.75px di padding alla parte superiore */
   padding-bottom: 43.75px;
@@ -156,7 +156,7 @@ header {
   /* Allinea gli elementi del gruppo social media a sinistra */
 }
 
-/* Stile per le icone social media */
+/* Styles for the social media icons */
 .social-media-icons {
   display: flex;
   /* Utilizza Flexbox per allineare le icone dei social media */
@@ -167,15 +167,15 @@ header {
 }
 
 /* For Desktop */
-/* Stile per il titolo della sezione social media */
+/* Styles for the social media section title */
 @media screen and (min-width: 1024px) {
   .social-media-title {
     color: #1d67b1;
     /* Imposta il colore del titolo dei social media */
     font-weight: 700;
-    /* Imposta il peso del font a grassetto */
+    /* Set font weight to bold */
     margin-bottom: 5px;
-    /* Aggiunge uno spazio di 5px sotto il titolo */
+    /* Add 5px space below the title */
     display: flex;
     /* Utilizza Flexbox per il titolo */
     flex-direction: row;
@@ -192,9 +192,9 @@ header {
     color: #1d67b1;
     /* Imposta il colore del titolo dei social media */
     font-weight: 700;
-    /* Imposta il peso del font a grassetto */
+    /* Set font weight to bold */
     margin-bottom: 5px;
-    /* Aggiunge uno spazio di 5px sotto il titolo */
+    /* Add 5px space below the title */
     display: flex;
     /* Utilizza Flexbox per il titolo */
     flex-direction: row;
@@ -210,9 +210,9 @@ header {
     color: #1d67b1;
     /* Imposta il colore del titolo dei social media */
     font-weight: 700;
-    /* Imposta il peso del font a grassetto */
+    /* Set font weight to bold */
     margin-bottom: 5px;
-    /* Aggiunge uno spazio di 5px sotto il titolo */
+    /* Add 5px space below the title */
     display: flex;
     /* Utilizza Flexbox per il titolo */
     flex-direction: row;
@@ -228,9 +228,9 @@ header {
     color: #1d67b1;
     /* Imposta il colore del titolo dei social media */
     font-weight: 700;
-    /* Imposta il peso del font a grassetto */
+    /* Set font weight to bold */
     margin-bottom: 5px;
-    /* Aggiunge uno spazio di 5px sotto il titolo */
+    /* Add 5px space below the title */
     display: flex;
     /* Utilizza Flexbox per il titolo */
     flex-direction: row;
@@ -242,59 +242,59 @@ header {
 
 .social-media-icon {
   width: 36px;
-  /* Imposta la larghezza dell'icona */
+  /* Set the icon width */
   height: 36px;
   /* Imposta l'altezza dell'icona */
   float: left;
   /* Permette di allineare l'icona a sinistra */
   margin-right: 4px;
-  /* Aggiunge uno spazio di 4px a destra dell'icona */
+  /* Add 4px space to the right of the icon */
   position: relative;
   /* Permette di posizionare l'icona rispetto al suo contenitore */
   border-radius: 3px;
   /* Arrotonda gli angoli dell'icona */
   display: block;
-  /* Imposta l'icona come un blocco */
+  /* Set the icon as a block element */
 }
 
-/* Stile per l'icona facebook del gruppo social media */
+/* Styles for the Facebook icon */
 .social-media-icon-facebook {
   background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #597ac7), color-stop(1, #6483cb));
-  /* Gradiente di colore per l'icona di Facebook */
+  /* Colour gradient for the Facebook icon */
   border: 1px solid #466bc1;
-  /* Imposta il bordo dell'icona di Facebook */
+  /* Set the Facebook icon border */
 }
 
-/* Stile per l'icona twitter del gruppo social media */
+/* Styles for the Twitter icon */
 .social-media-icon-twitter {
   background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #5bbcec), color-stop(1, #69c2ee));
-  /* Gradiente di colore per l'icona di Twitter */
+  /* Colour gradient for the Twitter icon */
   border: 1px solid #44b3e9;
-  /* Imposta il bordo dell'icona di Twitter */
+  /* Set the Twitter icon border */
 }
 
-/* Stile per l'icona linkedin del gruppo social media */
+/* Styles for the LinkedIn icon */
 .social-media-icon-linkedin {
   background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #0070b4), color-stop(1, #007ac3));
-  /* Gradiente di colore per l'icona di LinkedIn */
+  /* Colour gradient for the LinkedIn icon */
   border: 1px solid #00609b;
-  /* Imposta il bordo dell'icona di LinkedIn */
+  /* Set the LinkedIn icon border */
 }
 
-/* Stile per l'icona youtube del gruppo social media */
+/* Styles for the YouTube icon */
 .social-media-icon-youtube {
   background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ff3635), color-stop(1, #ff4544));
-  /* Gradiente di colore per l'icona di YouTube */
+  /* Colour gradient for the YouTube icon */
   border: 1px solid #ff1d1b;
-  /* Imposta il bordo dell'icona di YouTube */
+  /* Set the YouTube icon border */
 }
 
-/* Stile per l'icona github del gruppo social media */
+/* Styles for the GitHub icon */
 .social-media-icon-github {
   background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #333333), color-stop(1, #3b3b3b));
-  /* Gradiente di colore per l'icona di GitHub */
+  /* Colour gradient for the GitHub icon */
   border: 1px solid #262626;
-  /* Imposta il bordo dell'icona di GitHub */
+  /* Set the GitHub icon border */
 }
 
 .fa-facebook-f {
@@ -359,13 +359,13 @@ header {
 
 .fa-github {
   width: 1em;
-  /* Imposta la larghezza dell'icona di font-awesome */
+  /* Set the Font Awesome icon width */
   height: 1em;
   /* Imposta l'altezza dell'icona di font-awesome */
   text-align: center;
-  /* Allinea il testo al centro */
+  /* Centre the text */
   display: block;
-  /* Imposta l'icona come un blocco */
+  /* Set the icon as a block element */
   position: absolute;
   /* Posiziona l'icona in modo assoluto all'interno del contenitore */
   line-height: 1em;
@@ -381,14 +381,14 @@ header {
   margin-left: -0.5em;
   /* Sposta l'icona verso sinistra */
   font-size: 18px;
-  /* Imposta la dimensione del font dell'icona */
+  /* Set the icon font size */
 }
 
 .fa {
   font: normal normal normal 14px/1 FontAwesome;
   /* Imposta la font per le icone di FontAwesome */
   text-rendering: auto;
-  /* Ottimizza la resa del testo */
+  /* Optimise text rendering */
   -webkit-font-smoothing: antialiased;
   /* Abilita il font-smoothing su Webkit */
 }
@@ -400,20 +400,20 @@ header {
  */
 #navigation {
   background-color: #1D67B2;
-  /* Imposta il colore di sfondo della barra di navigazione */
+  /* Set the navigation bar background colour */
 }
 
 nav {
   /*background-color: #1D67B2;*/
-  /* Se vuoi aggiungere il colore di sfondo direttamente al tag <nav>, puoi decommentare questa linea */
+  /* To add the background colour directly to the <nav> tag, uncomment this line */
   padding: 5px 5px 5px 5px;
   /* Aggiunge un padding uniforme di 5px su tutti i lati del tag <nav> */
   max-width: 1080px;
-  /* Imposta la larghezza massima del <nav> a 1080px */
+  /* Set the maximum width of <nav> to 1080px */
   margin-left: auto;
-  /* Centra il <nav> orizzontalmente sullo schermo */
+  /* Centre <nav> horizontally on screen */
   margin-right: auto;
-  /* Centra il <nav> orizzontalmente sullo schermo */
+  /* Centre <nav> horizontally on screen */
   min-height: 40px;
   /* Imposta un'altezza minima di 40px per il <nav> */
 }
@@ -422,16 +422,16 @@ nav {
 @media screen and (min-width: 1024px) {
   nav ul {
     margin: 0px 0px 0px 0px;
-    /* Rimuove il margine predefinito dal tag <ul> */
+    /* Remove the default margin from the <ul> tag */
     position: relative;
-    /* Imposta la posizione dell'elemento come relativa per un posizionamento più preciso degli elementi figli */
+    /* Set position to relative for more precise positioning of child elements */
   }
 
   nav ul li {
     padding: 11px 35px;
     /* Aggiunge un padding di 11px in alto e in basso e 35px a sinistra e a destra per ogni <li> */
     display: inline-block;
-    /* Imposta ogni <li> come un elemento in linea per la visualizzazione orizzontale */
+    /* Set each <li> as an inline element for horizontal display */
   }
 
   .hamburger {
@@ -443,16 +443,16 @@ nav {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   nav ul {
     margin: 0px 0px 0px 0px;
-    /* Rimuove il margine predefinito dal tag <ul> */
+    /* Remove the default margin from the <ul> tag */
     position: relative;
-    /* Imposta la posizione dell'elemento come relativa per un posizionamento più preciso degli elementi figli */
+    /* Set position to relative for more precise positioning of child elements */
   }
 
   nav ul li {
     padding: 11px 35px;
     /* Aggiunge un padding di 11px in alto e in basso e 35px a sinistra e a destra per ogni <li> */
     display: inline-block;
-    /* Imposta ogni <li> come un elemento in linea per la visualizzazione orizzontale */
+    /* Set each <li> as an inline element for horizontal display */
   }
 
   .hamburger {
@@ -464,9 +464,9 @@ nav {
 @media screen and (min-width: 480px) and (max-width: 767px) {
   nav ul {
     margin: 0px 0px 0px 0px;
-    /* Rimuove il margine predefinito dal tag <ul> */
+    /* Remove the default margin from the <ul> tag */
     position: relative;
-    /* Imposta la posizione dell'elemento come relativa per un posizionamento più preciso degli elementi figli */
+    /* Set position to relative for more precise positioning of child elements */
   }
 
   nav ul li {
@@ -487,7 +487,7 @@ nav {
     border-width: 1px;
     border-style: solid;
     margin: 10px 10px 10px 50px;
-    /* Rimuove il margine predefinito dal tag <ul> */
+    /* Remove the default margin from the <ul> tag */
     padding: 10px 30px;
     background-color: #1D67B2;
     border-radius: 6px;
@@ -509,11 +509,11 @@ nav {
 
 nav ul li a {
   color: #f2f2f2;
-  /* Imposta il colore del testo del link su bianco/grigio chiaro */
+  /* Set the link text colour to white/light grey */
   text-decoration: none;
   /* Rimuove la sottolineatura predefinita dei link */
   font-weight: 700;
-  /* Imposta il peso del carattere del link come grassetto */
+  /* Set the link font weight to bold */
 }
 
 /*
@@ -597,21 +597,21 @@ nav ul li a {
  * # Footer
  * ################################################################################
  */
-/* Stile per il piè di pagina (footer) */
+/* Styles for the footer */
 footer {
   background-color: #1d67b2;
-  /* Imposta lo sfondo del piè di pagina a un colore blu */
+  /* Set the footer background to a blue colour */
   padding: 30px 30px 30px 30px;
   /* Imposta il padding su tutti i lati del footer a 30px */
   text-align: left;
 }
 
-/* Stile per la sezione del footer (site-info) */
+/* Styles for the footer section (site-info) */
 #site-info {
   color: #f2f2f2;
-  /* Imposta il colore del testo su grigio chiaro */
+  /* Set the text colour to light grey */
   margin: 25px 0px 0px 0px;
-  /* Aggiunge uno spazio sopra l'elemento */
+  /* Add space above the element */
   text-align: center;
-  /* Centra il testo orizzontalmente */
+  /* Centre the text horizontally */
 }

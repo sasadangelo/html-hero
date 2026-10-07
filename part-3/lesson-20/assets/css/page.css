@@ -1,7 +1,7 @@
 /*
     © 2025 Salvatore D'Angelo
-    Questo progetto è distribuito sotto licenza MIT.
-    Vedi https://opensource.org/licenses/MIT per i dettagli.
+    This project is distributed under the MIT license.
+    See https://opensource.org/licenses/MIT for details.
 */
 
 /* ################################################################################# Main ################################################################################ */
@@ -13,14 +13,14 @@
 
 #page-container {
   padding: 10px;
-  /* Imposta la larghezza massima del contenitore a 1080px */
+  /* Set maximum container width to 1080px */
   max-width: 1080px;
-  /* Imposta un margine sinistro automatico per centrare il contenitore orizzontalmente */
+  /* Set left margin to auto to centre the container */
   margin-left: auto;
-  /* Imposta un margine destro automatico per centrare il contenitore orizzontalmente */
+  /* Set right margin to auto to centre the container */
   margin-right: auto;
   overflow: hidden;
-  /* Forza il contenitore ad adattarsi anche agli elementi flottanti (immagini) al suo interno. */
+  /* Force the container to expand around floated elements (images) inside it. */
 }
 
 p {
@@ -32,7 +32,7 @@ ol {
   list-style-position: inside;
 }
 
-/* Immagini a sinistra */
+/* Left-aligned images */
 img.img-left {
   padding: 10px 10px 10px 10px;
 }
@@ -45,25 +45,25 @@ img.img-right {
 @media screen and (min-width: 480px) {
   img.img-left {
     padding: 10px 10px 10px 0px;
-    /* Aggiunge padding ai lati dell'immagine */
+    /* Add padding around the image */
     float: left;
-    /* Fa fluttuare l'immagine a sinistra */
+    /* Float the image to the left */
   }
 
   img.img-right {
     padding: 10px 0px 10px 10px;
-    /* Aggiunge padding ai lati dell'immagine */
+    /* Add padding around the image */
     float: right;
-    /* Fa fluttuare l'immagine a destra */
+    /* Float the image to the right */
   }
 }
 
-/* Citazioni in blocco (blockquote) */
+/* Block quotes (blockquote) */
 blockquote {
   background: #f5f7f9;
-  /* Imposta uno sfondo grigio chiaro per la citazione */
+  /* Set a light grey background for the quote */
   border-bottom: 1px solid #d8dee9;
-  /* Aggiunge una linea di separazione inferiore alla citazione */
+  /* Add a bottom separator line to the quote */
   padding: 10px 10px 10px 10px;
-  /* Aggiunge padding su tutti i lati */
+  /* Add padding on all sides */
 }

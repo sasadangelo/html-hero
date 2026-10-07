@@ -1,58 +1,58 @@
-# 🚀 HTML & CSS Hero – Corso Completo per Principianti (Parte III)
+# HTML & CSS Hero – Complete Beginner's Course (Part III)
 
-Benvenuto alla terza parte del tutorial **HTML & CSS Hero – Corso Completo per Principianti**!
+Welcome to the third part of the **HTML & CSS Hero – Complete Beginner's Course**!
 
-In questa parte costruiamo le pagine reali del sito: **Chi Sono**, **Inizia Qui**, **Risorse**, **Contatti** e **Galleria**. Ogni lezione aggiunge una nuova pagina al sito e introduce nuovi concetti HTML, CSS o JavaScript.
+In this part we build the real pages of the site: **About Me**, **Start Here**, **Resources**, **Contacts** and **Gallery**. Each lesson adds one new page to the site and introduces new HTML, CSS or JavaScript concepts.
 
-🎯 **Obiettivo**: Alla fine di questa parte avrai un sito web completo, con tutte le pagine principali collegate tra loro, una galleria fotografica interattiva e un form di contatto.
+🎯 **Goal**: By the end of this part you will have a complete website with all main pages linked together, an interactive photo gallery and a contact form.
 
-## 📘 Lezioni incluse
+## Lessons Included
 
-Questa terza parte è composta da 5 lezioni pratiche:
+This third part consists of 5 practical lessons:
 
-| Lezione | Titolo | Novità |
+| Lesson | Title | New Concepts |
 |---|---|---|
-| [Lezione 20](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-20) | Creiamo la pagina "Chi Sono" | Struttura pagina articolo, immagine profilo |
-| [Lezione 21](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-21) | Creiamo la pagina "Inizia Qui" | `<figure>`, `<figcaption>`, blockquote |
-| [Lezione 22](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-22) | Creiamo la pagina "Risorse" | Liste, link esterni con `target="_blank"` |
-| [Lezione 23](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-23) | Creiamo la pagina "Contatti" | Form HTML: `input`, `label`, `textarea`, `button` |
-| [Lezione 24](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-24) | Galleria + Home Page finale | CSS Grid, lightbox, JS esterno, homepage con link reali |
+| [Lesson 20](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-20) | Building the "About Me" Page | Article page structure, profile image |
+| [Lesson 21](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-21) | Building the "Start Here" Page | `<figure>`, `<figcaption>`, multi-section layout |
+| [Lesson 22](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-22) | Building the "Resources" Page | Lists, external links with `target="_blank"` |
+| [Lesson 23](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-23) | Building the "Contacts" Page | HTML forms: `input`, `label`, `textarea`, `button` |
+| [Lesson 24](https://github.com/sasadangelo/html-hero/tree/master/part-3/lesson-24) | Gallery + Final Home Page | CSS Grid, lightbox, external JS, homepage with real links |
 
-## 🔗 Progressione del sito
+## Site Progression
 
 ```
-Lesson 20  → chi_sono.html
-Lesson 21  → inizia_qui.html
-Lesson 22  → risorse.html
-Lesson 23  → contatti.html
-Lesson 24  → galleria.html  +  assets/gallery/  +  assets/js/galleria.js  +  index.html (finale)
+Lesson 20  → about-me.html
+Lesson 21  → start-here.html
+Lesson 22  → resources.html
+Lesson 23  → contacts.html
+Lesson 24  → gallery.html  +  assets/gallery/  +  assets/js/gallery.js  +  index.html (final)
 ```
 
-## 🏗️ Struttura dei file
+## File Structure
 
-Tutte le lezioni usano la stessa struttura coerente:
+All lessons use the same consistent structure:
 
 ```
 lesson-XX/
 ├── index.html          ← Home Page
-├── chi_sono.html       ← Chi Sono
-├── inizia_qui.html     ← Inizia Qui
-├── risorse.html        ← Risorse (dalla lezione 22)
-├── contatti.html       ← Contatti (dalla lezione 23)
-├── galleria.html       ← Galleria (dalla lezione 24)
+├── about-me.html       ← About Me
+├── start-here.html     ← Start Here
+├── resources.html      ← Resources (from lesson 22)
+├── contacts.html       ← Contacts (from lesson 23)
+├── gallery.html        ← Gallery (from lesson 24)
 ├── assets/
 │   ├── css/
-│   │   ├── default.css     ← Stili base (header, nav, footer)
-│   │   ├── home.css        ← Stili Home Page
-│   │   ├── page.css        ← Stili pagine interne + form + galleria
-│   │   ├── fontawesome.css ← Font Awesome icone
+│   │   ├── default.css     ← Base styles (header, nav, footer)
+│   │   ├── home.css        ← Home Page styles
+│   │   ├── page.css        ← Inner pages + form + gallery styles
+│   │   ├── fontawesome.css ← Font Awesome icons
 │   │   └── brands.css      ← Font Awesome brand icons
-│   ├── img/            ← Immagini del sito
-│   ├── gallery/        ← Foto della galleria (dalla lezione 24)
+│   ├── img/            ← Site images
+│   ├── gallery/        ← Gallery photos (from lesson 24)
 │   ├── fontawesome/    ← Font Awesome webfonts
 │   └── js/
-│       └── galleria.js ← JavaScript per la galleria (dalla lezione 24)
+│       └── gallery.js  ← JavaScript for the gallery (from lesson 24)
 └── README.md
 ```
 
-**💡 Consiglio**: Segui anche il [video tutorial su YouTube](https://www.youtube.com/watch?v=cNk0bVEMb3U) per avere una spiegazione visiva e pratica mentre lavori sul codice!
+**💡 Tip**: Follow the [YouTube video tutorial](https://www.youtube.com/watch?v=cNk0bVEMb3U) for a visual and practical explanation while you work through the code!

@@ -1,7 +1,7 @@
 /*
     © 2025 Salvatore D'Angelo
-    Questo progetto è distribuito sotto licenza MIT.
-    Vedi https://opensource.org/licenses/MIT per i dettagli.
+    This project is distributed under the MIT license.
+    See https://opensource.org/licenses/MIT for details.
 */
 
 /* ################################################################################# Main ################################################################################ */
@@ -13,14 +13,14 @@
 
 #page-container {
   padding: 10px;
-  /* Imposta la larghezza massima del contenitore a 1080px */
+  /* Set maximum container width to 1080px */
   max-width: 1080px;
-  /* Imposta un margine sinistro automatico per centrare il contenitore orizzontalmente */
+  /* Set left margin to auto to centre the container */
   margin-left: auto;
-  /* Imposta un margine destro automatico per centrare il contenitore orizzontalmente */
+  /* Set right margin to auto to centre the container */
   margin-right: auto;
   overflow: hidden;
-  /* Forza il contenitore ad adattarsi anche agli elementi flottanti (immagini) al suo interno. */
+  /* Force the container to expand around floated elements (images) inside it. */
 }
 
 p {
@@ -36,7 +36,7 @@ ol {
   list-style-position: inside;
 }
 
-/* Immagini a sinistra */
+/* Left-aligned images */
 img.img-left {
   padding: 10px 10px 10px 10px;
 }
@@ -49,27 +49,27 @@ img.img-right {
 @media screen and (min-width: 480px) {
   img.img-left {
     padding: 10px 10px 10px 0px;
-    /* Aggiunge padding ai lati dell'immagine */
+    /* Add padding around the image */
     float: left;
-    /* Fa fluttuare l'immagine a sinistra */
+    /* Float the image to the left */
   }
 
   img.img-right {
     padding: 10px 0px 10px 10px;
-    /* Aggiunge padding ai lati dell'immagine */
+    /* Add padding around the image */
     float: right;
-    /* Fa fluttuare l'immagine a destra */
+    /* Float the image to the right */
   }
 }
 
-/* Citazioni in blocco (blockquote) */
+/* Block quotes (blockquote) */
 blockquote {
   background: #f5f7f9;
-  /* Imposta uno sfondo grigio chiaro per la citazione */
+  /* Set a light grey background for the quote */
   border-bottom: 1px solid #d8dee9;
-  /* Aggiunge una linea di separazione inferiore alla citazione */
+  /* Add a bottom separator line to the quote */
   padding: 10px 10px 10px 10px;
-  /* Aggiunge padding su tutti i lati */
+  /* Add padding on all sides */
 }
 
 figure {
@@ -82,14 +82,14 @@ figure figcaption a {
 
 /*
  * ################################################################################
- * # Stile per la pagina Contatti (form)
- * # NOVITÀ LEZIONE 23
+ * # Styles for the Contacts page (form)
+ * # NEW IN LESSON 23
  * ################################################################################
  */
 
 /*
- * Il form occupa tutta la larghezza disponibile.
- * display: flex + flex-direction: column impilano verticalmente tutti gli elementi.
+ * The form takes the full available width.
+ * display: flex + flex-direction: column stacks all elements vertically.
  */
 form {
     display: flex;
@@ -100,7 +100,7 @@ form {
 }
 
 /*
- * Le etichette (label) sono in grassetto per essere chiaramente identificabili.
+ * Labels are bold to be clearly identifiable.
  */
 form label {
     font-weight: 700;
@@ -109,8 +109,8 @@ form label {
 }
 
 /*
- * Stile comune per i campi input e textarea del form.
- * box-sizing: border-box garantisce che il padding non aumenti la larghezza totale.
+ * Common styles for the input and textarea fields of the form.
+ * box-sizing: border-box ensures padding does not increase the total width.
  */
 form input[type="text"],
 form input[type="email"],
@@ -126,8 +126,8 @@ form textarea {
 }
 
 /*
- * Effetto visivo quando un campo è selezionato (focus):
- * il bordo diventa blu per indicare che il campo è attivo.
+ * Visual effect when a field is focused:
+ * the border turns blue to indicate the field is active.
  */
 form input[type="text"]:focus,
 form input[type="email"]:focus,
@@ -138,8 +138,8 @@ form textarea:focus {
 }
 
 /*
- * Il pulsante di invio usa lo stesso colore blu della navigazione
- * per mantenere la coerenza visiva del sito.
+ * The submit button uses the same blue as the navigation bar
+ * to maintain visual consistency across the site.
  */
 form button[type="submit"] {
     margin-top: 15px;

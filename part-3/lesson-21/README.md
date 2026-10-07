@@ -1,38 +1,38 @@
-# 📘 Lezione 21 – Creiamo la pagina "Inizia Qui"
+# Lesson 21 – Building the "Start Here" Page
 
-In questa lezione creiamo la pagina **Inizia Qui**, che accoglie i nuovi visitatori spiegando chi è l'autore del sito, qual è la sua filosofia e come iniziare a usare il sito. È la pagina a cui rimandare chi approda per la prima volta.
+In this lesson we create the **Start Here** page, which welcomes new visitors by explaining who the site author is, what the site's philosophy is, and how to get started. This is the page you link new visitors to on their first visit.
 
-## 🎓 Cosa Imparerai?
+## What You Will Learn
 
-Durante questa lezione scoprirai come:
+In this lesson you will discover how to:
 
-- Usare il tag `<figure>` con `<figcaption>` per le immagini con didascalia
-- Usare `<strong>` per evidenziare concetti chiave nel testo
-- Strutturare una pagina lunga con più `<h2>` come sottosezioni
-- Inserire immagini responsive con la classe `responsive_img`
-- Aggiornare il menu per includere la nuova pagina
+- Use the `<figure>` tag with `<figcaption>` for images with captions
+- Use `<strong>` to highlight key concepts in text
+- Structure a long page with multiple `<h2>` subsections
+- Insert responsive images with the `responsive_img` class
+- Update the navigation menu to include the new page
 
-## 🖼️ Panoramica
+## Overview
 
-La pagina "Inizia Qui" usa gli stessi tag HTML della pagina Chi Sono, ma introduce `<figure>` e `<figcaption>`: un modo semantico per associare una didascalia a un'immagine.
+The "Start Here" page uses the same HTML tags as the About Me page, but introduces `<figure>` and `<figcaption>`: a semantic way to associate a caption with an image.
 
 ```html
 <figure>
     <img class="responsive_img" src="assets/img/software-developer2.jpg" alt="Software Developer">
-    <figcaption>Foto da <a href="...">clipartstation.com</a></figcaption>
+    <figcaption>Photo from <a href="...">clipartstation.com</a></figcaption>
 </figure>
 ```
 
-## 📂 File modificati in questa lezione
+## Files Changed in This Lesson
 
-| File | Operazione | Descrizione |
+| File | Operation | Description |
 |---|---|---|
-| `inizia_qui.html` | ✨ Nuovo | La nuova pagina "Inizia Qui" |
-| Tutti gli `.html` | ✏️ Modificato | Menu aggiornato con link a "Inizia Qui" |
+| `start-here.html` | ✨ New | The new "Start Here" page |
+| All `.html` files | ✏️ Modified | Navigation menu updated with link to "Start Here" |
 
-## 🎯 Obiettivo
+## Goal
 
-Alla fine di questa lezione avrai:
-- Creato la pagina `inizia_qui.html` con contenuto reale strutturato in sezioni
-- Usato `<figure>` e `<figcaption>` per le immagini con didascalia
-- Compreso la differenza semantica tra `<img>` semplice e `<figure>`
+By the end of this lesson you will have:
+- Created `start-here.html` with real content structured in sections
+- Used `<figure>` and `<figcaption>` for images with captions
+- Understood the semantic difference between a plain `<img>` and `<figure>`

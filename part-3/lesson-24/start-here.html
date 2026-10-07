@@ -1,0 +1,187 @@
+<!--
+    © 2025 Salvatore D'Angelo
+    This project is distributed under the MIT license.
+    See https://opensource.org/licenses/MIT for details.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML Hero – Start Here</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="assets/css/default.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/page.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/brands.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome.css">
+</head>
+
+<body>
+    <div id="page">
+        <header>
+            <div id="header-group">
+                <div id="logo">
+                    <img src="assets/img/code4projects-logo-mini.webp" alt="Code4Projects Logo" width="150"
+                        height="150">
+                </div>
+                <div id="social-media-group">
+                    <div class="social-media-title">Follow me on:</div>
+                    <div class="social-media-icons">
+                        <a aria-label="Code4Projects Facebook page" title="Code4Projects Facebook page"
+                            class="social-media-icon social-media-icon-facebook"
+                            href="https://www.facebook.com/code4projects/">
+                            <span class="fa-brands fa-facebook-f"></span>
+                        </a>
+                        <a aria-label="Code4Projects Twitter page" title="Code4Projects Twitter page"
+                            class="social-media-icon social-media-icon-twitter"
+                            href="https://twitter.com/code4projects">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a aria-label="Code4Projects Linkedin page" title="Code4Projects Linkedin page"
+                            class="social-media-icon social-media-icon-linkedin"
+                            href="https://www.linkedin.com/in/salvatore-d-angelo-0321851/">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a aria-label="Code4Projects Youtube channel" title="Code4Projects Youtube channel"
+                            class="social-media-icon social-media-icon-youtube"
+                            href="https://www.youtube.com/channel/UCBntvkFS3phHOFAWNS8_4pg/">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                        <a aria-label="Code4Projects Github page" title="Code4Projects Github page"
+                            class="social-media-icon social-media-icon-github" href="https://github.com/sasadangelo">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="navigation">
+            <!-- Hamburger icon for mobile menu -->
+            <input class="drop-menu-checkbox" type="checkbox" id="drop-menu-checkbox">
+            <label class="hamburger" for="drop-menu-checkbox">
+                <span class="hamburger-line"></span>
+            </label>
+            <nav>
+                                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-me.html">About Me</a></li>
+                    <li><a href="start-here.html">New User? Start Here</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                    <!--
+                        NEW IN LESSON 24: added the Gallery link to the navigation menu.
+                    -->
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main class="page-main">
+            <div id="page-container">
+                <!--
+                    NEW IN LESSON 21: this is the new "Start Here" page.
+
+                    New HTML elements introduced in this lesson:
+                    - <figure>: groups an image with its caption
+                    - <figcaption>: provides a visible caption for the image inside <figure>
+
+                    These elements are semantic: they tell the browser (and search engines)
+                    that the image and its caption belong together as a single unit.
+                -->
+                <h1>New User? Start Here</h1>
+                <p>
+                    If this is the first time you visit this site, you may be wondering how it can
+                    help you become a better programmer. On this page I explain why I created this site
+                    and what benefits you can get as a hobbyist or professional developer.
+                </p>
+                <h2>Who Am I?</h2>
+                <img class="responsive_img" src="assets/img/salvatore_d_angelo.jpeg" alt="Salvatore D'Angelo">
+                <p>
+                    My name is Salvatore D'Angelo and I am a professional software engineer working for a
+                    well-known American software company. You can read <a href="about-me.html">my story here</a>.
+                </p>
+                <h2>What Is My Experience?</h2>
+                <p>
+                    With over 30 years of experience as a professional software developer, I have had the opportunity
+                    to work on numerous projects. You can read my full career on my
+                    <a href="https://www.linkedin.com/in/salvatore-d-angelo-0321851/">LinkedIn page</a>.
+                    I have been involved in all phases of the software development lifecycle.
+                </p>
+                <!--
+                    The <figure> element wraps an image (or diagram) together with its caption.
+                    The <figcaption> element provides the visible caption text.
+                    This combination is preferred over a plain <img> + <p> when the caption
+                    is directly associated with the image.
+                -->
+                <figure>
+                    <img class="responsive_img" src="assets/img/software-developer2.jpg" alt="Software Developer">
+                    <figcaption>Photo from <a
+                            href="https://clipartstation.com/software-developer-clipart-5/">https://clipartstation.com</a>
+                    </figcaption>
+                </figure>
+                <h2>Why This Website?</h2>
+                <p>
+                    I love writing — I think it is a fantastic tool for consolidating knowledge.
+                    For this reason I decided to open this site to share everything I have learned
+                    over the years. <strong>I believe it can help other people who want to enter this
+                        amazing world, both professionally and as a hobby</strong>.
+                </p>
+                <figure>
+                    <img class="responsive_img" src="assets/img/sharing-knowledge.png" alt="Sharing Knowledge">
+                </figure>
+                <p>
+                    I have always believed that the best way to learn a new programming language or
+                    a new technology is to build a small project with it.
+                </p>
+                <p>
+                    This will be the philosophy of this site: <strong>explain how to use programming languages
+                        and technologies through small projects or step-by-step tutorials</strong>.
+                </p>
+                <p>
+                    This philosophy and my perspective on the software development world are a good mix to
+                    help you understand how to learn a language or technology, what truly matters, and how
+                    companies today face the new challenges the world poses.
+                </p>
+                <h2>How to Get Started?</h2>
+                <p>
+                    This site contains a series of projects where I explain, step by step, how to use a
+                    specific technology. I recommend visiting the Projects page and finding a project that
+                    interests you.
+                </p>
+                <p>
+                    In all these years of experience, I have learned that people learn faster when they
+                    study something they are passionate about.
+                </p>
+                <p>
+                    All projects and tutorials provide source code that you can download from
+                    <a href="https://github.com/sasadangelo">my GitHub page</a>.
+                </p>
+                <p>
+                    Once you have selected a project, read the articles and try to understand the basic concepts.
+                    At this stage it is not important that you understand every part of the source code.
+                    When the basic concepts are clear, download the source code and start experimenting.
+                </p>
+                <figure>
+                    <img class="responsive_img" src="assets/img/make-project.png" alt="Build Projects">
+                </figure>
+                <p>
+                    Once you are able to run the software, you can go deeper and analyse how it works.
+                    At this stage you can fork the projects and try to fix bugs or add new features.
+                    Feel free to do so and open a pull request — I will be happy to merge your contribution
+                    into the original code.
+                </p>
+                <p>
+                    On my blog there are also some standalone articles that are not part of any project.
+                    You can find them on the Blog page by following the links at the bottom of each page.
+                </p>
+            </div>
+        </main>
+        <footer>
+            <div id="site-info">
+                Code4Projects, Copyright Salvatore D'Angelo &copy; 2016-2025.
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
