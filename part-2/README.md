@@ -1,20 +1,21 @@
-# 🚀 HTML & CSS Hero – Corso Completo per Principianti (Parte II)
+# HTML & CSS Hero – Complete Beginner's Course (Part II)
 
-Benvenuto alla seconda parte del tutorial “HTML & CSS Hero – Corso Completo per Principianti”!
-In questa sezione imparerai a dare uno stile professionale al tuo sito web, rendendolo visivamente più interessante e funzionale. Durante il percorso, aggiungeremo elementi come un header, un footer, un menu, un logo e altre componenti di design per migliorare l'esperienza utente.
+Welcome to the second part of the **HTML & CSS Hero – Complete Beginner's Course**!
 
-🎯 **Obiettivo**: Alla fine di questa parte, avrai costruito un sito web più completo, stilizzato e pronto per essere pubblicato online!
+In this section you will learn how to give your website a professional look and feel, making it visually more interesting and functional. Along the way we will add elements such as a header, a footer, a navigation menu, a logo, and other design components to improve the user experience.
 
-## 📘 Lezioni incluse
+🎯 **Goal**: By the end of this part you will have built a more complete, styled website that is ready to be published online!
 
-Questa seconda parte è composta da 7 lezioni pratiche:
+## Lessons Included
 
-* [Lezione 13: Creiamo un Header e un Footer](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-13)
-* [Lezione 14: Aggiungiamo i bottoni Social Media nell'header](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-14)
-* [Lezione 15: Finalizziamo il Footer](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-15)
-* [Lezione 16: Creiamo un Menù con stile e colore](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-16)
-* [Lezione 17: Creiamo un Home Page](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-17)
-* [Lezione 18: Aggiungiamo un form di Iscrizione alla Newsletter alla nostra Home Page](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-18)
-* [Lezione 19: Rendiamo il nostro sito web Responsive](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-19)
+This second part consists of 7 practical lessons:
 
-**💡 Consiglio**: Segui anche il [video tutorial su YouTube](https://www.youtube.com/watch?v=cNk0bVEMb3U) per avere una spiegazione visiva e pratica mentre lavori sul codice!
+* [Lesson 13: Building a Header and Footer](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-13)
+* [Lesson 14: Adding Social Media Buttons to the Header](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-14)
+* [Lesson 15: Completing the Footer](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-15)
+* [Lesson 16: Creating a Styled Navigation Menu](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-16)
+* [Lesson 17: Building the Home Page](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-17)
+* [Lesson 18: Adding a Newsletter Sign-up Form to the Home Page](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-18)
+* [Lesson 19: Making the Website Responsive](https://github.com/sasadangelo/html-hero/tree/master/part-2/lesson-19)
+
+**💡 Tip**: Follow the [YouTube video tutorial](https://www.youtube.com/watch?v=cNk0bVEMb3U) for a visual and practical explanation while you work through the code!

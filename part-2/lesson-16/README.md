@@ -1,38 +1,38 @@
-# 📘 Lezione 16 – Creiamo un Menu di Navigazione con Stile
+# Lesson 16 – Creating a Styled Navigation Menu
 
-In questa lezione aggiungiamo a tutte le pagine una **barra di navigazione** orizzontale con sfondo blu, che permette agli utenti di spostarsi tra le pagine del sito.
+In this lesson we add a **horizontal navigation bar** with a blue background to all pages, allowing users to move between pages of the site.
 
-## 🎓 Cosa Imparerai?
+## What You Will Learn
 
-- Come strutturare un menu di navigazione con `<nav>`, `<ul>` e `<li>`
-- Come stilizzare la barra di navigazione con CSS: colore di sfondo, padding, display inline
-- Come rendere i link del menu bianchi e senza sottolineatura
-- Come applicare il menu in modo coerente a tutte le pagine del sito
+- How to structure a navigation menu with `<nav>`, `<ul>` and `<li>`
+- How to style the navigation bar with CSS: background colour, padding, inline display
+- How to make menu links white and without underlines
+- How to apply the menu consistently to all pages of the site
 
-## 🖼️ Panoramica
+## Overview
 
-Un menu di navigazione si realizza con una lista non ordinata (`<ul>`) dentro il tag semantico `<nav>`. Il CSS trasforma la lista verticale in una barra orizzontale usando `display: inline-block` sugli elementi `<li>`.
+A navigation menu is built with an unordered list (`<ul>`) inside the semantic `<nav>` tag. CSS transforms the vertical list into a horizontal bar by using `display: inline-block` on the `<li>` elements.
 
 ```html
 <nav>
     <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="seconda_pagina.html">Seconda Pagina</a></li>
+        <li><a href="second_page.html">Second Page</a></li>
         ...
     </ul>
 </nav>
 ```
 
-## 📂 File modificati in questa lezione
+## Files Changed in This Lesson
 
-| File | Operazione | Descrizione |
+| File | Operation | Description |
 |---|---|---|
-| Tutti gli `.html` | ✏️ Modificato | Aggiunta la barra di navigazione `<nav>` |
-| `default.css` | ✏️ Modificato | Stili per il menu (colore, padding, link bianchi) |
+| All `.html` files | ✏️ Modified | Added the `<nav>` navigation bar |
+| `default.css` | ✏️ Modified | Styles for the menu (colour, padding, white links) |
 
-## 🎯 Obiettivo
+## Goal
 
-Alla fine di questa lezione avrai:
-- Una barra di navigazione blu presente in tutte le pagine
-- Link funzionanti che portano a ciascuna pagina del sito
-- Capito come usare `<nav>`, `<ul>`, `<li>` per costruire un menu
+By the end of this lesson you will have:
+- A blue navigation bar present on all pages
+- Working links that lead to each page of the site
+- Understood how to use `<nav>`, `<ul>`, `<li>` to build a menu

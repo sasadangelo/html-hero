@@ -1,34 +1,35 @@
-# 📘 Lezione 19 - Rendiamo il nostro sito web Responsive
+# Lesson 19 – Making the Website Responsive
 
-In questa lezione ci dedicheremo a rendere il nostro sito web **completamente responsive**, ovvero capace di adattarsi automaticamente a qualsiasi tipo di dispositivo: desktop, tablet, laptop e smartphone. In questo modo miglioreremo notevolmente l’esperienza utente (UX) su ogni schermo.
+In this lesson we focus on making our website **fully responsive** — able to adapt automatically to any type of device: desktop, tablet, laptop and smartphone. This significantly improves the user experience (UX) on every screen.
 
-## 🎓 Cosa Imparerai?
+## What You Will Learn
 
-Durante questa lezione scoprirai come:
+In this lesson you will discover how to:
 
-- Utilizzare il meta tag `<meta name="viewport">` per il supporto ai dispositivi mobili
-- Applicare **media query CSS** per adattare il layout a diverse dimensioni di schermo
-- Cambiare il layout dell’header a seconda del dispositivo
-- Costruire un **hamburger menu** per la navigazione su smartphone
-- Migliorare la leggibilità e l’usabilità del sito su schermi piccoli
+- Use the `<meta name="viewport">` tag to support mobile devices
+- Apply **CSS media queries** to adapt the layout to different screen sizes
+- Change the header layout depending on the device
+- Build a **hamburger menu** for navigation on smartphones
+- Improve readability and usability on small screens
 
-## 🖼️ Panoramica
+## Overview
 
-Affronteremo le basi del **responsive web design**, una pratica essenziale nello sviluppo moderno. Utilizzeremo strumenti semplici ma potenti come il tag viewport, le media query e i layout flessibili con Flexbox, per rendere il nostro sito bello e funzionale ovunque.
+We will cover the fundamentals of **responsive web design**, an essential practice in modern web development. We will use simple but powerful tools — the viewport meta tag, media queries and flexible Flexbox layouts — to make the site look great and work well everywhere.
 
-Il focus sarà sull’**header** e sul menu di navigazione, due elementi cruciali per la UX. Per gli schermi piccoli implementeremo un menu compatto (hamburger menu), mentre per desktop e tablet manterremo una disposizione orizzontale e spaziosa.
+The focus is on the **header** and **navigation menu**, two crucial elements for UX. For small screens we implement a compact hamburger menu, while for desktops and tablets we keep a horizontal, spacious layout.
 
-## 🎯 Obiettivo
+## Files Changed in This Lesson
 
-L’obiettivo della lezione è **rendere il layout del sito adattabile e funzionale su tutti i dispositivi**, rispettando le best practice del responsive design.
+| File | Operation | Description |
+|---|---|---|
+| All `.html` files | ✏️ Modified | Added `<meta name="viewport">` tag |
+| `default.css` | ✏️ Modified | Media queries for responsive header, nav and hamburger menu |
 
-Al termine della lezione, il sito sarà:
+## Goal
 
-- Perfettamente leggibile su smartphone
-- Ottimizzato per tablet e laptop
-- Ordinato e centrato su grandi schermi desktop
-- Dotato di un menu mobile pratico e accessibile
+By the end of this lesson the site will be:
 
-# ✅ Conclusione
-
-Con questa lezione hai imparato a trasformare un sito statico in un sito **dinamicamente adattabile**. La responsività è uno standard imprescindibile oggi, e con questi strumenti sei già in grado di sviluppare interfacce moderne, flessibili e accessibili.
+- Perfectly readable on smartphones
+- Optimised for tablets and laptops
+- Tidy and centred on large desktop screens
+- Equipped with a practical and accessible mobile menu

@@ -1,32 +1,32 @@
-# 📘 Lezione 18 – Aggiungiamo la Newsletter alla Home Page
+# Lesson 18 – Adding a Newsletter Section to the Home Page
 
-In questa lezione aggiungiamo alla Home Page una **sezione newsletter** con un form di iscrizione, un'immagine della copertina dell'eBook e gli stili CSS dedicati.
+In this lesson we add a **newsletter section** with a sign-up form, an eBook cover image, and dedicated CSS styles to the Home Page.
 
-## 🎓 Cosa Imparerai?
+## What You Will Learn
 
-- Come inserire una sezione newsletter nella home page con layout a due colonne (immagine + form)
-- Come usare Flexbox per affiancare l'immagine dell'eBook e il form di iscrizione
-- Come stilizzare i campi `<input>` del form (bordi, border-radius, padding, placeholder)
-- Come creare un pulsante di invio stilizzato con CSS
+- How to insert a newsletter section in the home page with a two-column layout (image + form)
+- How to use Flexbox to place the eBook image and the sign-up form side by side
+- How to style `<input>` fields in a form (borders, border-radius, padding, placeholder)
+- How to create a styled submit button with CSS
 
-## 🖼️ Panoramica
+## Overview
 
-La sezione newsletter è composta da:
-- Un'**immagine** della copertina dell'eBook a sinistra
-- Un **form** a destra con: titolo, testo descrittivo, campo Nome, campo Email e pulsante Download
+The newsletter section consists of:
+- An **image** of the eBook cover on the left
+- A **form** on the right with: a title, descriptive text, a Name field, an Email field and a Download button
 
-Il layout a due colonne si realizza con Flexbox sul contenitore `.newsletter-home-box`.
+The two-column layout is achieved with Flexbox on the `.newsletter-home-box` container.
 
-## 📂 File modificati in questa lezione
+## Files Changed in This Lesson
 
-| File | Operazione | Descrizione |
+| File | Operation | Description |
 |---|---|---|
-| `index.html` | ✏️ Modificato | Aggiunta sezione newsletter con form |
-| `home.css` | ✏️ Modificato | Stili per la sezione newsletter e i campi del form |
+| `index.html` | ✏️ Modified | Added the newsletter section with form |
+| `home.css` | ✏️ Modified | Styles for the newsletter section and form fields |
 
-## 🎯 Obiettivo
+## Goal
 
-Alla fine di questa lezione avrai:
-- Una sezione newsletter visivamente curata nella home page
-- Capito come stilizzare i campi `<input>` e i pulsanti nei form
-- Compreso come usare Flexbox per layout a due colonne nella home page
+By the end of this lesson you will have:
+- A visually polished newsletter section on the home page
+- Understood how to style `<input>` fields and buttons in forms
+- Learned how to use Flexbox for two-column layouts in the home page

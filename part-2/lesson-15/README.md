@@ -1,26 +1,26 @@
-# 📘 Lezione 15 – Finalizziamo il Footer
+# Lesson 15 – Completing the Footer
 
-In questa lezione completiamo il footer aggiungendo i **bottoni social media** e il **testo di copyright** definitivo, con stile CSS che lo rende coerente con il resto del sito.
+In this lesson we complete the footer by adding **social media buttons** and the final **copyright text**, with CSS styling that makes it consistent with the rest of the site.
 
-## 🎓 Cosa Imparerai?
+## What You Will Learn
 
-- Come aggiungere i bottoni social media anche nel footer (riutilizzando il codice della lezione 14)
-- Come strutturare il footer con più informazioni: social + copyright
-- Come stilizzare il footer con CSS (colore di sfondo, centratura, spaziatura)
+- How to add social media buttons to the footer (reusing the code from Lesson 14)
+- How to structure the footer with multiple pieces of information: social links + copyright
+- How to style the footer with CSS (background colour, centering, spacing)
 
-## 🖼️ Panoramica
+## Overview
 
-Nella lezione 13 abbiamo aggiunto un footer base con il solo copyright. Nella lezione 14 abbiamo imparato a usare Font Awesome per i bottoni social nell'header. In questa lezione **combiniamo** questi elementi: il footer diventa completo con i link social e il copyright stilizzato.
+In Lesson 13 we added a basic footer with only the copyright. In Lesson 14 we learned to use Font Awesome for the social buttons in the header. In this lesson we **combine** those elements: the footer becomes complete with social links and styled copyright text.
 
-## 📂 File modificati in questa lezione
+## Files Changed in This Lesson
 
-| File | Operazione | Descrizione |
+| File | Operation | Description |
 |---|---|---|
-| Tutti gli `.html` | ✏️ Modificato | Footer aggiornato con bottoni social e copyright |
-| `default.css` | ✏️ Modificato | Stili definitivi per il footer |
+| All `.html` files | ✏️ Modified | Footer updated with social buttons and copyright |
+| `default.css` | ✏️ Modified | Final styles for the footer |
 
-## 🎯 Obiettivo
+## Goal
 
-Alla fine di questa lezione avrai:
-- Un footer completo con bottoni social e testo di copyright
-- Un design del footer coerente con il resto del sito
+By the end of this lesson you will have:
+- A complete footer with social buttons and copyright text
+- A footer design that is consistent with the rest of the site

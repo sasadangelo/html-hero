@@ -1,17 +1,17 @@
 /*
     © 2025 Salvatore D'Angelo
-    Questo progetto è distribuito sotto licenza MIT.
-    Vedi https://opensource.org/licenses/MIT per i dettagli.
+    This project is distributed under the MIT license.
+    See https://opensource.org/licenses/MIT for details.
 */
 
-/* Impostazioni generali per il corpo della pagina */
+/* General settings for the page body */
 body {
   margin: 0 auto;
-  /* Centra il contenuto orizzontalmente */
+  /* Centre content horizontally */
   font-family: 'Helvetica Neue';
-  /* Imposta il font della pagina */
+  /* Set the page font */
   font-size: 13px;
-  /* Imposta la dimensione del font di base */
+  /* Set the base font size */
   max-width: 1080px;
   /* Limita la larghezza massima del contenuto */
 }
@@ -72,28 +72,28 @@ ol {
   /* Posiziona i numeri all'interno della lista (all'interno dei margini) */
 }
 
-/* Immagini a sinistra */
+/* Left-aligned images */
 img.img-left {
   padding: 10px 10px 10px 0px;
-  /* Aggiunge padding ai lati dell'immagine */
+  /* Add padding around the image */
   float: left;
-  /* Fa fluttuare l'immagine a sinistra */
+  /* Float the image to the left */
 }
 
 /* Immagini a destra */
 img.img-right {
   padding: 10px 0px 10px 10px;
-  /* Aggiunge padding ai lati dell'immagine */
+  /* Add padding around the image */
   float: right;
-  /* Fa fluttuare l'immagine a destra */
+  /* Float the image to the right */
 }
 
-/* Citazioni in blocco (blockquote) */
+/* Block quotes (blockquote) */
 blockquote {
   background: #f5f7f9;
-  /* Imposta uno sfondo grigio chiaro per la citazione */
+  /* Set a light grey background for the quote */
   border-bottom: 1px solid #d8dee9;
-  /* Aggiunge una linea di separazione inferiore alla citazione */
+  /* Add a bottom separator line to the quote */
   padding: 10px 10px 10px 10px;
-  /* Aggiunge padding su tutti i lati */
+  /* Add padding on all sides */
 }
